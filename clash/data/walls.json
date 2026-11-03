@@ -1,0 +1,24 @@
+{
+  "id": "walls",
+  "label": "Walls",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Walls",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Walls",
+      "revision": null,
+      "tables": [],
+      "images": [],
+      "unverified": [
+        "No structured statistics tables extracted; requires manual source review.",
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}
