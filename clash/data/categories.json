@@ -42,8 +42,8 @@
     {
      "id": "heroes",
      "label": "Heroes",
-     "img": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Avatar_Barbarian_King.png/revision/latest?cb=20210106005456",
-     "data": null
+     "img": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Avatar_Hero_Barbarian_King.png/revision/latest?cb=20200913051657",
+     "data": "data/heroes.json"
     },
     {
      "id": "equip",
