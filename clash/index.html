@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#1b1d22">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Clash Ref">
+<title>Clash Reference</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <button id="back" class="back" aria-label="Back" hidden>&#8249;</button>
+  <h1 id="title">Clash Reference</h1>
+  <button id="settingsBtn" class="gear" aria-label="Settings">TH<span id="thBadge">15</span></button>
+</header>
+<div id="settings" class="settings" hidden>
+  <label>My Town Hall
+    <select id="thSel"></select>
+  </label>
+  <label class="chk"><input type="checkbox" id="onlyTH"> Only show what my TH can reach</label>
+</div>
+<main id="app"><p class="loading">Loading…</p></main>
+<nav id="tabs" class="tabs" hidden>
+  <button data-tab="info"><span class="ti">&#9776;</span>Info</button>
+  <button data-tab="stats"><span class="ti">&#9650;</span>Stats</button>
+  <button data-tab="images"><span class="ti">&#9635;</span>Images</button>
+  <button data-tab="max"><span class="ti">&#8987;</span>To max</button>
+</nav>
+<script src="app.js"></script>
+</body>
+</html>
