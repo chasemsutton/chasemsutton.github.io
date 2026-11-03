@@ -6,17 +6,17 @@
   "units": [
     {
       "n": "Army Camp",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/01/ArmyCampB_Ruin.png/revision/latest?cb=20170726151441",
       "source": "https://clashofclans.fandom.com/wiki/Army_Camp",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Home Village",
           "columns": [
             "Level",
             "Troop Capacity",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -149,125 +149,131 @@
               "18"
             ]
           ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Hitpoints"
-          ],
-          "rows": [
-            [
-              "300"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Number of Army Camps",
-            "Build Cost",
-            "Build Time",
-            "Experience Gained",
-            "Builder Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1*",
-              "N/A",
-              "N/A",
-              "N/A",
-              "1"
-            ],
-            [
-              "2",
-              "12,000",
-              "5m",
-              "17",
-              "2"
-            ],
-            [
-              "3",
-              "180,000",
-              "3h",
-              "103",
-              "3"
-            ],
-            [
-              "4",
-              "350,000",
-              "8h",
-              "169",
-              "4"
-            ],
-            [
-              "5",
-              "2,000,000",
-              "3d",
-              "509",
-              "6"
-            ],
-            [
-              "6",
-              "3,000,000",
-              "6d",
-              "720",
-              "7"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Level",
-            "Troop Capacity",
-            "Hitpoints",
-            "Build Cost",
-            "District Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "30",
-              "600",
-              "10,000",
-              "1"
-            ],
-            [
-              "2",
-              "35",
-              "750",
-              "25,000",
-              "2"
-            ],
-            [
-              "3",
-              "40",
-              "900",
-              "50,000",
-              "3"
-            ],
-            [
-              "4",
-              "45",
-              "1,050",
-              "75,000",
-              "4"
-            ],
-            [
-              "5",
-              "50",
-              "1,200",
-              "150,000",
-              "5"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:ArmyCampB Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/ArmyCampB_Ruin.png/revision/latest?cb=20170726151441"
+        },
+        {
+          "file": "File:Army Camp1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Army_Camp1.png/revision/latest?cb=20171221130243"
+        },
+        {
+          "file": "File:Army Camp10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Army_Camp10.png/revision/latest?cb=20180604160829"
+        },
+        {
+          "file": "File:Army Camp11.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Army_Camp11.png/revision/latest?cb=20201012183216"
+        },
+        {
+          "file": "File:Army Camp12.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/19/Army_Camp12.png/revision/latest?cb=20221011075437"
+        },
+        {
+          "file": "File:Army Camp13.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Army_Camp13.png/revision/latest?cb=20260102090129"
+        },
+        {
+          "file": "File:Army Camp14.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest?cb=20260425143241"
+        },
+        {
+          "file": "File:Army Camp1C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Army_Camp1C.png/revision/latest?cb=20220510082408"
+        },
+        {
+          "file": "File:Army Camp2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Army_Camp2.png/revision/latest?cb=20171221130257"
+        },
+        {
+          "file": "File:Army Camp2C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Army_Camp2C.png/revision/latest?cb=20220510082409"
+        },
+        {
+          "file": "File:Army Camp3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Army_Camp3.png/revision/latest?cb=20171221130313"
+        },
+        {
+          "file": "File:Army Camp3C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Army_Camp3C.png/revision/latest?cb=20220510082410"
+        },
+        {
+          "file": "File:Army Camp4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Army_Camp4.png/revision/latest?cb=20171221130327"
+        },
+        {
+          "file": "File:Army Camp4C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Army_Camp4C.png/revision/latest?cb=20220510082411"
+        },
+        {
+          "file": "File:Army Camp5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Army_Camp5.png/revision/latest?cb=20171221130341"
+        },
+        {
+          "file": "File:Army Camp5C.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Army_Camp5C.png/revision/latest?cb=20220510082412"
+        },
+        {
+          "file": "File:Army Camp6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Army_Camp6.png/revision/latest?cb=20171221130400"
+        },
+        {
+          "file": "File:Army Camp7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Army_Camp7.png/revision/latest?cb=20171221130415"
+        },
+        {
+          "file": "File:Army Camp8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Army_Camp8.png/revision/latest?cb=20171221130431"
+        },
+        {
+          "file": "File:Army Camp9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Army_Camp9.png/revision/latest?cb=20171221130455"
+        },
+        {
+          "file": "File:Army CampB.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Army_CampB.png/revision/latest?cb=20170726151144"
+        },
+        {
+          "file": "File:Army Camp RuinC.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Army_Camp_RuinC.png/revision/latest?cb=20220510082407"
+        },
+        {
+          "file": "File:Old lvl 4 army camp.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d6/Old_lvl_4_army_camp.png/revision/latest?cb=20210928180648"
+        },
+        {
+          "file": "File:Old lvl 5 army camp.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Old_lvl_5_army_camp.png/revision/latest?cb=20210928180647"
+        },
+        {
+          "file": "File:Old lvl 6 army camp.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Old_lvl_6_army_camp.png/revision/latest?cb=20210928180648"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 9,
+        "8": 10,
+        "9": 11,
+        "10": 12,
+        "11": 13,
+        "12": 15,
+        "13": 17,
+        "14": 18
+      }
     },
     {
       "n": "Barracks",
@@ -281,7 +287,7 @@
             "Level",
             "Unlocked Unit",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -540,8 +546,31 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10,
+        "13": 11,
+        "14": 12,
+        "15": 13,
+        "16": 14,
+        "17": 15,
+        "18": 16,
+        "19": 17
+      }
     },
     {
       "n": "Dark Barracks",
@@ -555,7 +584,7 @@
             "Level",
             "Unlocked Unit",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -740,8 +769,25 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 8,
+        "5": 9,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16
+      }
     },
     {
       "n": "Laboratory",
@@ -754,7 +800,7 @@
           "columns": [
             "Level",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -958,8 +1004,28 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 4,
+        "3": 5,
+        "4": 6,
+        "5": 7,
+        "6": 8,
+        "7": 9,
+        "8": 10,
+        "9": 11,
+        "10": 12,
+        "11": 13,
+        "12": 14,
+        "13": 15,
+        "14": 16,
+        "15": 17,
+        "16": 18
+      }
     },
     {
       "n": "Spell Factory",
@@ -974,7 +1040,7 @@
             "Hitpoints",
             "Spell (s) Unlocked",
             "Spell Storage Capacity",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -1148,8 +1214,21 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 5,
+        "2": 6,
+        "3": 7,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 13,
+        "8": 15,
+        "9": 16
+      }
     },
     {
       "n": "Hero Hall",
@@ -1158,13 +1237,13 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Unlocked Hero",
             "Hero Slots",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -1293,7 +1372,7 @@
           ]
         },
         {
-          "heading": "Hero Hall Level Caps",
+          "heading": "Hero Hall Level Caps [ ]",
           "columns": [
             "Hero Hall Level",
             "Barbarian King",
@@ -1535,20 +1614,64 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 11,
+        "6": 12,
+        "7": 13,
+        "8": 14,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      }
     },
     {
       "n": "Hero Banner",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Hero_Banner_AQ.png/revision/latest?cb=20241124131340",
       "source": "https://clashofclans.fandom.com/wiki/Hero_Banner",
       "revision": null,
       "tables": [],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Hero Banner AQ.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Hero_Banner_AQ.png/revision/latest?cb=20241124131340"
+        },
+        {
+          "file": "File:Hero Banner BK.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5a/Hero_Banner_BK.png/revision/latest?cb=20241124131341"
+        },
+        {
+          "file": "File:Hero Banner DD.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hero_Banner_DD.png/revision/latest?cb=20260228042502"
+        },
+        {
+          "file": "File:Hero Banner Empty.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Hero_Banner_Empty.png/revision/latest?cb=20241124131342"
+        },
+        {
+          "file": "File:Hero Banner GW.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/20/Hero_Banner_GW.png/revision/latest?cb=20241124131343"
+        },
+        {
+          "file": "File:Hero Banner MP.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/20/Hero_Banner_MP.png/revision/latest?cb=20241124131344"
+        },
+        {
+          "file": "File:Hero Banner RC.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Hero_Banner_RC.png/revision/latest?cb=20241124131345"
+        }
+      ],
       "unverified": [
-        "No structured statistics tables extracted; requires manual source review.",
         "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "No structured statistics table found; requires manual review."
       ]
     },
     {
@@ -1564,7 +1687,7 @@
             "Hitpoints",
             "Spell (s) Unlocked",
             "Spell Storage Capacity",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -1720,8 +1843,20 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 9,
+        "5": 10,
+        "6": 12,
+        "7": 14,
+        "8": 15
+      }
     },
     {
       "n": "Blacksmith",
@@ -1735,31 +1870,17 @@
             "Level",
             "Equipment Unlocked",
             "Hitpoints",
-            "Ore Capacity",
-            "Ore Capacity",
-            "Ore Capacity",
-            "Maximum Equipment Level",
-            "Maximum Equipment Level",
-            "Build Cost",
+            "Ore Capacity / Shiny Ore",
+            "Ore Capacity / Glowy Ore",
+            "Ore Capacity / Starry Ore",
+            "Maximum Equipment Level / Common",
+            "Maximum Equipment Level / Epic",
+            "Build Cost (Elixir) / Build Cost",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Equipment Unlocked",
-              "Hitpoints",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Common",
-              "Epic",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
             [
               "1",
               "Earthquake Boots",
@@ -1926,8 +2047,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 9,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 13,
+        "7": 14,
+        "8": 15,
+        "9": 16,
+        "10": 17
+      }
     },
     {
       "n": "Workshop",
@@ -1942,7 +2077,7 @@
             "Unlocked Siege Machine",
             "Siege Machine Capacity",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -2080,8 +2215,21 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 13,
+        "6": 14,
+        "7": 15,
+        "8": 16,
+        "9": 17
+      }
     },
     {
       "n": "Pet House",
@@ -2095,7 +2243,7 @@
             "Level",
             "Unlocked Pet",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -2215,35 +2363,20 @@
           "heading": "Max Level Chart",
           "columns": [
             "Pet House Level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level",
-            "Max level"
+            "Max level / L.A.S.S.I",
+            "Max level / Electro Owl",
+            "Max level / Mighty Yak",
+            "Max level / Unicorn",
+            "Max level / Frosty",
+            "Max level / Diggy",
+            "Max level / Poison Lizard",
+            "Max level / Phoenix",
+            "Max level / Spirit Fox",
+            "Max level / Angry Jelly",
+            "Max level / Sneezy",
+            "Max level / Greedy Raven"
           ],
           "rows": [
-            [
-              "Pet House Level",
-              "L.A.S.S.I",
-              "Electro Owl",
-              "Mighty Yak",
-              "Unicorn",
-              "Frosty",
-              "Diggy",
-              "Poison Lizard",
-              "Phoenix",
-              "Spirit Fox",
-              "Angry Jelly",
-              "Sneezy",
-              "Greedy Raven"
-            ],
             [
               "1",
               "10",
@@ -2478,8 +2611,24 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 16,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      }
     },
     {
       "n": "Clan Castle",
@@ -2496,7 +2645,7 @@
             "Spell Capacity",
             "Siege Machine Capacity",
             "Laboratory Level Cap",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -2676,27 +2825,16 @@
           "heading": "Siege Machine Level Cap",
           "columns": [
             "Siege Machine",
-            "Clan Castle Level",
-            "Clan Castle Level",
-            "Clan Castle Level",
-            "Clan Castle Level",
-            "Clan Castle Level",
-            "Clan Castle Level",
-            "Clan Castle Level",
-            "Clan Castle Level"
+            "Clan Castle Level / Level 6",
+            "Clan Castle Level / Level 7",
+            "Clan Castle Level / Level 8",
+            "Clan Castle Level / Level 9",
+            "Clan Castle Level / Level 10",
+            "Clan Castle Level / Level 11",
+            "Clan Castle Level / Level 12",
+            "Clan Castle Level / Level 13+"
           ],
           "rows": [
-            [
-              "Siege Machine",
-              "Level 6",
-              "Level 7",
-              "Level 8",
-              "Level 9",
-              "Level 10",
-              "Level 11",
-              "Level 12",
-              "Level 13+"
-            ],
             [
               "Wall Wrecker",
               "2",
@@ -2803,7 +2941,7 @@
           "columns": [
             "Unit",
             "Housing Space",
-            "Cost",
+            "Cost (Elixir / Dark Elixir)",
             "Cost"
           ],
           "rows": [
@@ -3325,11 +3463,29 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 4,
+        "3": 6,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

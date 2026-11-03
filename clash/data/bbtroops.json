@@ -46,7 +46,7 @@
             "Hitpoints",
             "Number of Units per Army Camp",
             "Rage Duration",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -301,8 +301,32 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Sneaky Archer",
@@ -311,7 +335,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Spring Weight",
             "Preferred Target",
@@ -336,7 +360,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Level",
             "Damage per Second",
@@ -344,7 +368,7 @@
             "Hitpoints",
             "Number of Units per Army Camp",
             "Cloak Duration",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -570,78 +594,6 @@
               "10"
             ]
           ]
-        },
-        {
-          "heading": "Sneaky Archer",
-          "columns": [
-            "Preferred Target",
-            "Attack Type",
-            "Housing Space",
-            "Movement Speed",
-            "Attack Speed",
-            "Range",
-            "Special Ability",
-            "Sneaky Archer Barracks Level Required"
-          ],
-          "rows": [
-            [
-              "None",
-              "Ranged (Ground & Air)",
-              "2",
-              "14",
-              "1s",
-              "2.75 tiles",
-              "Cloak",
-              "1"
-            ]
-          ]
-        },
-        {
-          "heading": "Sneaky Archer",
-          "columns": [
-            "Level",
-            "Damage per Second",
-            "Damage per Hit",
-            "Hitpoints",
-            "Sneaky Archer Barracks Level"
-          ],
-          "rows": [
-            [
-              "1",
-              "60",
-              "60",
-              "100",
-              "1"
-            ],
-            [
-              "2",
-              "64",
-              "64",
-              "120",
-              "2"
-            ],
-            [
-              "3",
-              "68",
-              "68",
-              "140",
-              "3"
-            ],
-            [
-              "4",
-              "71",
-              "71",
-              "160",
-              "4"
-            ],
-            [
-              "5",
-              "74",
-              "74",
-              "180",
-              "5"
-            ]
-          ]
         }
       ],
       "images": [
@@ -651,8 +603,32 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Boxer Giant",
@@ -694,7 +670,7 @@
             "Hitpoints",
             "Boxer Block Duration",
             "Power Punch Damage",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -927,8 +903,30 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Beta Minion",
@@ -965,25 +963,13 @@
             "Damage per Attack",
             "Hitpoints",
             "Units per Army Camp",
-            "Power Shot Ability",
-            "Power Shot Ability",
-            "Research Cost",
+            "Power Shot Ability / # of Attacks",
+            "Power Shot Ability / Damage per Hit",
+            "Research Cost (Builder Elixir) / Research Cost",
             "Research Time",
             "Star Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Second",
-              "Damage per Attack",
-              "Hitpoints",
-              "Units per Army Camp",
-              "# of Attacks",
-              "Damage per Hit",
-              "Research Cost",
-              "Research Time",
-              "Star Laboratory Level Required"
-            ],
             [
               "3",
               "60",
@@ -1230,8 +1216,30 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Bomber",
@@ -1276,25 +1284,13 @@
             "Damage per Attack",
             "Damage vs. Walls",
             "Hitpoints",
-            "Bouncing Bomb Damage",
-            "Bouncing Bomb Damage",
-            "Research Cost",
+            "Bouncing Bomb Damage / Normal",
+            "Bouncing Bomb Damage / vs. Walls",
+            "Research Cost (Builder Elixir) / Research Cost",
             "Research Time",
             "Star Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Second",
-              "Damage per Attack",
-              "Damage vs. Walls",
-              "Hitpoints",
-              "Normal",
-              "vs. Walls",
-              "Research Cost",
-              "Research Time",
-              "Star Laboratory Level Required"
-            ],
             [
               "5",
               "80",
@@ -1525,8 +1521,28 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Baby Dragon/Builder Base",
@@ -1564,7 +1580,7 @@
             "Hitpoints",
             "Tantrum Damage Bonus",
             "Fiery Sneeze Damage",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -1775,8 +1791,28 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Cannon Cart",
@@ -1818,7 +1854,7 @@
             "Damage per Second",
             "Damage per Attack",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -1985,7 +2021,7 @@
             "Damage per Second",
             "Damage per Attack",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -2158,8 +2194,26 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "7": 5,
+        "8": 5,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Night Witch",
@@ -2204,7 +2258,7 @@
             "Bats Summon Cooldown",
             "Bats Summoned",
             "Number of Bat Swarm",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -2383,8 +2437,24 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "9": 6,
+        "10": 6,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Drop Ship",
@@ -2427,7 +2497,7 @@
             "Damage when Destroyed",
             "Skeleton Bomb Damage",
             "Skeleton Bomb Spawned Skeletons",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -2562,8 +2632,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Power P.E.K.K.A",
@@ -2572,7 +2656,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Spring Weight",
             "Attack Type",
@@ -2597,14 +2681,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Attack",
             "Hitpoints",
             "Overcharge Damage",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -2690,76 +2774,6 @@
               "10"
             ]
           ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Preferred Target",
-            "Attack Type",
-            "Housing Space",
-            "Movement Speed",
-            "Attack Speed",
-            "Range",
-            "Special Ability"
-          ],
-          "rows": [
-            [
-              "Any",
-              "Single Target (Ground Only)",
-              "40",
-              "12",
-              "1.8s",
-              "?",
-              "Overcharge"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Level",
-            "Damage per Second",
-            "Damage per Hit",
-            "Damage when Destroyed",
-            "Hitpoints"
-          ],
-          "rows": [
-            [
-              "1",
-              "680",
-              "1,224",
-              "1,000",
-              "6,800"
-            ],
-            [
-              "2",
-              "760",
-              "1,368",
-              "1,200",
-              "7,600"
-            ],
-            [
-              "3",
-              "840",
-              "1,512",
-              "1,400",
-              "8,500"
-            ],
-            [
-              "4",
-              "920",
-              "1,656",
-              "1,600",
-              "9,400"
-            ],
-            [
-              "5",
-              "1,000",
-              "1,800",
-              "1,800",
-              "10,300"
-            ]
-          ]
         }
       ],
       "images": [
@@ -2769,8 +2783,20 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Hog Glider",
@@ -2808,7 +2834,7 @@
             "Damage",
             "Hitpoints",
             "Stun Duration",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -2985,8 +3011,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "15": 9,
+        "16": 9,
+        "17": 9,
+        "18": 9,
+        "19": 10,
+        "20": 10
+      }
     },
     {
       "n": "Electrofire Wizard",
@@ -3031,7 +3067,7 @@
             "DPS after 1.5s",
             "DPS after 3.0s",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -3120,7 +3156,7 @@
             "Damage per Second (Primary Target)",
             "Damage per Hit (Primary Target)",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Builder Elixir)",
             "Research Time",
             "Star Laboratory Level Required"
           ],
@@ -3191,11 +3227,19 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "17": 10,
+        "18": 10,
+        "19": 10,
+        "20": 10
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

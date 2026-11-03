@@ -39,7 +39,7 @@
             "Damage per Hit",
             "Damage vs. Walls",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -138,8 +138,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 15,
+        "6": 18
+      }
     },
     {
       "n": "Battle Blimp",
@@ -174,7 +184,7 @@
             "Damage per Attack",
             "Damage when Destroyed",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -273,8 +283,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 15,
+        "6": 18
+      }
     },
     {
       "n": "Stone Slammer",
@@ -306,26 +326,15 @@
           "columns": [
             "Level",
             "Damage per Second",
-            "Damage per Hit",
-            "Damage per Hit",
+            "Damage per Hit / Hitbox 1",
+            "Damage per Hit / Hitbox 2*",
             "Damage when Destroyed",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Elixir) / Research Cost",
             "Research Time",
             "Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Second",
-              "Hitbox 1",
-              "Hitbox 2*",
-              "Damage when Destroyed",
-              "Hitpoints",
-              "Research Cost",
-              "Research Time",
-              "Laboratory Level Required"
-            ],
             [
               "1",
               "400",
@@ -426,8 +435,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 13,
+        "5": 15,
+        "6": 18
+      }
     },
     {
       "n": "Siege Barracks",
@@ -457,22 +476,13 @@
           "columns": [
             "Level",
             "Hitpoints",
-            "Troops Spawned",
-            "Troops Spawned",
-            "Research Cost",
+            "Troops Spawned / P.E.K.K.As",
+            "Troops Spawned / Wizards",
+            "Research Cost (Elixir) / Research Cost",
             "Research Time",
             "Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Hitpoints",
-              "P.E.K.K.As",
-              "Wizards",
-              "Research Cost",
-              "Research Time",
-              "Laboratory Level Required"
-            ],
             [
               "1",
               "3,300",
@@ -585,8 +595,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 16,
+        "6": 18
+      }
     },
     {
       "n": "Log Launcher",
@@ -627,7 +647,7 @@
             "Point-Blank Damage*",
             "Lifetime",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -738,8 +758,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 16,
+        "6": 18
+      }
     },
     {
       "n": "Flame Flinger",
@@ -783,7 +813,7 @@
             "Flame Maximum DPS",
             "Lifetime",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -873,8 +903,17 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 16
+      }
     },
     {
       "n": "Battle Drill",
@@ -912,7 +951,7 @@
             "Damage per Second",
             "Damage per Attack",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1005,8 +1044,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 17,
+        "6": 18
+      }
     },
     {
       "n": "Troop Launcher",
@@ -1015,7 +1064,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Housing Space",
             "Attack Type",
@@ -1038,36 +1087,22 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Hitpoints",
             "Lifetime",
             "Barrel Count",
-            "Troops Spawned",
-            "Troops Spawned",
-            "Troops Spawned",
-            "Troops Spawned",
+            "Troops Spawned / Barbarians",
+            "Troops Spawned / Archers",
+            "Troops Spawned / Giants",
+            "Troops Spawned / Wall Breakers",
             "Troop Level",
-            "Research Cost",
+            "Research Cost (Elixir) / Research Cost",
             "Research Time",
             "Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Hitpoints",
-              "Lifetime",
-              "Barrel Count",
-              "Barbarians",
-              "Archers",
-              "Giants",
-              "Wall Breakers",
-              "Troop Level",
-              "Research Cost",
-              "Research Time",
-              "Laboratory Level Required"
-            ],
             [
               "1",
               "2,000",
@@ -1150,8 +1185,16 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 17
+      }
     },
     {
       "n": "Sky Wagon",
@@ -1160,7 +1203,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Range",
             "Housing Space",
@@ -1179,14 +1222,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second*",
             "Damage per Hit*",
             "Hitpoints",
             "Barrel Count",
-            "Research Cost",
+            "Research Cost (Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1234,26 +1277,17 @@
           ]
         },
         {
-          "heading": "Troops Barrel",
+          "heading": "Troops Barrel [ ]",
           "columns": [
             "Level",
-            "Troops Spawned",
-            "Troops Spawned",
-            "Troops Spawned",
-            "Troop Levels",
-            "Troop Levels",
-            "Troop Levels"
+            "Troops Spawned / Minions",
+            "Troops Spawned / Balloon",
+            "Troops Spawned / Baby Dragon",
+            "Troop Levels / Minions",
+            "Troop Levels / Balloon",
+            "Troop Levels / Baby Dragon"
           ],
           "rows": [
-            [
-              "Level",
-              "Minions",
-              "Balloon",
-              "Baby Dragon",
-              "Minions",
-              "Balloon",
-              "Baby Dragon"
-            ],
             [
               "1",
               "2",
@@ -1316,11 +1350,19 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 18,
+        "4": 18
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

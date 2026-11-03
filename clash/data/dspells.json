@@ -38,7 +38,7 @@
             "Max damage per second",
             "Speed Decrease",
             "Attack Rate Decrease",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -161,8 +161,24 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 11,
+        "6": 12,
+        "7": 13,
+        "8": 14,
+        "9": 15,
+        "10": 16,
+        "11": 17,
+        "12": 18
+      }
     },
     {
       "n": "Earthquake Spell",
@@ -196,7 +212,7 @@
             "Building Damage %",
             "Troop Damage %",
             "Radius",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -283,8 +299,20 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 11,
+        "6": 14,
+        "7": 16,
+        "8": 18
+      }
     },
     {
       "n": "Haste Spell",
@@ -316,7 +344,7 @@
             "Speed Increase",
             "Spell Duration",
             "Radius",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -394,8 +422,19 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 10,
+        "5": 11,
+        "6": 17,
+        "7": 18
+      }
     },
     {
       "n": "Skeleton Spell",
@@ -450,7 +489,7 @@
           "columns": [
             "Level",
             "Skeletons generated",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -521,12 +560,24 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 10,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 12,
+        "7": 13,
+        "8": 15
+      }
     },
     {
       "n": "Bat Spell",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Bat_Spell_info.png/revision/latest?cb=20181205010820",
       "source": "https://clashofclans.fandom.com/wiki/Bat_Spell",
       "revision": null,
       "tables": [
@@ -577,7 +628,7 @@
           "columns": [
             "Level",
             "Bats generated",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -641,15 +692,35 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Bat Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3d/Bat_Spell_info.png/revision/latest?cb=20181205010820"
+        },
+        {
+          "file": "File:Clash-of-clans-bat-spell.jpg",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Clash-of-clans-bat-spell.jpg/revision/latest?cb=20220218053314"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 15,
+        "7": 17,
+        "8": 18
+      }
     },
     {
       "n": "Overgrowth Spell",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Overgrowth_Spell_info.png/revision/latest?cb=20260209174702",
       "source": "https://clashofclans.fandom.com/wiki/Overgrowth_Spell",
       "revision": null,
       "tables": [
@@ -677,7 +748,7 @@
           "columns": [
             "Level",
             "Duration",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -720,20 +791,33 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Overgrowth Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Overgrowth_Spell_info.png/revision/latest?cb=20260209174702"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 14,
+        "4": 16,
+        "5": 18
+      }
     },
     {
       "n": "Ice Block Spell",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Ice_Block_Spell_info.png/revision/latest?cb=20250616133809",
       "source": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Radius",
             "Effect Type",
@@ -752,12 +836,12 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Incoming Damage Reduction",
             "Duration",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -813,20 +897,34 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Ice Block Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/66/Ice_Block_Spell_info.png/revision/latest?cb=20250616133809"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 15,
+        "4": 16,
+        "5": 17,
+        "6": 18
+      }
     },
     {
       "n": "Angry Spell",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/33/AngrySpell_Effect.png/revision/latest?cb=20260717175528",
       "source": "https://clashofclans.fandom.com/wiki/Angry_Spell",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Radius",
             "Effect Type",
@@ -845,12 +943,12 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Anger Duration",
             "Duration",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -890,14 +988,30 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:AngrySpell Effect.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/AngrySpell_Effect.png/revision/latest?cb=20260717175528"
+        },
+        {
+          "file": "File:Angry Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest?cb=20260614152411"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

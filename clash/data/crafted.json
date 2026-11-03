@@ -11,10 +11,10 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Elixir)",
             "Build Time"
           ],
           "rows": [
@@ -179,26 +179,17 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Common Statistics",
+          "heading": "Common Statistics [ ]",
           "columns": [
             "Range",
             "Attack Speed",
             "Damage Type",
             "Unit Type Targeted",
-            "Number of Targets",
-            "Number of Targets",
-            "Number of Targets"
+            "Number of Targets / Base Form",
+            "Number of Targets / First Decay",
+            "Number of Targets / Second Decay"
           ],
           "rows": [
-            [
-              "Range",
-              "Attack Speed",
-              "Damage Type",
-              "Unit Type Targeted",
-              "Base Form",
-              "First Decay",
-              "Second Decay"
-            ],
             [
               "10.5 Tiles",
               "0.5s",
@@ -211,11 +202,11 @@
           ]
         },
         {
-          "heading": "Module 1: Hitpoints",
+          "heading": "Module 1: Hitpoints [ ]",
           "columns": [
             "Level",
             "Hitpoints",
-            "Cost",
+            "Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -304,12 +295,12 @@
           ]
         },
         {
-          "heading": "Module 2: Damage",
+          "heading": "Module 2: Damage [ ]",
           "columns": [
             "Level",
             "Damage per Second per Flame",
             "Damage per Hit",
-            "Cost",
+            "Cost (Gold)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -408,28 +399,18 @@
           ]
         },
         {
-          "heading": "Module 3: Seconds Active",
+          "heading": "Module 3: Seconds Active [ ]",
           "columns": [
             "Level",
-            "Total Seconds Active",
-            "Total Seconds Active",
-            "Total Seconds Active",
-            "Cost",
+            "Total Seconds Active / Base Form",
+            "Total Seconds Active / First Decay",
+            "Total Seconds Active / Second Decay",
+            "Cost (Dark Elixir) / Cost",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Base Form",
-              "First Decay",
-              "Second Decay",
-              "Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
             [
               "1",
               "59s",
@@ -584,8 +565,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 12,
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
     },
     {
       "n": "Hero Hunter",
@@ -594,7 +589,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Common Statistics",
+          "heading": "Common Statistics [ ]",
           "columns": [
             "Range",
             "Attack Speed",
@@ -615,11 +610,11 @@
           ]
         },
         {
-          "heading": "Module 1: Hitpoints",
+          "heading": "Module 1: Hitpoints [ ]",
           "columns": [
             "Level",
             "Hitpoints",
-            "Cost",
+            "Cost (Dark Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -708,13 +703,13 @@
           ]
         },
         {
-          "heading": "Module 2: Damage",
+          "heading": "Module 2: Damage [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "DPS on Heroes",
-            "Cost",
+            "Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -823,11 +818,11 @@
           ]
         },
         {
-          "heading": "Module 3: Poison Level",
+          "heading": "Module 3: Poison Level [ ]",
           "columns": [
             "Level",
             "Poison Spell Level",
-            "Cost",
+            "Cost (Gold)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -935,8 +930,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 12,
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
     },
     {
       "n": "Cake-A-Pult",
@@ -945,7 +954,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Common Statistics",
+          "heading": "Common Statistics [ ]",
           "columns": [
             "Range",
             "Attack Speed",
@@ -966,11 +975,11 @@
           ]
         },
         {
-          "heading": "Module 1: Hitpoints",
+          "heading": "Module 1: Hitpoints [ ]",
           "columns": [
             "Level",
             "Hitpoints",
-            "Cost",
+            "Cost (Gold)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -1059,11 +1068,11 @@
           ]
         },
         {
-          "heading": "Module 2: Damage",
+          "heading": "Module 2: Damage [ ]",
           "columns": [
             "Level",
             "Damage per Hit",
-            "Cost",
+            "Cost (Dark Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -1152,11 +1161,11 @@
           ]
         },
         {
-          "heading": "Module 3: Explosion Damage",
+          "heading": "Module 3: Explosion Damage [ ]",
           "columns": [
             "Level",
             "Explosion Damage",
-            "Cost",
+            "Cost (Elixir)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -1264,11 +1273,25 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 12,
+        "3": 13,
+        "4": 14,
+        "5": 15,
+        "6": 16,
+        "7": 17,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

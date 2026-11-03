@@ -15,7 +15,7 @@
           "columns": [
             "Level",
             "Spring Capacity",
-            "Cost",
+            "Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -147,8 +147,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Spring Trap/Builder Base",
@@ -162,7 +176,7 @@
             "Level",
             "Damage",
             "Damage vs Heroes",
-            "Cost",
+            "Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -250,21 +264,30 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 4,
+        "3": 6,
+        "4": 8,
+        "5": 10
+      }
     },
     {
       "n": "Mine",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Mine10_Air.png/revision/latest?cb=20230520053508",
       "source": "https://clashofclans.fandom.com/wiki/Mine",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Level",
             "Damage",
-            "Build Cost",
+            "Build Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -353,7 +376,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Trigger Radius",
             "Damage Radius",
@@ -368,90 +391,120 @@
               "Any"
             ]
           ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Level",
-            "Damage",
-            "Build Cost",
-            "Capital Hall Level Required",
-            "District Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "120",
-              "1,000",
-              "1",
-              "1"
-            ],
-            [
-              "2",
-              "140",
-              "2,000",
-              "2",
-              "2"
-            ],
-            [
-              "3",
-              "160",
-              "4,000",
-              "4",
-              "3"
-            ],
-            [
-              "4",
-              "180",
-              "9,000",
-              "6",
-              "4"
-            ],
-            [
-              "5",
-              "200",
-              "15,000",
-              "9",
-              "5"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Trigger Radius",
-            "Damage Radius",
-            "Damage Type",
-            "Favorite Target"
-          ],
-          "rows": [
-            [
-              "1.5 tiles",
-              "3 tiles",
-              "Area Splash",
-              "Any"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Mine10 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Mine10_Air.png/revision/latest?cb=20230520053508"
+        },
+        {
+          "file": "File:Mine10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Mine10_Ground.png/revision/latest?cb=20230520053507"
+        },
+        {
+          "file": "File:Mine1 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Mine1_Air.png/revision/latest?cb=20171130171508"
+        },
+        {
+          "file": "File:Mine1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mine1_Ground.png/revision/latest?cb=20171130165533"
+        },
+        {
+          "file": "File:Mine2 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Mine2_Air.png/revision/latest?cb=20171130171508"
+        },
+        {
+          "file": "File:Mine2 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Mine2_Ground.png/revision/latest?cb=20171130165533"
+        },
+        {
+          "file": "File:Mine3 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Mine3_Air.png/revision/latest?cb=20171130171509"
+        },
+        {
+          "file": "File:Mine3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Mine3_Ground.png/revision/latest?cb=20171130165533"
+        },
+        {
+          "file": "File:Mine4 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Mine4_Air.png/revision/latest?cb=20171130171509"
+        },
+        {
+          "file": "File:Mine4 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Mine4_Ground.png/revision/latest?cb=20171130165532"
+        },
+        {
+          "file": "File:Mine5 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Mine5_Air.png/revision/latest?cb=20171130171510"
+        },
+        {
+          "file": "File:Mine5 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Mine5_Ground.png/revision/latest?cb=20171130165532"
+        },
+        {
+          "file": "File:Mine6 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ca/Mine6_Air.png/revision/latest?cb=20171130171510"
+        },
+        {
+          "file": "File:Mine6 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Mine6_Ground.png/revision/latest?cb=20171130165532"
+        },
+        {
+          "file": "File:Mine7 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Mine7_Air.png/revision/latest?cb=20171130171510"
+        },
+        {
+          "file": "File:Mine7 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Mine7_Ground.png/revision/latest?cb=20171130165531"
+        },
+        {
+          "file": "File:Mine8 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ac/Mine8_Air.png/revision/latest?cb=20171130171511"
+        },
+        {
+          "file": "File:Mine8 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Mine8_Ground.png/revision/latest?cb=20171130165531"
+        },
+        {
+          "file": "File:Mine9 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Mine9_Air.png/revision/latest?cb=20190617033509"
+        },
+        {
+          "file": "File:Mine9 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c8/Mine9_Ground.png/revision/latest?cb=20190617033508"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Mega Mine",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Mega_Mine10_Air.png/revision/latest?cb=20230520053506",
       "source": "https://clashofclans.fandom.com/wiki/Mega_Mine",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Level",
             "Damage",
-            "Cost",
+            "Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -540,7 +593,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics / Builder Base",
           "columns": [
             "Trigger Radius",
             "Damage Radius",
@@ -553,80 +606,114 @@
               "Area Splash"
             ]
           ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Level",
-            "Damage",
-            "Build Cost",
-            "Capital Hall Level Required",
-            "District Hall Level Required"
-          ],
-          "rows": [
-            [
-              "1",
-              "400",
-              "2,000",
-              "2",
-              "1"
-            ],
-            [
-              "2",
-              "450",
-              "4,000",
-              "3",
-              "2"
-            ],
-            [
-              "3",
-              "500",
-              "8,000",
-              "5",
-              "3"
-            ],
-            [
-              "4",
-              "550",
-              "15,000",
-              "7",
-              "4"
-            ],
-            [
-              "5",
-              "600",
-              "25,000",
-              "9",
-              "5"
-            ]
-          ]
-        },
-        {
-          "heading": "Statistics",
-          "columns": [
-            "Trigger Radius",
-            "Damage Radius",
-            "Damage Type",
-            "Favorite Target"
-          ],
-          "rows": [
-            [
-              "2 tiles",
-              "4 tiles",
-              "Area Splash",
-              "Any"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Mega Mine10 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Mega_Mine10_Air.png/revision/latest?cb=20230520053506"
+        },
+        {
+          "file": "File:Mega Mine10 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Mega_Mine10_Ground.png/revision/latest?cb=20230520053506"
+        },
+        {
+          "file": "File:Mega Mine1 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Mega_Mine1_Air.png/revision/latest?cb=20171130180410"
+        },
+        {
+          "file": "File:Mega Mine1 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Mega_Mine1_Ground.png/revision/latest?cb=20171130180338"
+        },
+        {
+          "file": "File:Mega Mine2 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Air.png/revision/latest?cb=20171130180410"
+        },
+        {
+          "file": "File:Mega Mine2 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Ground.png/revision/latest?cb=20171130180339"
+        },
+        {
+          "file": "File:Mega Mine3 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/Mega_Mine3_Air.png/revision/latest?cb=20171130180411"
+        },
+        {
+          "file": "File:Mega Mine3 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Mega_Mine3_Ground.png/revision/latest?cb=20171130180339"
+        },
+        {
+          "file": "File:Mega Mine4 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d6/Mega_Mine4_Air.png/revision/latest?cb=20171130180411"
+        },
+        {
+          "file": "File:Mega Mine4 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Mega_Mine4_Ground.png/revision/latest?cb=20171130180339"
+        },
+        {
+          "file": "File:Mega Mine5 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Mega_Mine5_Air.png/revision/latest?cb=20171130180411"
+        },
+        {
+          "file": "File:Mega Mine5 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Mega_Mine5_Ground.png/revision/latest?cb=20171130180340"
+        },
+        {
+          "file": "File:Mega Mine6 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Mega_Mine6_Air.png/revision/latest?cb=20171130180412"
+        },
+        {
+          "file": "File:Mega Mine6 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Mega_Mine6_Ground.png/revision/latest?cb=20171130180340"
+        },
+        {
+          "file": "File:Mega Mine7 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/13/Mega_Mine7_Air.png/revision/latest?cb=20171130180412"
+        },
+        {
+          "file": "File:Mega Mine7 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Mega_Mine7_Ground.png/revision/latest?cb=20171130180341"
+        },
+        {
+          "file": "File:Mega Mine8 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Mega_Mine8_Air.png/revision/latest?cb=20171130180412"
+        },
+        {
+          "file": "File:Mega Mine8 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Mine8_Ground.png/revision/latest?cb=20171130180341"
+        },
+        {
+          "file": "File:Mega Mine9 Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Mega_Mine9_Air.png/revision/latest?cb=20190617034052"
+        },
+        {
+          "file": "File:Mega Mine9 Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/45/Mega_Mine9_Ground.png/revision/latest?cb=20200905044808"
+        },
+        {
+          "file": "File:Mega Mine Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Mega_Mine_Ruin.png/revision/latest?cb=20220510204335"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

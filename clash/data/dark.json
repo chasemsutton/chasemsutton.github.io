@@ -40,7 +40,7 @@
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -177,7 +177,7 @@
           "heading": "Statistics",
           "columns": [
             "Super Troop",
-            "Boost Cost",
+            "Boost Cost (Dark Elixir)",
             "Minion Level Required"
           ],
           "rows": [
@@ -240,8 +240,26 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 15,
+        "12": 16,
+        "13": 17,
+        "14": 18
+      }
     },
     {
       "n": "Hog Rider",
@@ -279,7 +297,7 @@
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -425,7 +443,7 @@
           "heading": "Statistics",
           "columns": [
             "Super Troop",
-            "Boost Cost",
+            "Boost Cost (Dark Elixir)",
             "Hog Rider Level Required"
           ],
           "rows": [
@@ -496,8 +514,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16,
+        "14": 17,
+        "15": 18
+      }
     },
     {
       "n": "Valkyrie",
@@ -535,7 +572,7 @@
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -654,7 +691,7 @@
           "heading": "Statistics",
           "columns": [
             "Super Troop",
-            "Boost Cost",
+            "Boost Cost (Dark Elixir)",
             "Valkyrie Level Required"
           ],
           "rows": [
@@ -709,8 +746,24 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17
+      }
     },
     {
       "n": "Golem",
@@ -752,7 +805,7 @@
             "Damage Upon Death",
             "Golemites spawned Upon Death",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -984,8 +1037,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 9,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 11,
+        "8": 12,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16,
+        "14": 17,
+        "15": 18
+      }
     },
     {
       "n": "Witch",
@@ -1028,7 +1100,7 @@
             "Maximum Skeletons Summoned",
             "Skeleton Level",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1135,7 +1207,7 @@
           "heading": "Statistics",
           "columns": [
             "Super Troop",
-            "Boost Cost",
+            "Boost Cost (Dark Elixir)",
             "Witch Level Required"
           ],
           "rows": [
@@ -1178,8 +1250,20 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 15,
+        "7": 16,
+        "8": 18
+      }
     },
     {
       "n": "Lava Hound",
@@ -1217,26 +1301,14 @@
             "Damage per Second",
             "Damage per Hit",
             "Damage Upon Death",
-            "Lava Pups Spawned (After Death)",
-            "Lava Pups Spawned (After Death)",
+            "Lava Pups Spawned (After Death) / On Offense",
+            "Lava Pups Spawned (After Death) / On Defense",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir) / Research Cost",
             "Research Time",
             "Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Second",
-              "Damage per Hit",
-              "Damage Upon Death",
-              "On Offense",
-              "On Defense",
-              "Hitpoints",
-              "Research Cost",
-              "Research Time",
-              "Laboratory Level Required"
-            ],
             [
               "1",
               "10",
@@ -1339,7 +1411,7 @@
           "heading": "Statistics",
           "columns": [
             "Super Troop",
-            "Boost Cost",
+            "Boost Cost (Dark Elixir)",
             "Lava Hound Level Required"
           ],
           "rows": [
@@ -1386,8 +1458,20 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 11,
+        "5": 12,
+        "6": 13,
+        "7": 16,
+        "8": 18
+      }
     },
     {
       "n": "Bowler",
@@ -1425,7 +1509,7 @@
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1526,7 +1610,7 @@
           "heading": "Statistics",
           "columns": [
             "Super Troop",
-            "Boost Cost",
+            "Boost Cost (Dark Elixir)",
             "Bowler Level Required"
           ],
           "rows": [
@@ -1581,8 +1665,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 11,
+        "4": 12,
+        "5": 13,
+        "6": 14,
+        "7": 15,
+        "8": 16,
+        "9": 17,
+        "10": 18
+      }
     },
     {
       "n": "Ice Golem",
@@ -1600,21 +1698,10 @@
             "Attack Speed",
             "Dark Barracks Level Required",
             "Range",
-            "Freeze Radius",
-            "Freeze Radius"
+            "Freeze Radius / On Offense",
+            "Freeze Radius / On Defense"
           ],
           "rows": [
-            [
-              "Preferred Target",
-              "Attack Type",
-              "Housing Space",
-              "Movement Speed",
-              "Attack Speed",
-              "Dark Barracks Level Required",
-              "Range",
-              "On Offense",
-              "On Defense"
-            ],
             [
               "Defenses",
               "Melee (Ground Only)",
@@ -1634,25 +1721,14 @@
             "Level",
             "Damage per Second",
             "Damage per Attack",
-            "Freeze Time After Death",
-            "Freeze Time After Death",
+            "Freeze Time After Death / On Offense",
+            "Freeze Time After Death / On Defense",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir) / Research Cost",
             "Research Time",
             "Laboratory Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Second",
-              "Damage per Attack",
-              "On Offense",
-              "On Defense",
-              "Hitpoints",
-              "Research Cost",
-              "Research Time",
-              "Laboratory Level Required"
-            ],
             [
               "1",
               "24",
@@ -1786,8 +1862,21 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 12,
+        "5": 12,
+        "6": 14,
+        "7": 15,
+        "8": 16,
+        "9": 17
+      }
     },
     {
       "n": "Headhunter",
@@ -1829,7 +1918,7 @@
             "Speed Decrease",
             "Attack Rate Decrease",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -1912,8 +2001,16 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 13,
+        "4": 18
+      }
     },
     {
       "n": "Apprentice Warden",
@@ -1954,7 +2051,7 @@
             "Damage per Hit",
             "Aura HP Increase",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -2025,8 +2122,16 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 14,
+        "4": 15
+      }
     },
     {
       "n": "Druid",
@@ -2069,7 +2174,7 @@
             "Healing per Hit",
             "Hero Healing",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -2160,8 +2265,18 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 15,
+        "4": 16,
+        "5": 17,
+        "6": 18
+      }
     },
     {
       "n": "Furnace",
@@ -2192,7 +2307,7 @@
             "Level",
             "Firemites Spawned",
             "Hitpoints",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -2255,8 +2370,16 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 16,
+        "4": 17
+      }
     },
     {
       "n": "Ruin Witch",
@@ -2265,7 +2388,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Preferred Target",
             "Housing Space",
@@ -2284,7 +2407,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Ruin Knight Level",
@@ -2292,7 +2415,7 @@
             "Hitpoints",
             "Damage per Second*",
             "Damage per Hit*",
-            "Research Cost",
+            "Research Cost (Dark Elixir)",
             "Research Time",
             "Laboratory Level Required"
           ],
@@ -2367,11 +2490,19 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 17,
+        "4": 18
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

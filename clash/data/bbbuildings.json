@@ -15,7 +15,7 @@
           "columns": [
             "BH Level",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Maximum Number of Buildings Available"
@@ -178,23 +178,14 @@
           "heading": "Builder Base Stage Quotas",
           "columns": [
             "Builder Hall Level",
-            "Quota per Stage",
-            "Quota per Stage",
-            "Quota per Stage",
-            "Maximum Available",
-            "Maximum Available",
-            "Maximum Available"
+            "Quota per Stage / Defenses",
+            "Quota per Stage / Traps",
+            "Quota per Stage / Walls",
+            "Maximum Available / Defenses",
+            "Maximum Available / Traps",
+            "Maximum Available / Walls"
           ],
           "rows": [
-            [
-              "Builder Hall Level",
-              "Defenses",
-              "Traps",
-              "Walls",
-              "Defenses",
-              "Traps",
-              "Walls"
-            ],
             [
               "6",
               "13",
@@ -303,7 +294,7 @@
             "Production Rate",
             "Hitpoints",
             "Time to Fill",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Catch-Up Point*",
@@ -476,8 +467,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Elixir Collector/Builder Base",
@@ -493,7 +498,7 @@
             "Production Per Hour",
             "Hitpoints",
             "Time to Fill",
-            "Build Cost",
+            "Build Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Catch-Up Point*",
@@ -666,8 +671,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Gold Storage/Builder Base",
@@ -681,7 +700,7 @@
             "Level",
             "Storage Capacity",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -823,8 +842,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Elixir Storage/Builder Base",
@@ -838,7 +871,7 @@
             "Level",
             "Storage Capacity",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -980,8 +1013,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Gem Mine",
@@ -998,7 +1045,7 @@
             "Production Time per Gem",
             "Time to Fill",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Catch-up Point**",
@@ -1181,8 +1228,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "B.O.B Control",
@@ -1194,7 +1255,7 @@
           "heading": "Statistics",
           "columns": [
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Gold)",
             "Build Time",
             "Builder Hall Level Required"
           ],
@@ -1246,7 +1307,7 @@
             "Level",
             "Unlocked Unit",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -1414,8 +1475,24 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 3,
+        "5": 4,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10
+      }
     },
     {
       "n": "Army Camp/Builder Base",
@@ -1438,7 +1515,7 @@
           "heading": "Statistics",
           "columns": [
             "Number of Army Camps",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -1510,7 +1587,7 @@
           "columns": [
             "Level",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -1603,32 +1680,18 @@
           "columns": [
             "Upgrade Chart",
             "Upgrade Chart",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level",
-            "Star Laboratory Level"
+            "Star Laboratory Level / 1",
+            "Star Laboratory Level / 2",
+            "Star Laboratory Level / 3",
+            "Star Laboratory Level / 4",
+            "Star Laboratory Level / 5",
+            "Star Laboratory Level / 6",
+            "Star Laboratory Level / 7",
+            "Star Laboratory Level / 8",
+            "Star Laboratory Level / 9",
+            "Star Laboratory Level / 10"
           ],
           "rows": [
-            [
-              "Upgrade Chart",
-              "Upgrade Chart",
-              "1",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6",
-              "7",
-              "8",
-              "9",
-              "10"
-            ],
             [
               "Raged Barbarian",
               "Level",
@@ -2179,8 +2242,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Battle Machine Altar",
@@ -2191,7 +2268,7 @@
         {
           "heading": "Statistics",
           "columns": [
-            "Cost",
+            "Cost (Builder Elixir)",
             "Build Time",
             "Hitpoints",
             "Unlocked Unit",
@@ -2241,7 +2318,7 @@
           "heading": "Statistics",
           "columns": [
             "Number of Reinforcement Camps",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -2286,7 +2363,7 @@
             "Level",
             "Health Recovery",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Builder Elixir)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -2376,19 +2453,29 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 6,
+        "2": 6,
+        "3": 7,
+        "4": 8,
+        "5": 9,
+        "6": 10
+      }
     },
     {
       "n": "Battle Copter Altar",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest?cb=20230518081135",
       "source": "https://clashofclans.fandom.com/wiki/Battle_Copter_Altar",
       "revision": null,
       "tables": [
         {
           "heading": "Statistics",
           "columns": [
-            "Cost",
+            "Cost (Builder Elixir)",
             "Build Time",
             "Hitpoints",
             "Unlocked Unit",
@@ -2407,10 +2494,14 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Battle Copter Altar.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest?cb=20230518081135"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
@@ -2429,7 +2520,7 @@
             "Relative Boost*",
             "Catch-Up Point of Construction**",
             "Catch-Up Point of Boost***",
-            "Build Cost",
+            "Build Cost (Builder Gold)",
             "Build Time",
             "Experience Gained",
             "Builder Hall Level Required"
@@ -2611,24 +2702,167 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     },
     {
       "n": "Walls/Builder Base",
       "av": "",
       "source": "https://clashofclans.fandom.com/wiki/Walls/Builder_Base",
       "revision": null,
-      "tables": [],
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost (Builder Gold)",
+            "Cumulative Cost (Builder Gold)",
+            "Cost (Builder Elixir)",
+            "Cumulative Cost (Builder Elixir)",
+            "Cost",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "900",
+              "0",
+              "0",
+              "N/A",
+              "N/A",
+              "N/A",
+              "1"
+            ],
+            [
+              "2",
+              "1,100",
+              "2,000",
+              "2,000",
+              "N/A",
+              "N/A",
+              "1",
+              "3"
+            ],
+            [
+              "3",
+              "1,300",
+              "10,000",
+              "12,000",
+              "N/A",
+              "N/A",
+              "1",
+              "3"
+            ],
+            [
+              "4",
+              "1,600",
+              "50,000",
+              "62,000",
+              "N/A",
+              "N/A",
+              "1",
+              "4"
+            ],
+            [
+              "5",
+              "1,900",
+              "150,000",
+              "212,000",
+              "N/A",
+              "N/A",
+              "1",
+              "5"
+            ],
+            [
+              "6",
+              "2,200",
+              "240,000",
+              "452,000",
+              "N/A",
+              "N/A",
+              "1",
+              "6"
+            ],
+            [
+              "7",
+              "2,500",
+              "400,000",
+              "852,000",
+              "400,000",
+              "400,000",
+              "1",
+              "7"
+            ],
+            [
+              "8",
+              "2,750",
+              "600,000",
+              "1,452,000",
+              "600,000",
+              "1,000,000",
+              "2",
+              "8"
+            ],
+            [
+              "9",
+              "3,050",
+              "800,000",
+              "2,252,000",
+              "800,000",
+              "1,800,000",
+              "2",
+              "9"
+            ],
+            [
+              "10",
+              "3,350",
+              "1,000,000",
+              "3,252,000",
+              "1,000,000",
+              "2,800,000",
+              "2",
+              "10"
+            ]
+          ]
+        }
+      ],
       "images": [],
       "unverified": [
-        "No structured statistics tables extracted; requires manual source review.",
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "No image passed the no-referrer HTTP 200 check.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 1,
+        "2": 3,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

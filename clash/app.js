@@ -1,5 +1,5 @@
 "use strict";
-// Clash Reference — vanilla JS, hash routing, data in data/*.json.
+// Clash Reference â€” vanilla JS, hash routing, data in data/*.json.
 // Add a category: drop data/<id>.json (same shape as elixir.json) and set "data" for it in data/categories.json.
 const $ = (s, el = document) => el.querySelector(s);
 const app = $("#app"), titleEl = $("#title"), backBtn = $("#back"), tabsEl = $("#tabs");
@@ -10,6 +10,9 @@ const S = {
   lvl: {}, cur: {},
 };
 let CATS = null; const CACHE = {};
+// Query-only preview: never persists or changes the published category manifest.
+const preview = new URLSearchParams(location.search).get("preview");
+const categoryPath = (c) => c.data || ((preview === "all" || preview === c.id) ? `data/${c.id}.json` : null);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (v) => (typeof v === "number" ? v.toLocaleString("en-US") : v);
 const mins = (t) => { const g = (re) => { const m = String(t).match(re); return m ? +m[1] : 0; }; return g(/(\d+)d/) * 1440 + g(/(\d+)h/) * 60 + g(/(\d+)m/); };
@@ -39,8 +42,12 @@ const imgFor = (u, lvl) => {
 const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
 async function loadCat(id) {
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === id);
-  if (!meta || !meta.data) return null;
-  if (!CACHE[id]) CACHE[id] = await fetch(meta.data, { cache: "no-cache" }).then((r) => r.json());
+  if (!meta || !categoryPath(meta)) return null;
+  if (!CACHE[id]) {
+    const response = await fetch(categoryPath(meta), { cache: "no-cache" });
+    if (!response.ok) return null;
+    CACHE[id] = await response.json();
+  }
   return CACHE[id];
 }
 function route() { const p = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent); return p[0] === "c" ? { cat: p[1], unit: p[2] } : {}; }
@@ -48,25 +55,27 @@ function route() { const p = location.hash.replace(/^#\/?/, "").split("/").map(d
 // ---- views ----
 function footer() {
   return `
-  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 3, 2026), including the 2025–2026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 1, 2026. Unofficial fan reference, not affiliated with Supercell.</footer>`;
+  <footer class="src">Sources: stats, costs, times and images from the <a href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki" target="_blank" rel="noopener">Clash of Clans Fandom wiki</a> (read Nov 3, 2026), including the 2025â€“2026 cost and time cuts and the Oct 20, 2026 balance changes; checked against <a href="https://supercell.com/en/games/clashofclans/blog/" target="_blank" rel="noopener">Supercell's patch notes</a> through Nov 1, 2026. Unofficial fan reference, not affiliated with Supercell.</footer>`;
 }
 function home() {
   setChrome("Clash Reference", false, false);
-  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.map((c) => c.data
+  app.innerHTML = CATS.groups.map((g) => `<h2 class="group">${esc(g.heading)}</h2><div class="grid">${g.cats.map((c) => categoryPath(c)
     ? `<a class="tile" href="#/c/${c.id}">${img(c.img, c.label)}<span class="lbl">${esc(c.label)}</span></a>`
     : `<div class="tile off" aria-disabled="true">${img(c.img, c.label)}<span class="sub">Coming soon</span><span class="lbl">${esc(c.label)}</span></div>`).join("")}</div>`).join("") + footer();
 }
 let q = "";
 function catView(cat) {
+  if (cat.format === "wiki-review-v1") return reviewCategory(cat);
   setChrome(cat.label, true, false);
   const list = cat.units.filter((u) => (!S.only || u.u <= S.th) && u.n.toLowerCase().includes(q.toLowerCase()));
   app.innerHTML = `<input class="search" id="q" type="search" placeholder="Search ${cat.nouns || cat.noun + "s"}" value="${esc(q)}">
   <div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}<span class="sub">${m ? "Lv " + m : "TH" + u.u}</span><span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
-  ${list.length ? "" : `<p class="note">Nothing unlocked at TH${S.th}. Turn off “Only show what my TH can reach” in the TH menu to see everything.</p>`}
+  ${list.length ? "" : `<p class="note">Nothing unlocked at TH${S.th}. Turn off â€œOnly show what my TH can reachâ€ in the TH menu to see everything.</p>`}
   <p class="note">Badge = max level at TH${S.th}. Tap the TH button at top right to change Town Hall.</p>` + footer();
   const inp = $("#q"); inp.oninput = () => { q = inp.value; const pos = inp.selectionStart; catView(cat); const n = $("#q"); n.focus(); n.setSelectionRange(pos, pos); };
 }
 function unitView(cat, u) {
+  if (cat.format === "wiki-review-v1") return reviewUnit(cat, u);
   setChrome(u.n, true, true);
   const k = u.c.length, maxAll = +u.l[u.l.length - 1][0], mTH = maxAt(cat, u);
   const levels = u.l.filter((r) => !S.only || reqTH(cat, u, r) <= S.th).map((r) => +r[0]);
@@ -77,21 +86,21 @@ function unitView(cat, u) {
   const R = resOf(cat, u);
   const needs = +row[3 + k] ? `${cat.reqName} ${row[3 + k]} (TH${reqTH(cat, u, row)})` : unlockText(cat, u);
   let html = `<div class="hero"><div class="imgs">${img(u.av, u.n, "av")}${img(imgFor(u, lvl), u.n + " level " + lvl, "lv")}</div>
-    <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>max ${mTH || "–"} at TH${S.th} · ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
-    <div class="cap">${u.hs ? "Housing " + u.hs + " · " : ""}Unlocks: ${esc(unlockText(cat, u))} · Upgrades with ${R}</div></div>
+    <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>max ${mTH || "â€“"} at TH${S.th} Â· ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
+    <div class="cap">${u.hs ? "Housing " + u.hs + " Â· " : ""}Unlocks: ${esc(unlockText(cat, u))} Â· Upgrades with ${R}</div></div>
     <div class="props">${u.c.map((c, i) => `<div><span>${esc(c)}</span><span>${fmt(row[1 + i])}</span></div>`).join("")}
     <div><span>Upgrade cost</span><span>${+row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
-    <div><span>Upgrade time</span><span>${row[2 + k] || "–"}</span></div><div><span>Needs</span><span>${needs}</span></div></div>`;
+    <div><span>Upgrade time</span><span>${row[2 + k] || "â€“"}</span></div><div><span>Needs</span><span>${needs}</span></div></div>`;
   const tab = S.tab;
   if (tab === "stats") {
     const rows = u.l.filter((r) => !S.only || reqTH(cat, u, r) <= S.th);
     html += `<h3 class="sec">Upgrade stats</h3><div class="tblwrap"><table><thead><tr><th>Level</th><th>Cost</th><th>Time</th>${u.c.map((c) => `<th>${esc(c)}</th>`).join("")}<th>${cat.req}</th><th>TH</th></tr></thead><tbody>
-    ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${+r[1 + k] ? fmt(+r[1 + k]) : "–"}</td><td>${r[2 + k] || "–"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "–"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
+    ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${+r[1 + k] ? fmt(+r[1 + k]) : "â€“"}</td><td>${r[2 + k] || "â€“"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "â€“"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
     <p class="note">Cost (${R}) and time are to reach that level. ${cat.req} = ${cat.reqName} level required. Tap a row to select it. Swipe the table sideways for more columns.</p>`;
   } else if (tab === "info") {
     const P = [...(u.hs ? [["Housing space", u.hs]] : []), ["Preferred target", u.tg], ["Attack type", u.at], ["Movement speed", u.ms], ["Attack speed", u.sp], ["Range", u.rg], ...u.ex,
       ["Upgrade resource", R], ["Unlocks", unlockText(cat, u)], [`Max level at TH${S.th}`, mTH || "Not unlocked yet"], ["Max level in game", `${maxAll} (TH${reqTH(cat, u, u.l[u.l.length - 1])})`],
-      ...(cat.regen ? [["Regeneration time", cat.regen]] : []), ["Last balance change", u.ch || "–"]];
+      ...(cat.regen ? [["Regeneration time", cat.regen]] : []), ["Last balance change", u.ch || "â€“"]];
     const ths = []; for (let t = 1; t <= 18; t++) { let m = 0; u.l.forEach((r) => { if (reqTH(cat, u, r) <= t) m = +r[0]; }); if (m) ths.push([t, m]); }
     html += `<h3 class="sec">Info</h3>${u.note ? `<div class="props"><div><span>${esc(u.note)}</span></div></div>` : ""}<div class="props">${P.map(([a, b]) => `<div><span>${esc(a)}</span><span>${esc(b)}</span></div>`).join("")}</div>
     ${u.eq ? `<h3 class="sec">Equipment &amp; pets</h3><div class="props"><div><span>Equipment (pick 2)</span><span>${u.eq.map(esc).join(", ")}</span></div><div><span>Pets</span><span>${esc(u.pets || "")}</span></div></div>` : ""}
@@ -105,7 +114,7 @@ function unitView(cat, u) {
     const cost = left.reduce((s, r) => s + +r[1 + k], 0), time = left.reduce((s, r) => s + mins(r[2 + k]), 0);
     html += `<h3 class="sec">Remaining to max</h3><div class="props maxbox">
       <div><span>My current level</span><span><select id="curSel">${Array.from({ length: Math.max(target, 1) }, (_, i) => `<option ${i + 1 === cur ? "selected" : ""}>${i + 1}</option>`).join("")}</select></span></div>
-      <div><span>Target</span><span>Level ${target || "–"} ${S.only ? "(max at TH" + S.th + ")" : "(max in game)"}</span></div>
+      <div><span>Target</span><span>Level ${target || "â€“"} ${S.only ? "(max at TH" + S.th + ")" : "(max in game)"}</span></div>
       <div><span>Upgrades left</span><span>${left.length}</span></div>
       <div><span>${R} needed</span><span class="big" style="color:var(--elix)">${fmt(cost)}</span></div>
       <div><span>${cat.timeLabel || "Lab time"}</span><span class="big">${fmtMins(time)}</span></div></div>
@@ -118,7 +127,87 @@ function unitView(cat, u) {
   const cs = $("#curSel"); if (cs) cs.onchange = () => { S.cur[key] = +cs.value; unitView(cat, u); };
   tabsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.tab === tab));
 }
-function setChrome(t, back, tabs) { titleEl.textContent = t; document.title = t === "Clash Reference" ? t : t + " · Clash Reference"; backBtn.hidden = !back; tabsEl.hidden = !tabs; }
+function setChrome(t, back, tabs) { titleEl.textContent = t; document.title = t === "Clash Reference" ? t : t + " Â· Clash Reference"; backBtn.hidden = !back; tabsEl.hidden = !tabs; }
+
+const reviewHall = (cat) => cat.id.startsWith("bb") ? Number(localStorage.getItem("cr.bh") || 10) : S.th;
+function reviewHallControl(cat) {
+  return cat.id.startsWith("bb") ? `<p class="note"><label>Builder Hall <select id="reviewHall">${Array.from({length: 10}, (_, i) => `<option value="${i + 1}" ${reviewHall(cat) === i + 1 ? "selected" : ""}>${i + 1}</option>`).join("")}</select></label></p>` : "";
+}
+function bindReviewHall(cat, rerender) {
+  if ($("#reviewHall")) $("#reviewHall").onchange = (e) => { localStorage.setItem("cr.bh", e.target.value); rerender(); };
+}
+function reviewTotals(cat, u, table, levels, key) {
+  if (!table || !levels.length || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
+  const current = levels.includes(String(S.cur[key])) ? String(S.cur[key]) : levels[0];
+  const left = table.rows.filter((r) => levels.includes(r[0]) && +r[0] > +current);
+  const costs = table.columns.map((c, i) => ({c, i})).filter(({c}) => /cost/i.test(c) && !/cumulative|boost|gear up/i.test(c));
+  const timeIndex = table.columns.findIndex((c) => /(?:build|upgrade|research) time/i.test(c));
+  if (!costs.length) return `<p class="note">No direct upgrade cost is listed for this unit. See its source requirements in Stats.</p>`;
+  const parse = (v) => /^(?:[\d,]+|N\/A|â€“|-)$/.test(v || "") ? (Number(v.replaceAll(",", "")) || 0) : null;
+  if (costs.some(({i}) => left.some((r) => parse(r[i]) === null))) return `<p class="note">Costs include special conditions; use the individual rows in Stats.</p>`;
+  const seconds = (v) => {
+    if (/^(N\/A|â€“|-)$/.test(v || "")) return 0;
+    if (!/^(?:\d+\s*[dhms]\s*)+$/.test(v || "")) return null;
+    return [...v.matchAll(/(\d+)\s*([dhms])/g)].reduce((a, m) => a + +m[1] * ({d:86400,h:3600,m:60,s:1}[m[2]]), 0);
+  };
+  const times = timeIndex < 0 ? [] : left.map((r) => seconds(r[timeIndex]));
+  return `<div class="props"><div><span>My current level</span><select id="reviewCurrent">${levels.map((v) => `<option ${v === current ? "selected" : ""}>${v}</option>`).join("")}</select></div><div><span>Target</span><span>Level ${levels[levels.length - 1]}</span></div>${costs.map(({c,i}) => `<div><span>${esc(c)}</span><span>${fmt(left.reduce((a,r) => a + parse(r[i]), 0))}</span></div>`).join("")}${timeIndex >= 0 && !times.includes(null) ? `<div><span>Upgrade time</span><span>${fmtMins(Math.floor(times.reduce((a,b) => a+b,0) / 60))}</span></div>` : ""}</div><p class="note">Normal source-table values. Alternative payment columns are shown separately. Excludes prerequisite building upgrades.</p>`;
+}
+// Source-table previews deliberately do not infer hall limits from troop levels.
+// Multiple tables preserve alternate attack modes, abilities and resource costs.
+function reviewNotice(cat, u) {
+  const gaps = [...(cat.unverified || []).map((x) => `${x.page}: ${x.reason}`), ...(u?.unverified || [])];
+  return `<p class="note">${esc(cat.note)}</p>${gaps.length ? `<details class="note"><summary>Verification gaps (${gaps.length})</summary><ul>${gaps.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}`;
+}
+function reviewCategory(cat) {
+  setChrome(cat.label, true, false);
+  const hall = reviewHall(cat);
+  const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()) && (!S.only || !u.hallByLevel || Object.values(u.hallByLevel).some((h) => h <= hall)));
+  app.innerHTML = reviewHallControl(cat) + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${list.map((u) => `<a class="tile unit" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${u.av ? img(u.av, u.n) : ""}<span class="sub">${u.hallByLevel ? "Lv " + (Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l)) || "Locked") : "Hall cap unverified"}</span><span class="lbl">${esc(u.n)}</span></a>`).join("")}</div>`;
+  bindReviewHall(cat, () => reviewCategory(cat));
+  $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
+}
+function reviewLevelImage(u, level) {
+  const stem = u.n.split("/")[0].toLowerCase().replace(/[^a-z0-9]/g, "");
+  const candidates = u.images.map((i) => {
+    const name = i.file.replace(/^File:/, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    const match = name.startsWith(stem) && name.slice(stem.length).match(/^(\d+)png$/);
+    return match ? {url: i.url, level: +match[1]} : null;
+  }).filter((i) => i && i.level <= +level).sort((a,b) => b.level - a.level);
+  return candidates.length ? img(candidates[0].url, `${u.n} level ${level}`, "lv") : "";
+}
+function reviewUnit(cat, u) {
+  setChrome(u.n, true, true);
+  const key = `${cat.id}|${u.n}`;
+  const table = u.tables.find((t) => /^(?:level|charge(?: level)?)\b/i.test(t.columns[0]) && t.rows.some((r) => /^\d+$/.test(r[0])));
+  const levels = table ? table.rows.map((r) => r[0]).filter((v) => /^\d+$/.test(v) && (!S.only || !u.hallByLevel || u.hallByLevel[v] <= reviewHall(cat))) : [];
+  const stored = String(S.lvl[key] || "");
+  const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
+  const index = levels.indexOf(selected);
+  let html = reviewHallControl(cat) + reviewNotice(cat, u) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>Source-table preview</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}</div>`;
+  const renderTable = (t) => `<h3 class="sec">${esc(t.heading || "Statistics")}</h3><div class="tblwrap"><table><thead><tr>${t.columns.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${r.map((v) => `<td>${esc(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  if (S.tab === "images") {
+    html += `<div class="imgs-list">${u.images.map((i) => `<figure>${img(i.url, i.file)}<figcaption>${esc(i.file.replace(/^File:/, ""))}</figcaption></figure>`).join("")}</div>`;
+  } else if (S.tab === "max") {
+    html += reviewTotals(cat, u, table, levels, key);
+  } else if (S.tab === "info") {
+    html += u.tables.filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
+  } else {
+    if (table) {
+      const row = table.rows.find((r) => r[0] === selected);
+      if (row) html += `<div class="props">${table.columns.map((c, i) => `<div><span>${esc(c)}</span><span>${esc(row[i] || "â€“")}</span></div>`).join("")}</div>`;
+    }
+    html += u.tables.map(renderTable).join("");
+  }
+  html += `<p class="note">Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> Â· fetched ${esc(cat.updated)}. Normal values; no Hammer Jam discount applied.</p>`;
+  app.innerHTML = html;
+  bindReviewHall(cat, () => reviewUnit(cat, u));
+  if ($("#reviewCurrent")) $("#reviewCurrent").onchange = (e) => { S.cur[key] = e.target.value; reviewUnit(cat, u); };
+  const go = (d) => { S.lvl[key] = levels[index + d]; reviewUnit(cat, u); };
+  if ($("#lvDown")) { $("#lvDown").onclick = () => go(-1); $("#lvUp").onclick = () => go(1); }
+  app.querySelectorAll("[data-review-level]").forEach((r) => r.onclick = () => { S.lvl[key] = r.dataset.reviewLevel; reviewUnit(cat, u); });
+  tabsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", S.tab === b.dataset.tab));
+}
 
 let lastRoute = "";
 async function render() {

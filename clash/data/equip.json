@@ -6,7 +6,7 @@
   "units": [
     {
       "n": "Barbarian Puppet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Barbarian_Puppet.png/revision/latest?cb=20231211153430",
       "source": "https://clashofclans.fandom.com/wiki/Barbarian_Puppet",
       "revision": null,
       "tables": [
@@ -14,27 +14,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Summoned Barbarians",
+            "Ability Attributes / Barbarian Damage Increase",
+            "Ability Attributes / Barbarian Speed Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Summoned Barbarians",
-              "Barbarian Damage Increase",
-              "Barbarian Speed Increase",
-              "Hitpoint Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "8",
@@ -245,123 +234,21 @@
               "20 seconds"
             ]
           ]
-        },
-        {
-          "heading": "Attributes at lower Town Hall levels",
-          "columns": [
-            "Town Hall Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts"
-          ],
-          "rows": [
-            [
-              "Town Hall Level",
-              "Summoned Barbarians",
-              "Barbarian Damage Increase",
-              "Barbarian Speed Increase",
-              "Hitpoint Increase*",
-              "HP Recovery Increase*"
-            ],
-            [
-              "4",
-              "8",
-              "+100%",
-              "9.5",
-              "154.5",
-              "55"
-            ],
-            [
-              "5",
-              "8",
-              "+100%",
-              "9.5",
-              "231.75",
-              "82.5"
-            ]
-          ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Barbarian King Level",
-            "Barbarian Puppet Level"
-          ],
-          "rows": [
-            [
-              "1-10",
-              "1"
-            ],
-            [
-              "11-20",
-              "2"
-            ],
-            [
-              "21-25",
-              "3"
-            ],
-            [
-              "26-30",
-              "4"
-            ],
-            [
-              "31-35",
-              "5"
-            ],
-            [
-              "36-40",
-              "6"
-            ],
-            [
-              "41-45",
-              "7"
-            ],
-            [
-              "46-50",
-              "8"
-            ],
-            [
-              "51-55",
-              "9"
-            ],
-            [
-              "56-60",
-              "10"
-            ],
-            [
-              "61-65",
-              "11"
-            ],
-            [
-              "66-70",
-              "12"
-            ],
-            [
-              "71-75",
-              "13"
-            ],
-            [
-              "76-80",
-              "14"
-            ],
-            [
-              "81-90",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Barbarian Puppet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Barbarian_Puppet.png/revision/latest?cb=20231211153430"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Rage Vial",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Rage_Vial.png/revision/latest?cb=20240101094305",
       "source": "https://clashofclans.fandom.com/wiki/Rage_Vial",
       "revision": null,
       "tables": [
@@ -369,25 +256,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Damage Increase",
+            "Ability Attributes / Movement Speed Increase",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage Increase",
-              "Movement Speed Increase",
-              "Damage per Second Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "+120%",
@@ -580,119 +457,21 @@
               "10 seconds"
             ]
           ]
-        },
-        {
-          "heading": "Attributes at lower Town Hall levels",
-          "columns": [
-            "Town Hall Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts"
-          ],
-          "rows": [
-            [
-              "Town Hall Level",
-              "Damage Increase",
-              "Movement Speed Increase",
-              "Damage per Second Increase*",
-              "HP Recovery Increase*"
-            ],
-            [
-              "4",
-              "+120%",
-              "18.0",
-              "8.5",
-              "75"
-            ],
-            [
-              "5",
-              "+120%",
-              "18.0",
-              "12.75",
-              "112.5"
-            ]
-          ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Barbarian King Level",
-            "Rage Vial Level"
-          ],
-          "rows": [
-            [
-              "1-10",
-              "1"
-            ],
-            [
-              "11-20",
-              "2"
-            ],
-            [
-              "21-25",
-              "3"
-            ],
-            [
-              "26-30",
-              "4"
-            ],
-            [
-              "31-35",
-              "5"
-            ],
-            [
-              "36-40",
-              "6"
-            ],
-            [
-              "41-45",
-              "7"
-            ],
-            [
-              "46-50",
-              "8"
-            ],
-            [
-              "51-55",
-              "9"
-            ],
-            [
-              "56-60",
-              "10"
-            ],
-            [
-              "61-65",
-              "11"
-            ],
-            [
-              "66-70",
-              "12"
-            ],
-            [
-              "71-75",
-              "13"
-            ],
-            [
-              "76-80",
-              "14"
-            ],
-            [
-              "81-90",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Rage Vial.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Rage_Vial.png/revision/latest?cb=20240101094305"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Earthquake Boots",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Earthquake_Boots.png/revision/latest?cb=20231211153708",
       "source": "https://clashofclans.fandom.com/wiki/Earthquake_Boots",
       "revision": null,
       "tables": [
@@ -702,23 +481,13 @@
             "Level",
             "Building Damage %",
             "Troop Damage %",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / DPS Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Building Damage %",
-              "Troop Damage %",
-              "DPS Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "10%",
@@ -902,15 +671,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Earthquake Boots.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Earthquake_Boots.png/revision/latest?cb=20231211153708"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Vampstache",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Vampstache.png/revision/latest?cb=20231211153806",
       "source": "https://clashofclans.fandom.com/wiki/Vampstache",
       "revision": null,
       "tables": [
@@ -919,22 +714,13 @@
           "columns": [
             "Level",
             "Heal per Hit",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Attack Speed Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Heal per Hit",
-              "Damage per Second Increase",
-              "Attack Speed Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "60",
@@ -1100,15 +886,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Vampstache.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Vampstache.png/revision/latest?cb=20231211153806"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Giant Gauntlet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest?cb=20231218115547",
       "source": "https://clashofclans.fandom.com/wiki/Giant_Gauntlet",
       "revision": null,
       "tables": [
@@ -1116,27 +928,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Ability Duration",
+            "Ability Attributes / Incoming Damage Reduction %",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Self Healing per Second",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Incoming Damage Reduction %",
-              "Damage per Second Increase",
-              "Self Healing per Second",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "14s",
@@ -1448,15 +1249,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Giant Gauntlet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest?cb=20231218115547"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Spiky Ball",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Spiky_Ball.png/revision/latest?cb=20251009104454",
       "source": "https://clashofclans.fandom.com/wiki/Spiky_Ball",
       "revision": null,
       "tables": [
@@ -1464,27 +1300,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Projectile Damage (per Target)",
+            "Ability Attributes / Number of Targets",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Projectile Damage (per Target)",
-              "Number of Targets",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1,000",
@@ -1785,45 +1610,68 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Spiky Ball.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Spiky_Ball.png/revision/latest?cb=20251009104454"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Snake Bracelet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Snake_Bracelet.png/revision/latest?cb=20250205152701",
       "source": "https://clashofclans.fandom.com/wiki/Snake_Bracelet",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Max Summoned Snakes",
+            "Ability Attributes / Snake Level",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / Attack Speed Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Max Summoned Snakes",
-              "Snake Level",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Attack Speed Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "11",
@@ -2151,45 +1999,68 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Snake Bracelet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Snake_Bracelet.png/revision/latest?cb=20250205152701"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Stick Horse",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Stick_Horse.png/revision/latest?cb=20260206172629",
       "source": "https://clashofclans.fandom.com/wiki/Stick_Horse",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Ability Duration",
+            "Ability Attributes / Movement Speed Increase",
+            "Ability Attributes / Attack Speed Increase",
+            "Hero Boost / Damage per Second Increase",
+            "Hero Boost / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Movement Speed Increase",
-              "Attack Speed Increase",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "12s",
@@ -2517,15 +2388,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Stick Horse.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Stick_Horse.png/revision/latest?cb=20260206172629"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Archer Puppet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Archer_Puppet.png/revision/latest?cb=20231211153910",
       "source": "https://clashofclans.fandom.com/wiki/Archer_Puppet",
       "revision": null,
       "tables": [
@@ -2533,25 +2439,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Summoned Archers",
+            "Ability Attributes / Archer Invisibility Duration",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Summoned Archers",
-              "Archer Invisibility Duration",
-              "Damage per Second Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "5",
@@ -2733,86 +2629,21 @@
               "7"
             ]
           ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Archer Queen Level",
-            "Archer Puppet Level"
-          ],
-          "rows": [
-            [
-              "1-10",
-              "1"
-            ],
-            [
-              "11-20",
-              "2"
-            ],
-            [
-              "21-25",
-              "3"
-            ],
-            [
-              "26-30",
-              "4"
-            ],
-            [
-              "31-35",
-              "5"
-            ],
-            [
-              "36-40",
-              "6"
-            ],
-            [
-              "41-45",
-              "7"
-            ],
-            [
-              "46-50",
-              "8"
-            ],
-            [
-              "51-55",
-              "9"
-            ],
-            [
-              "56-60",
-              "10"
-            ],
-            [
-              "61-65",
-              "11"
-            ],
-            [
-              "66-70",
-              "12"
-            ],
-            [
-              "71-75",
-              "13"
-            ],
-            [
-              "76-80",
-              "14"
-            ],
-            [
-              "81-90",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Archer Puppet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Archer_Puppet.png/revision/latest?cb=20231211153910"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Invisibility Vial",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Invisibility_Vial.png/revision/latest?cb=20240101094313",
       "source": "https://clashofclans.fandom.com/wiki/Invisibility_Vial",
       "revision": null,
       "tables": [
@@ -2820,23 +2651,14 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
+            "Ability Attributes / Ability Duration",
+            "Ability Attributes / Damage per Shot Increase",
             "Hero Hitpoint Increase",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Damage per Shot Increase",
-              "Hero Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "4.2s",
@@ -3000,86 +2822,21 @@
               "7"
             ]
           ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Archer Queen Level",
-            "Invisibility Vial Level"
-          ],
-          "rows": [
-            [
-              "1-10",
-              "1"
-            ],
-            [
-              "11-20",
-              "2"
-            ],
-            [
-              "21-25",
-              "3"
-            ],
-            [
-              "26-30",
-              "4"
-            ],
-            [
-              "31-35",
-              "5"
-            ],
-            [
-              "36-40",
-              "6"
-            ],
-            [
-              "41-45",
-              "7"
-            ],
-            [
-              "46-50",
-              "8"
-            ],
-            [
-              "51-55",
-              "9"
-            ],
-            [
-              "56-60",
-              "10"
-            ],
-            [
-              "61-65",
-              "11"
-            ],
-            [
-              "66-70",
-              "12"
-            ],
-            [
-              "71-75",
-              "13"
-            ],
-            [
-              "76-80",
-              "14"
-            ],
-            [
-              "81-90",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Invisibility Vial.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Invisibility_Vial.png/revision/latest?cb=20240101094313"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Giant Arrow",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Giant_Arrow.png/revision/latest?cb=20231211154034",
       "source": "https://clashofclans.fandom.com/wiki/Giant_Arrow",
       "revision": null,
       "tables": [
@@ -3088,22 +2845,13 @@
           "columns": [
             "Level",
             "Projectile Damage",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Projectile Damage",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "750",
@@ -3282,15 +3030,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Giant Arrow.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Giant_Arrow.png/revision/latest?cb=20231211154034"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Healer Puppet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Healer_Puppet.png/revision/latest?cb=20231211154103",
       "source": "https://clashofclans.fandom.com/wiki/Healer_Puppet",
       "revision": null,
       "tables": [
@@ -3298,25 +3072,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Summoned Healers",
+            "Ability Attributes / Healer Level",
+            "Hero Boosts / Self Healing Per Second",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Summoned Healers",
-              "Healer Level",
-              "Self Healing Per Second",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1",
@@ -3500,15 +3264,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Healer Puppet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Healer_Puppet.png/revision/latest?cb=20231211154103"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 12,
+        "5": 12,
+        "6": 12,
+        "7": 12,
+        "8": 12,
+        "9": 12,
+        "10": 12,
+        "11": 12,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Frozen Arrow",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Frozen_Arrow.png/revision/latest?cb=20240207193559",
       "source": "https://clashofclans.fandom.com/wiki/Frozen_Arrow",
       "revision": null,
       "tables": [
@@ -3516,25 +3306,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Slow Down",
+            "Ability Attributes / Slow Down Duration",
+            "Hero Boosts / Damage per Second Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Slow Down",
-              "Slow Down Duration",
-              "Damage per Second Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "30%",
@@ -3808,15 +3588,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Frozen Arrow.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Frozen_Arrow.png/revision/latest?cb=20240207193559"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Magic Mirror",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Magic_Mirror.png/revision/latest?cb=20260210072454",
       "source": "https://clashofclans.fandom.com/wiki/Magic_Mirror",
       "revision": null,
       "tables": [
@@ -3824,31 +3639,18 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Clones",
+            "Ability Attributes / Clone Duration",
+            "Ability Attributes / Clone DPS",
+            "Ability Attributes / Clone Health",
+            "Hero Boost / HP Recovery Increase",
+            "Hero Boost / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Clones",
-              "Clone Duration",
-              "Clone DPS",
-              "Clone Health",
-              "HP Recovery Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1",
@@ -4203,15 +4005,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Magic Mirror.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Magic_Mirror.png/revision/latest?cb=20260210072454"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Action Figure",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Action_Figure.png/revision/latest?cb=20250407081928",
       "source": "https://clashofclans.fandom.com/wiki/Action_Figure",
       "revision": null,
       "tables": [
@@ -4219,27 +4056,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Giant Giant Level",
+            "Hero Boosts / Self Healing per Second",
+            "Hero Boosts / DPS Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Giant Giant Level",
-              "Self Healing per Second",
-              "DPS Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1",
@@ -4540,45 +4366,68 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Action Figure.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Action_Figure.png/revision/latest?cb=20250407081928"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Monolith Arrow",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Monolith_Arrow.png/revision/latest?cb=20260612134300",
       "source": "https://clashofclans.fandom.com/wiki/Monolith_Arrow",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Highest Extra Damage (Below 180 Housing Space)",
+            "Ability Attributes / Extra Damage (181-250 Housing Space)",
+            "Ability Attributes / Extra Damage (251+ Housing Space)",
+            "Ability Attributes / Incoming Damage Reduction",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Highest Extra Damage (Below 180 Housing Space)",
-              "Extra Damage (181-250 Housing Space)",
-              "Extra Damage (251+ Housing Space)",
-              "Incoming Damage Reduction",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "9.5%",
@@ -4906,15 +4755,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Monolith Arrow.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Monolith_Arrow.png/revision/latest?cb=20260612134300"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Henchmen Puppet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Henchmen_Puppet.png/revision/latest?cb=20241124131856",
       "source": "https://clashofclans.fandom.com/wiki/Henchmen_Puppet",
       "revision": null,
       "tables": [
@@ -4922,25 +4806,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Henchmen Level",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / HP Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Henchmen Level",
-              "Damage per Second Increase",
-              "HP Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1",
@@ -5124,15 +4998,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Henchmen Puppet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Henchmen_Puppet.png/revision/latest?cb=20241124131856"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Dark Orb",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Dark_Orb.png/revision/latest?cb=20241124131854",
       "source": "https://clashofclans.fandom.com/wiki/Dark_Orb",
       "revision": null,
       "tables": [
@@ -5140,27 +5040,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Projectile Damage",
+            "Ability Attributes / Slow Down",
+            "Ability Attributes / Slow Down Duration",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Projectile Damage",
-              "Slow Down",
-              "Slow Down Duration",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "45",
@@ -5373,15 +5262,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Dark Orb.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Dark_Orb.png/revision/latest?cb=20241124131854"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Metal Pants",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Metal_Pants.png/revision/latest?cb=20250209131331",
       "source": "https://clashofclans.fandom.com/wiki/Metal_Pants",
       "revision": null,
       "tables": [
@@ -5389,25 +5304,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Ability Duration",
+            "Ability Attributes / Incoming Damage Reduction",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Incoming Damage Reduction",
-              "Hitpoint Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "9s",
@@ -5591,15 +5496,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Metal Pants.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Metal_Pants.png/revision/latest?cb=20250209131331"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Noble Iron",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Noble_Iron.png/revision/latest?cb=20250323130911",
       "source": "https://clashofclans.fandom.com/wiki/Noble_Iron",
       "revision": null,
       "tables": [
@@ -5607,27 +5538,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Damage per Shot Increase",
+            "Ability Attributes / Attack Range",
+            "Ability Attributes / Number of Attacks",
+            "Hero Boosts / Attack Speed Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Shot Increase",
-              "Attack Range",
-              "Number of Attacks",
-              "Attack Speed Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "350",
@@ -5829,47 +5749,60 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Noble Iron.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Noble_Iron.png/revision/latest?cb=20250323130911"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 12,
+        "5": 12,
+        "6": 12,
+        "7": 12,
+        "8": 12,
+        "9": 12,
+        "10": 12,
+        "11": 12,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Dark Crown",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Dark_Crown.png/revision/latest?cb=20250603163058",
       "source": "https://clashofclans.fandom.com/wiki/Dark_Crown",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / First Health & Damage Increase",
+            "Ability Attributes / Second Health & Damage Increase",
+            "Ability Attributes / Max Health Increase",
+            "Ability Attributes / Max Damage Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / Attack Speed Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "First Health & Damage Increase",
-              "Second Health & Damage Increase",
-              "Max Health Increase",
-              "Max Damage Increase",
-              "Hitpoint Increase",
-              "Attack Speed Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1%",
@@ -6224,43 +6157,67 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Dark Crown.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Dark_Crown.png/revision/latest?cb=20250603163058"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Meteor Staff",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Meteor_Staff.png/revision/latest?cb=20251011040708",
       "source": "https://clashofclans.fandom.com/wiki/Meteor_Staff",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Cooldown Time",
+            "Ability Attributes / Damage per Hit",
+            "Hero Boost / Damage per Second Increase",
+            "Hero Boost / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Cooldown Time",
-              "Damage per Hit",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "10s",
@@ -6561,7 +6518,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Damage Radius"
           ],
@@ -6572,47 +6529,69 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Meteor Staff.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Meteor_Staff.png/revision/latest?cb=20251011040708"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Portal Pendant",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Portal_Pendant.png/revision/latest?cb=20261030023941",
       "source": "https://clashofclans.fandom.com/wiki/Portal_Pendant",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Portal Tile Radius",
+            "Ability Attributes / Healing on Redeploy",
+            "Ability Attributes / Haste on Redeploy",
+            "Ability Attributes / Recall Capacity",
+            "Hero Boost / HP Recovery Increase",
+            "Hero Boost / Hitpoints Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Portal Tile Radius",
-              "Healing on Redeploy",
-              "Haste on Redeploy",
-              "Recall Capacity",
-              "HP Recovery Increase",
-              "Hitpoints Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "7",
@@ -6967,7 +6946,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Redeploy Speed Increase"
           ],
@@ -6978,15 +6957,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Portal Pendant.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Portal_Pendant.png/revision/latest?cb=20261030023941"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Eternal Tome",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Eternal_Tome.png/revision/latest?cb=20231211154154",
       "source": "https://clashofclans.fandom.com/wiki/Eternal_Tome",
       "revision": null,
       "tables": [
@@ -6995,18 +7009,11 @@
           "columns": [
             "Level",
             "Ability Duration",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "3.2s",
@@ -7134,86 +7141,21 @@
               "7"
             ]
           ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Grand Warden Level",
-            "Eternal Tome Level"
-          ],
-          "rows": [
-            [
-              "1-3",
-              "1"
-            ],
-            [
-              "4-5",
-              "2"
-            ],
-            [
-              "6-7",
-              "3"
-            ],
-            [
-              "8-9",
-              "4"
-            ],
-            [
-              "10-11",
-              "5"
-            ],
-            [
-              "12-13",
-              "6"
-            ],
-            [
-              "14-15",
-              "7"
-            ],
-            [
-              "16-20",
-              "8"
-            ],
-            [
-              "21-30",
-              "9"
-            ],
-            [
-              "31-35",
-              "10"
-            ],
-            [
-              "36-40",
-              "11"
-            ],
-            [
-              "41-45",
-              "12"
-            ],
-            [
-              "46-50",
-              "13"
-            ],
-            [
-              "51-55",
-              "14"
-            ],
-            [
-              "56-65",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Eternal Tome.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Eternal_Tome.png/revision/latest?cb=20231211154154"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Life Gem",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Life_Gem.png/revision/latest?cb=20231212145821",
       "source": "https://clashofclans.fandom.com/wiki/Life_Gem",
       "revision": null,
       "tables": [
@@ -7221,25 +7163,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / % HP Increase",
+            "Ability Attributes / Max HP Increase",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "% HP Increase",
-              "Max HP Increase",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "50%",
@@ -7421,86 +7353,21 @@
               "7"
             ]
           ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Grand Warden Level",
-            "Life Gem Level"
-          ],
-          "rows": [
-            [
-              "1-3",
-              "1"
-            ],
-            [
-              "4-5",
-              "2"
-            ],
-            [
-              "6-7",
-              "3"
-            ],
-            [
-              "8-9",
-              "4"
-            ],
-            [
-              "10-11",
-              "5"
-            ],
-            [
-              "12-13",
-              "6"
-            ],
-            [
-              "14-15",
-              "7"
-            ],
-            [
-              "16-20",
-              "8"
-            ],
-            [
-              "21-30",
-              "9"
-            ],
-            [
-              "31-35",
-              "10"
-            ],
-            [
-              "36-40",
-              "11"
-            ],
-            [
-              "41-45",
-              "12"
-            ],
-            [
-              "46-50",
-              "13"
-            ],
-            [
-              "51-55",
-              "14"
-            ],
-            [
-              "56-65",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Life Gem.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Life_Gem.png/revision/latest?cb=20231212145821"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Rage Gem",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rage_Gem.png/revision/latest?cb=20231211154245",
       "source": "https://clashofclans.fandom.com/wiki/Rage_Gem",
       "revision": null,
       "tables": [
@@ -7509,22 +7376,13 @@
           "columns": [
             "Level",
             "% Damage Increase",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Attack Speed Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "% Damage Increase",
-              "Damage per Second Increase",
-              "Attack Speed Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "15%",
@@ -7690,15 +7548,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Rage Gem.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rage_Gem.png/revision/latest?cb=20231211154245"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Healing Tome",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Healing_Tome.png/revision/latest?cb=20231211154223",
       "source": "https://clashofclans.fandom.com/wiki/Healing_Tome",
       "revision": null,
       "tables": [
@@ -7706,25 +7590,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Healing per Second",
+            "Ability Attributes / Ability Duration",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / Health Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Healing per Second",
-              "Ability Duration",
-              "Hitpoint Increase",
-              "Health Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "60",
@@ -7908,15 +7782,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Healing Tome.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Healing_Tome.png/revision/latest?cb=20231211154223"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Fireball",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/FireballRange6Tiles.jpg/revision/latest?cb=20260124054105",
       "source": "https://clashofclans.fandom.com/wiki/Fireball",
       "revision": null,
       "tables": [
@@ -7924,25 +7824,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Damage Radius",
+            "Ability Attributes / Projectile Damage",
+            "Hero Boosts / Damage per Second Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage Radius",
-              "Projectile Damage",
-              "Damage per Second Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "4 tiles",
@@ -8216,43 +8106,71 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:FireballRange6Tiles.jpg",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/FireballRange6Tiles.jpg/revision/latest?cb=20260124054105"
+        },
+        {
+          "file": "File:Fireball Equipment.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Fireball_Equipment.png/revision/latest?cb=20240311163556"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Lavaloon Puppet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Lavaloon_Puppet.png/revision/latest?cb=20241011154209",
       "source": "https://clashofclans.fandom.com/wiki/Lavaloon_Puppet",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Summoned Lavaloons",
+            "Ability Attributes / Lavaloon Level",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Summoned Lavaloons",
-              "Lavaloon Level",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1",
@@ -8553,47 +8471,69 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Lavaloon Puppet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Lavaloon_Puppet.png/revision/latest?cb=20241011154209"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Heroic Torch",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Heroic_Torch.png/revision/latest?cb=20250805185630",
       "source": "https://clashofclans.fandom.com/wiki/Heroic_Torch",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Hero Boost",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Ability Duration",
+            "Ability Attributes / Speed Increase",
+            "Ability Attributes / Incoming Damage Reduction %",
+            "Hero Boost / HP Recovery Increase",
+            "Hero Boost / Damage per Second Increase",
+            "Hero Boost / Hitpoint increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Speed Increase",
-              "Incoming Damage Reduction %",
-              "HP Recovery Increase",
-              "Damage per Second Increase",
-              "Hitpoint increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "16s",
@@ -8948,15 +8888,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Heroic Torch.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Heroic_Torch.png/revision/latest?cb=20250805185630"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Royal Gem",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Royal_Gem.png/revision/latest?cb=20231211154310",
       "source": "https://clashofclans.fandom.com/wiki/Royal_Gem",
       "revision": null,
       "tables": [
@@ -8965,22 +8940,13 @@
           "columns": [
             "Level",
             "Health Recovery",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Health Recovery",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1,200",
@@ -9144,86 +9110,21 @@
               "7"
             ]
           ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Royal Champion Level",
-            "Royal Gem Level"
-          ],
-          "rows": [
-            [
-              "1-2",
-              "1"
-            ],
-            [
-              "3",
-              "2"
-            ],
-            [
-              "4",
-              "3"
-            ],
-            [
-              "5",
-              "4"
-            ],
-            [
-              "6-7",
-              "5"
-            ],
-            [
-              "8-9",
-              "6"
-            ],
-            [
-              "10-11",
-              "7"
-            ],
-            [
-              "12-14",
-              "8"
-            ],
-            [
-              "15-17",
-              "9"
-            ],
-            [
-              "18",
-              "10"
-            ],
-            [
-              "19",
-              "11"
-            ],
-            [
-              "20-24",
-              "12"
-            ],
-            [
-              "25-26",
-              "13"
-            ],
-            [
-              "27-29",
-              "14"
-            ],
-            [
-              "30-40",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Royal Gem.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Royal_Gem.png/revision/latest?cb=20231211154310"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Seeking Shield",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Shield.png/revision/latest?cb=20231211154339",
       "source": "https://clashofclans.fandom.com/wiki/Seeking_Shield",
       "revision": null,
       "tables": [
@@ -9233,19 +9134,11 @@
             "Level",
             "Projectile Damage (per Target)",
             "Hitpoint Increase",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Projectile Damage (per Target)",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1,000",
@@ -9391,86 +9284,21 @@
               "7"
             ]
           ]
-        },
-        {
-          "heading": "Equipment Migration",
-          "columns": [
-            "Royal Champion Level",
-            "Seeking Shield Level"
-          ],
-          "rows": [
-            [
-              "1-2",
-              "1"
-            ],
-            [
-              "3",
-              "2"
-            ],
-            [
-              "4",
-              "3"
-            ],
-            [
-              "5",
-              "4"
-            ],
-            [
-              "6-7",
-              "5"
-            ],
-            [
-              "8-9",
-              "6"
-            ],
-            [
-              "10-11",
-              "7"
-            ],
-            [
-              "12-14",
-              "8"
-            ],
-            [
-              "15-17",
-              "9"
-            ],
-            [
-              "18",
-              "10"
-            ],
-            [
-              "19",
-              "11"
-            ],
-            [
-              "20-24",
-              "12"
-            ],
-            [
-              "25-26",
-              "13"
-            ],
-            [
-              "27-29",
-              "14"
-            ],
-            [
-              "30-40",
-              "15"
-            ]
-          ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Seeking Shield.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Shield.png/revision/latest?cb=20231211154339"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Hog Rider Puppet",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Hog_Rider_Puppet.png/revision/latest?cb=20240225143837",
       "source": "https://clashofclans.fandom.com/wiki/Hog_Rider_Puppet",
       "revision": null,
       "tables": [
@@ -9478,25 +9306,15 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Summoned Hog Riders",
+            "Ability Attributes / Hog Rider Level",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Summoned Hog Riders",
-              "Hog Rider Level",
-              "Hitpoint Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "8",
@@ -9680,15 +9498,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Hog Rider Puppet.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Hog_Rider_Puppet.png/revision/latest?cb=20240225143837"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 14,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 14,
+        "10": 14,
+        "11": 14,
+        "12": 14,
+        "13": 14,
+        "14": 14,
+        "15": 14,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Haste Vial",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Haste_Vial.png/revision/latest?cb=20240225143859",
       "source": "https://clashofclans.fandom.com/wiki/Haste_Vial",
       "revision": null,
       "tables": [
@@ -9696,27 +9540,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Ability Duration",
+            "Ability Attributes / Speed Increase",
+            "Ability Attributes / Attack Speed Increase",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Attack Speed Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Duration",
-              "Speed Increase",
-              "Attack Speed Increase",
-              "Damage per Second Increase",
-              "Attack Speed Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "7.0s",
@@ -9918,15 +9751,41 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Haste Vial.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Haste_Vial.png/revision/latest?cb=20240225143859"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      }
     },
     {
       "n": "Rocket Spear",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Rocket_Spear.png/revision/latest?cb=20240608113451",
       "source": "https://clashofclans.fandom.com/wiki/Rocket_Spear",
       "revision": null,
       "tables": [
@@ -9934,27 +9793,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Damage per Shot Increase",
+            "Ability Attributes / Number of Attacks",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Shot Increase",
-              "Number of Attacks",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "350",
@@ -10268,15 +10116,50 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Rocket Spear.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Rocket_Spear.png/revision/latest?cb=20240608113451"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Electro Boots",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Electro_Boots.png/revision/latest?cb=20241211095239",
       "source": "https://clashofclans.fandom.com/wiki/Electro_Boots",
       "revision": null,
       "tables": [
@@ -10284,27 +10167,16 @@
           "heading": "Statistics",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Aura Damage per Second",
+            "Ability Attributes / Aura Damage per Hit",
+            "Hero Boosts / Self Healing per Second",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Aura Damage per Second",
-              "Aura Damage per Hit",
-              "Self Healing per Second",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "132",
@@ -10618,43 +10490,67 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Electro Boots.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Electro_Boots.png/revision/latest?cb=20241211095239"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Frost Flake",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Frost_Flake.png/revision/latest?cb=20251210120859",
       "source": "https://clashofclans.fandom.com/wiki/Frost_Flake",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Projectile Damage",
+            "Ability Attributes / Slow Down Duration",
+            "Ability Attributes / Number of Targets",
+            "Hero Boost / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Projectile Damage",
-              "Slow Down Duration",
-              "Number of Targets",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "105",
@@ -10955,39 +10851,65 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Frost Flake.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Frost_Flake.png/revision/latest?cb=20251210120859"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Fire Heart",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Fire_Heart.png/revision/latest?cb=20260227182842",
       "source": "https://clashofclans.fandom.com/wiki/Fire_Heart",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage on Defeat",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Self Healing Per Second",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage on Defeat",
-              "Self Healing Per Second",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1,000",
@@ -11153,7 +11075,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Damage Radius"
           ],
@@ -11164,39 +11086,34 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Fire Heart.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Fire_Heart.png/revision/latest?cb=20260227182842"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Flame Blower",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Flame_Blower.png/revision/latest?cb=20260227182817",
       "source": "https://clashofclans.fandom.com/wiki/Flame_Blower",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistic",
+          "heading": "Statistic [ ]",
           "columns": [
             "Level",
             "Ability Damage",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Hitpoint Increase",
+            "Hero Boosts / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Damage",
-              "Hitpoint Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "1,300",
@@ -11362,7 +11279,7 @@
           ]
         },
         {
-          "heading": "Statistic",
+          "heading": "Statistic [ ]",
           "columns": [
             "Damage Radius"
           ],
@@ -11373,43 +11290,36 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Flame Blower.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Flame_Blower.png/revision/latest?cb=20260227182817"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Stun Blaster",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/34/Stun_Blaster.png/revision/latest?cb=20260227182901",
       "source": "https://clashofclans.fandom.com/wiki/Stun_Blaster",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Ability Total Damage",
             "Stun Duration",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Hero Boosts / Damage per Second Increase",
+            "Hero Boosts / Health Recovery",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Total Damage",
-              "Stun Duration",
-              "Damage per Second Increase",
-              "Health Recovery",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "150",
@@ -11611,7 +11521,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Damage Radius"
           ],
@@ -11622,39 +11532,34 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Stun Blaster.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/34/Stun_Blaster.png/revision/latest?cb=20260227182901"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Electro Fangs",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/2/2c/Electro_Fangs.png/revision/latest?cb=20260426121243",
       "source": "https://clashofclans.fandom.com/wiki/Electro_Fangs",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boosts",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Damage per Hit",
+            "Ability Attributes / Number of Targets",
+            "Hero Boosts / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Damage per Hit",
-              "Number of Targets",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "330",
@@ -11820,7 +11725,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Chain Damage Decay",
             "Chain Distance"
@@ -11833,43 +11738,36 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Electro Fangs.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2c/Electro_Fangs.png/revision/latest?cb=20260426121243"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
       ]
     },
     {
       "n": "Rocket Backpack",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rocket_Backpack.png/revision/latest?cb=20260409103804",
       "source": "https://clashofclans.fandom.com/wiki/Rocket_Backpack",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Hero Boost",
-            "Hero Boost",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Ability Damage",
+            "Hero Boost / Damage per Second Increase",
+            "Hero Boost / Hitpoint Increase",
+            "Hero Boost / HP Recovery Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Ability Damage",
-              "Damage per Second Increase",
-              "Hitpoint Increase",
-              "HP Recovery Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "575",
@@ -12170,7 +12068,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Damage Area"
           ],
@@ -12181,41 +12079,78 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Rocket Backpack.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rocket_Backpack.png/revision/latest?cb=20260409103804"
+        },
+        {
+          "file": "File:Rocket Backpack Range1.jpg",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Rocket_Backpack_Range1.jpg/revision/latest?cb=20260406105538"
+        },
+        {
+          "file": "File:Rocket Backpack Range2.jpg",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Rocket_Backpack_Range2.jpg/revision/latest?cb=20260406105651"
+        },
+        {
+          "file": "File:Rocket Backpack Range3.jpg",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Rocket_Backpack_Range3.jpg/revision/latest?cb=20260406105728"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     },
     {
       "n": "Revenge Deck",
-      "av": "",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Revenge_Deck.png/revision/latest?cb=20260906171244",
       "source": "https://clashofclans.fandom.com/wiki/Revenge_Deck",
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
-            "Ability Attributes",
-            "Ability Attributes",
-            "Hero Boost",
-            "Upgrade Cost",
-            "Upgrade Cost",
-            "Upgrade Cost",
+            "Ability Attributes / Heal per Counter",
+            "Ability Attributes / Counter Damage",
+            "Hero Boost / Hitpoint Increase",
+            "Upgrade Cost / Shiny Ore",
+            "Upgrade Cost / Glowy Ore",
+            "Upgrade Cost / Starry Ore",
             "Blacksmith Level Required"
           ],
           "rows": [
-            [
-              "Level",
-              "Heal per Counter",
-              "Counter Damage",
-              "Hitpoint Increase",
-              "Shiny Ore",
-              "Glowy Ore",
-              "Starry Ore",
-              "Blacksmith Level Required"
-            ],
             [
               "1",
               "30",
@@ -12489,7 +12424,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Maximum Counter Range",
             "Counter Cooldown"
@@ -12502,14 +12437,49 @@
           ]
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "File:Revenge Deck.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Revenge_Deck.png/revision/latest?cb=20260906171244"
+        }
+      ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
-        "No image passed the no-referrer HTTP 200 check."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

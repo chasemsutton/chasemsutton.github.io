@@ -15,7 +15,7 @@
           "columns": [
             "TH Level",
             "Hitpoints",
-            "Build Cost",
+            "Build Cost (Gold)",
             "Build Time",
             "Experience Gained",
             "Maximum Number of Buildings Available*",
@@ -344,7 +344,7 @@
           ]
         },
         {
-          "heading": "Resource Buildings",
+          "heading": "Resource Buildings / Number Available",
           "columns": [
             "TH Level",
             "Gold Mine & Elixir Collector",
@@ -439,7 +439,7 @@
           ]
         },
         {
-          "heading": "Resource Buildings",
+          "heading": "Resource Buildings / Maximum Levels",
           "columns": [
             "TH Level",
             "Gold Mine & Elixir Collector",
@@ -596,7 +596,7 @@
           ]
         },
         {
-          "heading": "Army Buildings and Heroes",
+          "heading": "Army Buildings and Heroes / Number Available",
           "columns": [
             "TH Level",
             "Army Camp",
@@ -796,7 +796,7 @@
           ]
         },
         {
-          "heading": "Army Buildings and Heroes",
+          "heading": "Army Buildings and Heroes / Building Maximum Levels",
           "columns": [
             "TH Level",
             "Army Camp",
@@ -1048,7 +1048,7 @@
           ]
         },
         {
-          "heading": "Defensive Buildings and Traps",
+          "heading": "Defensive Buildings and Traps / Defenses Available",
           "columns": [
             "TH Level",
             "Cannon",
@@ -1453,7 +1453,7 @@
           ]
         },
         {
-          "heading": "Defensive Buildings and Traps",
+          "heading": "Defensive Buildings and Traps / Defense Maximum Levels",
           "columns": [
             "TH Level",
             "Cannon",
@@ -1890,7 +1890,7 @@
           ]
         },
         {
-          "heading": "Defensive Buildings and Traps",
+          "heading": "Defensive Buildings and Traps / Traps Available",
           "columns": [
             "TH Level",
             "Bomb",
@@ -2071,7 +2071,7 @@
           ]
         },
         {
-          "heading": "Defensive Buildings and Traps",
+          "heading": "Defensive Buildings and Traps / Trap Maximum Levels",
           "columns": [
             "TH Level",
             "Bomb",
@@ -2862,12 +2862,12 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second per Target",
             "Damage per Hit per Target",
-            "Cost",
+            "Cost (Gold)",
             "Build Time",
             "Experience Gained",
             "Town Hall Level Required"
@@ -2921,7 +2921,7 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Hitpoints",
             "Range",
@@ -2969,8 +2969,17 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17
+      }
     },
     {
       "n": "Town Hall/Guardians",
@@ -2997,8 +3006,8 @@
         }
       ],
       "unverified": [
-        "No structured statistics tables extracted; requires manual source review.",
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No structured statistics table found; requires manual review."
       ]
     },
     {
@@ -3008,7 +3017,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Targets",
             "Attack Type",
@@ -3037,14 +3046,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
             "Damage Upon Death",
-            "Upgrade Cost",
+            "Upgrade Cost (Elixir)",
             "Upgrade Time"
           ],
           "rows": [
@@ -3121,7 +3130,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Targets",
             "Attack Type",
@@ -3152,13 +3161,13 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Elixir)",
             "Upgrade Time"
           ],
           "rows": [
@@ -3230,7 +3239,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Targets",
             "Attack Type",
@@ -3257,14 +3266,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
             "Post-Hit Tile Range",
-            "Upgrade Cost",
+            "Upgrade Cost (Elixir)",
             "Upgrade Time"
           ],
           "rows": [
@@ -3332,6 +3341,6 @@
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

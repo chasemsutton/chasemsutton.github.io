@@ -37,7 +37,7 @@
             "Damage per Hit",
             "Hitpoints",
             "Ability Level",
-            "Upgrade Cost",
+            "Upgrade Cost (Builder Elixir)",
             "Upgrade Time",
             "Builder Hall Level Required"
           ],
@@ -408,7 +408,7 @@
           ]
         },
         {
-          "heading": "Charge Level 1",
+          "heading": "Charge Level 1 / Charge Level 1",
           "columns": [
             "Ability Level",
             "Ability DPS",
@@ -469,7 +469,7 @@
           ]
         },
         {
-          "heading": "Charge Level 2",
+          "heading": "Charge Level 2 / Charge Level 2",
           "columns": [
             "Attack Type",
             "Chain Damage Decay",
@@ -484,7 +484,7 @@
           ]
         },
         {
-          "heading": "Charge Level 2",
+          "heading": "Charge Level 2 / Charge Level 2",
           "columns": [
             "Ability Level",
             "Ability DPS (Primary Target)",
@@ -545,7 +545,7 @@
           ]
         },
         {
-          "heading": "Charge Level 3",
+          "heading": "Charge Level 3 / Charge Level 3",
           "columns": [
             "Attack Type",
             "Chain Damage Decay",
@@ -560,7 +560,7 @@
           ]
         },
         {
-          "heading": "Charge Level 3",
+          "heading": "Charge Level 3 / Charge Level 3",
           "columns": [
             "Ability Level",
             "Ability DPS (Primary Target)",
@@ -648,8 +648,47 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6,
+        "10": 6,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 7,
+        "19": 7,
+        "20": 7,
+        "21": 8,
+        "22": 8,
+        "23": 8,
+        "24": 8,
+        "25": 8,
+        "26": 9,
+        "27": 9,
+        "28": 9,
+        "29": 9,
+        "30": 9,
+        "31": 10,
+        "32": 10,
+        "33": 10,
+        "34": 10,
+        "35": 10
+      }
     },
     {
       "n": "Battle Copter",
@@ -684,7 +723,7 @@
             "Damage per Hit",
             "Hitpoints",
             "Ability Level",
-            "Upgrade Cost",
+            "Upgrade Cost (Builder Elixir)",
             "Upgrade Time",
             "Builder Hall Level Required"
           ],
@@ -915,7 +954,7 @@
           ]
         },
         {
-          "heading": "Charge Level 1",
+          "heading": "Charge Level 1 / Charge Level 1",
           "columns": [
             "Damage Type"
           ],
@@ -926,7 +965,7 @@
           ]
         },
         {
-          "heading": "Charge Level 1",
+          "heading": "Charge Level 1 / Charge Level 1",
           "columns": [
             "Ability Level",
             "Damage",
@@ -961,7 +1000,7 @@
           ]
         },
         {
-          "heading": "Charge Level 2",
+          "heading": "Charge Level 2 / Charge Level 2",
           "columns": [
             "Damage Type"
           ],
@@ -972,7 +1011,7 @@
           ]
         },
         {
-          "heading": "Charge Level 2",
+          "heading": "Charge Level 2 / Charge Level 2",
           "columns": [
             "Ability Level",
             "Damage",
@@ -1007,7 +1046,7 @@
           ]
         },
         {
-          "heading": "Charge Level 3",
+          "heading": "Charge Level 3 / Charge Level 3",
           "columns": [
             "Damage Type"
           ],
@@ -1018,7 +1057,7 @@
           ]
         },
         {
-          "heading": "Charge Level 3",
+          "heading": "Charge Level 3 / Charge Level 3",
           "columns": [
             "Ability Level",
             "Damage",
@@ -1060,11 +1099,36 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 8,
+        "21": 8,
+        "22": 8,
+        "23": 8,
+        "24": 8,
+        "25": 8,
+        "26": 9,
+        "27": 9,
+        "28": 9,
+        "29": 9,
+        "30": 9,
+        "31": 10,
+        "32": 10,
+        "33": 10,
+        "34": 10,
+        "35": 10
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }

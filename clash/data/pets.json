@@ -42,7 +42,7 @@
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -192,8 +192,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 14,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 14,
+        "10": 14,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15
+      }
     },
     {
       "n": "Electro Owl",
@@ -235,7 +254,7 @@
             "Damage per Second (Primary Target)",
             "Damage per Hit (Primary Target)",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -385,8 +404,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 14,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 14,
+        "10": 14,
+        "11": 16,
+        "12": 16,
+        "13": 16,
+        "14": 16,
+        "15": 16
+      }
     },
     {
       "n": "Mighty Yak",
@@ -433,7 +471,7 @@
             "Damage per Hit",
             "Damage vs. Walls",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -598,8 +636,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 14,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 14,
+        "10": 14,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15
+      }
     },
     {
       "n": "Unicorn",
@@ -639,7 +696,7 @@
             "Healing per Second",
             "Healing per Pulse",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -789,8 +846,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 14,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 14,
+        "10": 14,
+        "11": 17,
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17
+      }
     },
     {
       "n": "Frosty",
@@ -834,7 +910,7 @@
             "Frostmites per Summon",
             "Maximum Frostmites Summoned",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -1014,8 +1090,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 17,
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17
+      }
     },
     {
       "n": "Diggy",
@@ -1056,7 +1151,7 @@
             "Damage per Hit",
             "Stun Duration",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -1221,8 +1316,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 18,
+        "12": 18,
+        "13": 18,
+        "14": 18,
+        "15": 18
+      }
     },
     {
       "n": "Poison Lizard",
@@ -1265,7 +1379,7 @@
             "Poison Speed Decrease",
             "Poison Attack Rate Decrease",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -1460,8 +1574,27 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 17,
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17
+      }
     },
     {
       "n": "Phoenix",
@@ -1502,7 +1635,7 @@
             "Damage per Hit",
             "Revive Duration",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -1617,8 +1750,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15
+      }
     },
     {
       "n": "Spirit Fox",
@@ -1627,7 +1774,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Preferred Target",
             "Targets",
@@ -1652,14 +1799,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "Invisibility Duration",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -1774,8 +1921,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 16,
+        "5": 16,
+        "6": 16,
+        "7": 16,
+        "8": 16,
+        "9": 16,
+        "10": 16
+      }
     },
     {
       "n": "Angry Jelly",
@@ -1784,7 +1945,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Preferred Target",
             "Targets",
@@ -1809,14 +1970,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "Brainwash Duration",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -1931,8 +2092,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 16,
+        "5": 16,
+        "6": 16,
+        "7": 16,
+        "8": 16,
+        "9": 16,
+        "10": 16
+      }
     },
     {
       "n": "Sneezy",
@@ -1941,7 +2116,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Preferred Target",
             "Targets",
@@ -1972,13 +2147,13 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -2087,8 +2262,22 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17,
+        "7": 17,
+        "8": 17,
+        "9": 17,
+        "10": 17
+      }
     },
     {
       "n": "Greedy Raven",
@@ -2097,7 +2286,7 @@
       "revision": null,
       "tables": [
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Preferred Target",
             "Targets",
@@ -2122,14 +2311,14 @@
           ]
         },
         {
-          "heading": "Statistics",
+          "heading": "Statistics [ ]",
           "columns": [
             "Level",
             "Damage per Second",
             "Damage per Hit",
             "DPS on Resource Buildings",
             "Hitpoints",
-            "Upgrade Cost",
+            "Upgrade Cost (Dark Elixir)",
             "Upgrade Time",
             "Pet House Level Required"
           ],
@@ -2248,11 +2437,25 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
+        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
+      ],
+      "hallByLevel": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 18,
+        "5": 18,
+        "6": 18,
+        "7": 18,
+        "8": 18,
+        "9": 18,
+        "10": 18
+      }
     }
   ],
   "unverified": [],
-  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
   "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
 }
