@@ -136,5 +136,10 @@ async function render() {
     unitView(cat, u);
   } catch (e) { app.innerHTML = `<p class="loading">Couldn't load data (${esc(e.message)}). Pull to refresh.</p>`; }
 }
+// Hammer Jam banner: clamp to 2 lines; chevron only when the text overflows.
+const hj = $("#hj"), hjt = $("#hjt"), hjc = $("#hjc");
+function checkHJ() { if (hj.classList.contains("open")) return; hjc.hidden = !(hjt.scrollHeight > hjt.clientHeight + 1); }
+hjc.onclick = () => { const o = hj.classList.toggle("open"); hjc.setAttribute("aria-expanded", o); hjc.setAttribute("aria-label", o ? "Collapse note" : "Show full note"); if (!o) checkHJ(); };
+window.addEventListener("resize", checkHJ); checkHJ();
 window.addEventListener("hashchange", render);
 render();

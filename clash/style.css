@@ -72,7 +72,11 @@ td.cost{color:var(--elix)}
 .tabs button.on{background:var(--acc);color:#fff}
 footer.src{color:var(--mut);font-size:12px;margin:26px 4px 10px;line-height:1.5}
 footer.src a{color:var(--acc2)}
-.hj{background:#3a2a0e;color:#ffd27a;font-size:12px;line-height:1.3;text-align:center;padding:5px 10px;border-bottom:1px solid #000}
 .tile.unit img{object-position:center 15%}
 .hero .av{object-fit:cover;object-position:center 15%}
 .props div span:only-child{color:var(--text);text-align:left;font-weight:400}
+.hj{display:flex;align-items:flex-start;justify-content:center;gap:6px;background:#3a2a0e;color:#ffd27a;font-size:12px;line-height:1.3;padding:5px 10px;border-bottom:1px solid #000}
+.hjt{text-align:center;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}
+.hj.open .hjt{display:block;-webkit-line-clamp:unset;overflow:visible}
+.hjc{flex:none;background:none;border:0;color:#ffd27a;font-size:14px;line-height:1;padding:0 2px;cursor:pointer;transition:transform .15s}
+.hj.open .hjc{transform:rotate(180deg)}
