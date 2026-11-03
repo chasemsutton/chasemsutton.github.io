@@ -1,0 +1,1209 @@
+{
+  "id": "espells",
+  "label": "Elixir Spells",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Lightning Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Avatar_Lightning_Spell.png/revision/latest?cb=20170525083418",
+      "source": "https://clashofclans.fandom.com/wiki/Lightning_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Damage Radius",
+            "Stun Time",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "2 tiles",
+              "0.1s",
+              "1",
+              "1"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "150",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "180",
+              "50,000",
+              "2h",
+              "1"
+            ],
+            [
+              "3",
+              "210",
+              "100,000",
+              "4h",
+              "2"
+            ],
+            [
+              "4",
+              "240",
+              "200,000",
+              "6h",
+              "3"
+            ],
+            [
+              "5",
+              "270",
+              "600,000",
+              "1d",
+              "6"
+            ],
+            [
+              "6",
+              "320",
+              "1,500,000",
+              "1d 12h",
+              "7"
+            ],
+            [
+              "7",
+              "400",
+              "2,500,000",
+              "3d",
+              "8"
+            ],
+            [
+              "8",
+              "480",
+              "4,200,000",
+              "3d 12h",
+              "9"
+            ],
+            [
+              "9",
+              "560",
+              "6,300,000",
+              "5d",
+              "10"
+            ],
+            [
+              "10",
+              "600",
+              "10,000,000",
+              "6d",
+              "13"
+            ],
+            [
+              "11",
+              "640",
+              "13,500,000",
+              "7d",
+              "14"
+            ],
+            [
+              "12",
+              "680",
+              "18,500,000",
+              "10d",
+              "15"
+            ],
+            [
+              "13",
+              "720",
+              "27,000,000",
+              "14d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Stun Duration",
+            "Housing Space",
+            "Required Spell Factory"
+          ],
+          "rows": [
+            [
+              "1.5 tiles",
+              "0.5 seconds",
+              "1",
+              "Lightning Spell Factory"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage"
+          ],
+          "rows": [
+            [
+              "1",
+              "275"
+            ],
+            [
+              "2",
+              "325"
+            ],
+            [
+              "3",
+              "375"
+            ],
+            [
+              "4",
+              "425"
+            ],
+            [
+              "5",
+              "475"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Lightning Spell.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Avatar_Lightning_Spell.png/revision/latest?cb=20170525083418"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Healing Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Healing_Spell.png/revision/latest?cb=20170525083417",
+      "source": "https://clashofclans.fandom.com/wiki/Healing_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Number of Pulses",
+            "Time Between Pulses",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "41",
+              "0.3s",
+              "2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Total Healing",
+            "Healing per Pulse",
+            "Total Healing on Heroes",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "615",
+              "15",
+              "338.25",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "820",
+              "20",
+              "451",
+              "75,000",
+              "3h",
+              "2"
+            ],
+            [
+              "3",
+              "1,025",
+              "25",
+              "563.75",
+              "150,000",
+              "6h",
+              "4"
+            ],
+            [
+              "4",
+              "1,230",
+              "30",
+              "676.5",
+              "300,000",
+              "12h",
+              "5"
+            ],
+            [
+              "5",
+              "1,435",
+              "35",
+              "789.25",
+              "900,000",
+              "1d",
+              "6"
+            ],
+            [
+              "6",
+              "1,640",
+              "40",
+              "902",
+              "1,800,000",
+              "1d 12h",
+              "7"
+            ],
+            [
+              "7",
+              "1,845",
+              "45",
+              "1,014.75",
+              "3,000,000",
+              "3d",
+              "8"
+            ],
+            [
+              "8",
+              "2,050",
+              "50",
+              "1,127.5",
+              "6,000,000",
+              "5d",
+              "11"
+            ],
+            [
+              "9",
+              "2,255",
+              "55",
+              "1,240.25",
+              "11,000,000",
+              "6d 12h",
+              "13"
+            ],
+            [
+              "10",
+              "2,460",
+              "60",
+              "1,353",
+              "14,000,000",
+              "7d",
+              "14"
+            ],
+            [
+              "11",
+              "2,747",
+              "67",
+              "1,510.85",
+              "19,000,000",
+              "10d 12h",
+              "15"
+            ],
+            [
+              "12",
+              "3,075",
+              "75",
+              "1,691.25",
+              "29,000,000",
+              "15d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Duration",
+            "Time Between Pulses",
+            "Housing Space",
+            "Required Spell Factory"
+          ],
+          "rows": [
+            [
+              "4.5 tiles",
+              "2 attacks",
+              "0.3s",
+              "3",
+              "Heal Spell Factory"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Healing per Second",
+            "Healing per Pulse"
+          ],
+          "rows": [
+            [
+              "1",
+              "80",
+              "24"
+            ],
+            [
+              "2",
+              "93",
+              "28"
+            ],
+            [
+              "3",
+              "106",
+              "32"
+            ],
+            [
+              "4",
+              "120",
+              "36"
+            ],
+            [
+              "5",
+              "133",
+              "40"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Healing Spell.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Healing_Spell.png/revision/latest?cb=20170525083417"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Rage Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Avatar_Rage_Spell.png/revision/latest?cb=20170525083419",
+      "source": "https://clashofclans.fandom.com/wiki/Rage_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Number of Pulses",
+            "Time Between Pulses",
+            "Boost Time",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "60",
+              "0.3s",
+              "1s",
+              "2",
+              "3"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage Increase",
+            "Speed Increase",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "130%",
+              "20",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "140%",
+              "22",
+              "400,000",
+              "6h",
+              "3"
+            ],
+            [
+              "3",
+              "150%",
+              "24",
+              "800,000",
+              "12h",
+              "4"
+            ],
+            [
+              "4",
+              "160%",
+              "26",
+              "1,000,000",
+              "1d",
+              "5"
+            ],
+            [
+              "5",
+              "170%",
+              "28",
+              "2,000,000",
+              "2d",
+              "6"
+            ],
+            [
+              "6",
+              "180%",
+              "30",
+              "5,000,000",
+              "4d",
+              "10"
+            ],
+            [
+              "7",
+              "190%",
+              "32",
+              "26,000,000",
+              "14d",
+              "16"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Duration",
+            "Housing Space",
+            "Required Spell Factory"
+          ],
+          "rows": [
+            [
+              "4.5 tiles",
+              "2 attacks",
+              "3",
+              "Rage Spell Factory"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage Increase",
+            "Speed Increase"
+          ],
+          "rows": [
+            [
+              "1",
+              "70%",
+              "10"
+            ],
+            [
+              "2",
+              "80%",
+              "12"
+            ],
+            [
+              "3",
+              "90%",
+              "14"
+            ],
+            [
+              "4",
+              "100%",
+              "16"
+            ],
+            [
+              "5",
+              "110%",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Rage Spell.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Avatar_Rage_Spell.png/revision/latest?cb=20170525083419"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Jump Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Avatar_Jump_Spell.png/revision/latest?cb=20170525083418",
+      "source": "https://clashofclans.fandom.com/wiki/Jump_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Boost Time",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "1s",
+              "2",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Spell Duration",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "20 seconds",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "40 seconds",
+              "1,000,000",
+              "1d",
+              "5"
+            ],
+            [
+              "3",
+              "60 seconds",
+              "2,000,000",
+              "2d",
+              "8"
+            ],
+            [
+              "4",
+              "80 seconds",
+              "5,000,000",
+              "4d",
+              "11"
+            ],
+            [
+              "5",
+              "100 seconds",
+              "8,000,000",
+              "5d",
+              "13"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Duration",
+            "Housing Space",
+            "Required Spell Factory"
+          ],
+          "rows": [
+            [
+              "2 attacks",
+              "1",
+              "Jump Spell Factory"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Spell Radius"
+          ],
+          "rows": [
+            [
+              "1",
+              "3.2 tiles"
+            ],
+            [
+              "2",
+              "3.4 tiles"
+            ],
+            [
+              "3",
+              "3.6 tiles"
+            ],
+            [
+              "4",
+              "3.8 tiles"
+            ],
+            [
+              "5",
+              "4 tiles"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Jump Spell.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Avatar_Jump_Spell.png/revision/latest?cb=20170525083418"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Freeze Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Avatar_Freeze_Spell.png/revision/latest?cb=20170525083416",
+      "source": "https://clashofclans.fandom.com/wiki/Freeze_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "1",
+              "4"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Freeze Time",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "2.5 seconds",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "3.0 seconds",
+              "1,200,000",
+              "1d",
+              "7"
+            ],
+            [
+              "3",
+              "3.5 seconds",
+              "1,700,000",
+              "1d 12h",
+              "8"
+            ],
+            [
+              "4",
+              "4.0 seconds",
+              "3,000,000",
+              "2d",
+              "8"
+            ],
+            [
+              "5",
+              "4.5 seconds",
+              "4,200,000",
+              "2d 12h",
+              "8"
+            ],
+            [
+              "6",
+              "5.0 seconds",
+              "6,000,000",
+              "3d 12h",
+              "9"
+            ],
+            [
+              "7",
+              "5.5 seconds",
+              "7,000,000",
+              "5d",
+              "10"
+            ],
+            [
+              "8",
+              "6.0 seconds",
+              "28,000,000",
+              "15d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Freeze Spell.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Avatar_Freeze_Spell.png/revision/latest?cb=20170525083416"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Clone Spell",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Clone_Spell.png/revision/latest?cb=20170525083415",
+      "source": "https://clashofclans.fandom.com/wiki/Clone_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Spell Duration",
+            "Cloned Lifespan",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "3.5 tiles",
+              "18s",
+              "30s",
+              "3",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Cloned Capacity",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "22",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "24",
+              "1,500,000",
+              "1d",
+              "8"
+            ],
+            [
+              "3",
+              "26",
+              "2,500,000",
+              "2d",
+              "8"
+            ],
+            [
+              "4",
+              "28",
+              "3,000,000",
+              "2d 6h",
+              "9"
+            ],
+            [
+              "5",
+              "30",
+              "4,000,000",
+              "2d 12h",
+              "9"
+            ],
+            [
+              "6",
+              "34",
+              "5,000,000",
+              "4d",
+              "11"
+            ],
+            [
+              "7",
+              "38",
+              "8,000,000",
+              "5d",
+              "12"
+            ],
+            [
+              "8",
+              "42",
+              "9,000,000",
+              "7d",
+              "13"
+            ],
+            [
+              "9",
+              "48",
+              "26,000,000",
+              "13d 12h",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Avatar Clone Spell.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Clone_Spell.png/revision/latest?cb=20170525083415"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Invisibility Spell",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Invisibility_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Effect Radius",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "4 tiles",
+              "1",
+              "6"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Duration",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "3.5s",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "3.75s",
+              "5,000,000",
+              "3d",
+              "9"
+            ],
+            [
+              "3",
+              "4s",
+              "6,000,000",
+              "4d",
+              "10"
+            ],
+            [
+              "4",
+              "4.25s",
+              "7,000,000",
+              "5d",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Recall Spell",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Recall_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Targets",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "Ground & Air",
+              "2",
+              "7"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Recalled Capacity",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "83",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "89",
+              "7,500,000",
+              "7d",
+              "11"
+            ],
+            [
+              "3",
+              "95",
+              "8,000,000",
+              "7d 12h",
+              "12"
+            ],
+            [
+              "4",
+              "101",
+              "9,000,000",
+              "8d",
+              "13"
+            ],
+            [
+              "5",
+              "107",
+              "13,000,000",
+              "9d",
+              "14"
+            ],
+            [
+              "6",
+              "113",
+              "19,000,000",
+              "11d",
+              "15"
+            ],
+            [
+              "7",
+              "120",
+              "29,000,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Revive Spell",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Revive_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Trigger Radius",
+            "Targets",
+            "Housing Space",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "8 tiles",
+              "Heroes (Single Target)",
+              "2",
+              "8"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hero Heal %",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60%",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "65%",
+              "18,000,000",
+              "7d",
+              "13"
+            ],
+            [
+              "3",
+              "70%",
+              "19,000,000",
+              "8d",
+              "14"
+            ],
+            [
+              "4",
+              "75%",
+              "20,000,000",
+              "11d 12h",
+              "15"
+            ],
+            [
+              "5",
+              "80%",
+              "29,500,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Totem Spell",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Totem_Spell",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Radius",
+            "Hitpoint Decay per Second",
+            "Housing Space",
+            "Targets",
+            "Spell Factory Level Required"
+          ],
+          "rows": [
+            [
+              "5 tiles",
+              "334",
+              "1",
+              "Ground & Air",
+              "9"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Totem Hitpoints",
+            "Research Cost",
+            "Research Time",
+            "Laboratory Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "10,000",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "11,000",
+              "21,000,000",
+              "12d",
+              "14"
+            ],
+            [
+              "3",
+              "12,000",
+              "22,000,000",
+              "14d",
+              "15"
+            ],
+            [
+              "4",
+              "13,000",
+              "23,000,000",
+              "16d",
+              "16"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}
