@@ -3,7 +3,8 @@
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--text);font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
-.bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:8px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;background:#1b1d22;border-bottom:1px solid #000;box-shadow:0 2px 8px #0008}
+.top{position:sticky;top:0;z-index:5}
+.bar{display:flex;align-items:center;gap:8px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;background:#1b1d22;border-bottom:1px solid #000;box-shadow:0 2px 8px #0008}
 .bar h1{flex:1;margin:0;text-align:center;font-size:22px;letter-spacing:.5px;text-transform:uppercase;color:var(--acc);font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .back,.gear{background:none;border:0;color:var(--acc);font-size:34px;line-height:1;width:44px;height:36px;padding:0;cursor:pointer}
 .gear{font-size:12px;font-weight:800;border:2px solid var(--acc);border-radius:10px;width:auto;padding:0 8px;height:30px}
@@ -71,3 +72,7 @@ td.cost{color:var(--elix)}
 .tabs button.on{background:var(--acc);color:#fff}
 footer.src{color:var(--mut);font-size:12px;margin:26px 4px 10px;line-height:1.5}
 footer.src a{color:var(--acc2)}
+.hj{background:#3a2a0e;color:#ffd27a;font-size:12px;line-height:1.3;text-align:center;padding:5px 10px;border-bottom:1px solid #000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile.unit img{object-position:center 15%}
+.hero .av{object-fit:cover;object-position:center 15%}
+.props div span:only-child{color:var(--text);text-align:left;font-weight:400}
