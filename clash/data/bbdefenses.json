@@ -1,0 +1,3843 @@
+{
+  "id": "bbdefenses",
+  "label": "Builder Defenses",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Cannon/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/a1/Cannon1.png/revision/latest?cb=20230521100552",
+      "source": "https://clashofclans.fandom.com/wiki/Cannon/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "70",
+              "56",
+              "500",
+              "10,000",
+              "1m",
+              "7",
+              "1"
+            ],
+            [
+              "2",
+              "77",
+              "62",
+              "575",
+              "20,000",
+              "5m",
+              "17",
+              "3"
+            ],
+            [
+              "3",
+              "85",
+              "68",
+              "660",
+              "50,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "4",
+              "93",
+              "74",
+              "760",
+              "200,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "102",
+              "82",
+              "875",
+              "600,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "112",
+              "90",
+              "1,050",
+              "1,000,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "123",
+              "98",
+              "1,250",
+              "1,800,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "136",
+              "109",
+              "1,450",
+              "2,500,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "150",
+              "120",
+              "1,650",
+              "3,300,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "165",
+              "132",
+              "1,850",
+              "4,500,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "8.5",
+              "0.8s",
+              "Single Target",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Cannon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a1/Cannon1.png/revision/latest?cb=20230521100552"
+        },
+        {
+          "file": "File:Cannon10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Cannon10B.png/revision/latest?cb=20230521100811"
+        },
+        {
+          "file": "File:Cannon1B Ruin.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Cannon1B_Ruin.png/revision/latest?cb=20250421162941"
+        },
+        {
+          "file": "File:Cannon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Cannon2.png/revision/latest?cb=20230521100606"
+        },
+        {
+          "file": "File:Cannon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Cannon3.png/revision/latest?cb=20230521100615"
+        },
+        {
+          "file": "File:Cannon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Cannon4.png/revision/latest?cb=20230521100624"
+        },
+        {
+          "file": "File:Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Cannon5.png/revision/latest?cb=20230521100633"
+        },
+        {
+          "file": "File:Cannon6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Cannon6.png/revision/latest?cb=20230521100644"
+        },
+        {
+          "file": "File:Cannon7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Cannon7B.png/revision/latest?cb=20230521100706"
+        },
+        {
+          "file": "File:Cannon8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Cannon8B.png/revision/latest?cb=20230521100727"
+        },
+        {
+          "file": "File:Cannon9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9b/Cannon9B.png/revision/latest?cb=20230521100746"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Double Cannon",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Double_Cannon1.png/revision/latest?cb=20171108155759",
+      "source": "https://clashofclans.fandom.com/wiki/Double_Cannon",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "91",
+              "50",
+              "600",
+              "20,000",
+              "10m",
+              "24",
+              "2"
+            ],
+            [
+              "2",
+              "101",
+              "55",
+              "690",
+              "50,000",
+              "1h",
+              "60",
+              "3"
+            ],
+            [
+              "3",
+              "112",
+              "61",
+              "800",
+              "80,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "4",
+              "123",
+              "67",
+              "910",
+              "300,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "5",
+              "136",
+              "74",
+              "1,050",
+              "900,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "148",
+              "81",
+              "1,250",
+              "1,400,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "163",
+              "89",
+              "1,450",
+              "2,200,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "180",
+              "98",
+              "1,700",
+              "3,200,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "198",
+              "108",
+              "1,950",
+              "4,200,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "220",
+              "120",
+              "2,200",
+              "5,200,000",
+              "10d",
+              "929",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Shots Per Burst",
+            "Damage Type",
+            "Targets"
+          ],
+          "rows": [
+            [
+              "7 tiles",
+              "0.1555s",
+              "1.333s",
+              "4 shots",
+              "Single Target",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Double Cannon1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Double_Cannon1.png/revision/latest?cb=20171108155759"
+        },
+        {
+          "file": "File:Double Cannon10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Double_Cannon10.png/revision/latest?cb=20230516071432"
+        },
+        {
+          "file": "File:Double Cannon2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/Double_Cannon2.png/revision/latest?cb=20171108155800"
+        },
+        {
+          "file": "File:Double Cannon3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Double_Cannon3.png/revision/latest?cb=20171108155801"
+        },
+        {
+          "file": "File:Double Cannon4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Double_Cannon4.png/revision/latest?cb=20171108155801"
+        },
+        {
+          "file": "File:Double Cannon5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/de/Double_Cannon5.png/revision/latest?cb=20171108155801"
+        },
+        {
+          "file": "File:Double Cannon6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Double_Cannon6.png/revision/latest?cb=20171108155802"
+        },
+        {
+          "file": "File:Double Cannon7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Double_Cannon7.png/revision/latest?cb=20171108155802"
+        },
+        {
+          "file": "File:Double Cannon8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Double_Cannon8.png/revision/latest?cb=20171108155802"
+        },
+        {
+          "file": "File:Double Cannon9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ee/Double_Cannon9.png/revision/latest?cb=20190616215121"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Archer Tower/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Archer_Tower10B.png/revision/latest?cb=20230516045047",
+      "source": "https://clashofclans.fandom.com/wiki/Archer_Tower/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "40",
+              "40",
+              "500",
+              "12,000",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "2",
+              "44",
+              "44",
+              "575",
+              "30,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "3",
+              "48",
+              "48",
+              "660",
+              "60,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "4",
+              "53",
+              "53",
+              "760",
+              "250,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "59",
+              "59",
+              "875",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "64",
+              "64",
+              "1,050",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "71",
+              "71",
+              "1,250",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "78",
+              "78",
+              "1,450",
+              "2,800,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "86",
+              "86",
+              "1,650",
+              "3,600,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "94",
+              "94",
+              "1,850",
+              "4,600,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "10",
+              "1s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "89",
+              "40?",
+              "500",
+              "12,000",
+              "5m",
+              "17",
+              "2"
+            ],
+            [
+              "2",
+              "98",
+              "44?",
+              "575",
+              "30,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "3",
+              "107",
+              "48?",
+              "660",
+              "60,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "4",
+              "118",
+              "53?",
+              "760",
+              "250,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "5",
+              "131",
+              "59?",
+              "875",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "142",
+              "64?",
+              "1,050",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "158",
+              "71?",
+              "1,250",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "173",
+              "78?",
+              "1,450",
+              "2,800,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "191",
+              "86?",
+              "1,650",
+              "3,600,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "209",
+              "94?",
+              "1,850",
+              "4,600,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7",
+              "0.45s?",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Archer Tower10B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Archer_Tower10B.png/revision/latest?cb=20230516045047"
+        },
+        {
+          "file": "File:Archer Tower10B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Archer_Tower10B_Ground.png/revision/latest?cb=20230516045046"
+        },
+        {
+          "file": "File:Archer Tower1B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Archer_Tower1B.png/revision/latest?cb=20171108194356"
+        },
+        {
+          "file": "File:Archer Tower1B Broken.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Archer_Tower1B_Broken.png/revision/latest?cb=20171108200157"
+        },
+        {
+          "file": "File:Archer Tower1B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Archer_Tower1B_Ground.png/revision/latest?cb=20171108200153"
+        },
+        {
+          "file": "File:Archer Tower2B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Archer_Tower2B.png/revision/latest?cb=20171108194356"
+        },
+        {
+          "file": "File:Archer Tower2B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Archer_Tower2B_Ground.png/revision/latest?cb=20171108200154"
+        },
+        {
+          "file": "File:Archer Tower3B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Archer_Tower3B.png/revision/latest?cb=20171108194357"
+        },
+        {
+          "file": "File:Archer Tower3B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Archer_Tower3B_Ground.png/revision/latest?cb=20171108200155"
+        },
+        {
+          "file": "File:Archer Tower4B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Archer_Tower4B.png/revision/latest?cb=20171108194357"
+        },
+        {
+          "file": "File:Archer Tower4B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Archer_Tower4B_Ground.png/revision/latest?cb=20171108200155"
+        },
+        {
+          "file": "File:Archer Tower5B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Archer_Tower5B.png/revision/latest?cb=20171108194357"
+        },
+        {
+          "file": "File:Archer Tower5B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Archer_Tower5B_Ground.png/revision/latest?cb=20171108200155"
+        },
+        {
+          "file": "File:Archer Tower6B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Archer_Tower6B.png/revision/latest?cb=20171108194358"
+        },
+        {
+          "file": "File:Archer Tower6B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Archer_Tower6B_Ground.png/revision/latest?cb=20171108200156"
+        },
+        {
+          "file": "File:Archer Tower7B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Archer_Tower7B.png/revision/latest?cb=20171108194358"
+        },
+        {
+          "file": "File:Archer Tower7B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Archer_Tower7B_Ground.png/revision/latest?cb=20171108200156"
+        },
+        {
+          "file": "File:Archer Tower8B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Archer_Tower8B.png/revision/latest?cb=20171108194359"
+        },
+        {
+          "file": "File:Archer Tower8B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Archer_Tower8B_Ground.png/revision/latest?cb=20171108200157"
+        },
+        {
+          "file": "File:Archer Tower9B.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0c/Archer_Tower9B.png/revision/latest?cb=20190616220059"
+        },
+        {
+          "file": "File:Archer Tower9B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Archer_Tower9B_Ground.png/revision/latest?cb=20190616220058"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Hidden Tesla/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest?cb=20180606190107",
+      "source": "https://clashofclans.fandom.com/wiki/Hidden_Tesla/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "60",
+              "36",
+              "300",
+              "50,000",
+              "30m",
+              "42",
+              "3"
+            ],
+            [
+              "2",
+              "66",
+              "40",
+              "350",
+              "100,000",
+              "3h",
+              "103",
+              "3"
+            ],
+            [
+              "3",
+              "73",
+              "44",
+              "400",
+              "150,000",
+              "5h",
+              "134",
+              "3"
+            ],
+            [
+              "4",
+              "80",
+              "48",
+              "460",
+              "280,000",
+              "10h",
+              "189",
+              "4"
+            ],
+            [
+              "5",
+              "88",
+              "53",
+              "550",
+              "700,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "96",
+              "58",
+              "650",
+              "1,300,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "106",
+              "64",
+              "750",
+              "2,100,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "116",
+              "70",
+              "850",
+              "3,100,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "128",
+              "77",
+              "1,000",
+              "4,100,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "141",
+              "85",
+              "1,150",
+              "5,100,000",
+              "10d",
+              "929",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Trigger Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7",
+              "6",
+              "0.6s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hidden Tesla1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest?cb=20180606190107"
+        },
+        {
+          "file": "File:Hidden Tesla10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest?cb=20180604161808"
+        },
+        {
+          "file": "File:Hidden Tesla2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest?cb=20180606190121"
+        },
+        {
+          "file": "File:Hidden Tesla3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest?cb=20180606190137"
+        },
+        {
+          "file": "File:Hidden Tesla4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest?cb=20180606190150"
+        },
+        {
+          "file": "File:Hidden Tesla5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest?cb=20180606190204"
+        },
+        {
+          "file": "File:Hidden Tesla6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest?cb=20180606190216"
+        },
+        {
+          "file": "File:Hidden Tesla7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest?cb=20180606190230"
+        },
+        {
+          "file": "File:Hidden Tesla8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest?cb=20180606190243"
+        },
+        {
+          "file": "File:Hidden Tesla9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest?cb=20180606190256"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Firecrackers",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Firecrackers1.png/revision/latest?cb=20230516073633",
+      "source": "https://clashofclans.fandom.com/wiki/Firecrackers",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "59",
+              "19",
+              "400",
+              "40,000",
+              "15m",
+              "30",
+              "3"
+            ],
+            [
+              "2",
+              "65",
+              "21",
+              "460",
+              "80,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "3",
+              "71",
+              "23",
+              "530",
+              "120,000",
+              "4h",
+              "120",
+              "3"
+            ],
+            [
+              "4",
+              "78",
+              "25",
+              "610",
+              "300,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "5",
+              "84",
+              "27",
+              "700",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "6",
+              "93",
+              "30",
+              "850",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "7",
+              "103",
+              "33",
+              "1,000",
+              "2,000,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "8",
+              "112",
+              "36",
+              "1,150",
+              "3,000,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "9",
+              "125",
+              "40",
+              "1,300",
+              "4,000,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "10",
+              "137",
+              "44",
+              "1,500",
+              "5,000,000",
+              "9d",
+              "881",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "9 tiles",
+              "3 shots every 0.8 seconds",
+              "Single Target",
+              "Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Firecrackers1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b7/Firecrackers1.png/revision/latest?cb=20230516073633"
+        },
+        {
+          "file": "File:Firecrackers10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Firecrackers10.png/revision/latest?cb=20230516073609"
+        },
+        {
+          "file": "File:Firecrackers2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/40/Firecrackers2.png/revision/latest?cb=20230516073642"
+        },
+        {
+          "file": "File:Firecrackers3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c3/Firecrackers3.png/revision/latest?cb=20230516073647"
+        },
+        {
+          "file": "File:Firecrackers4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Firecrackers4.png/revision/latest?cb=20230516073652"
+        },
+        {
+          "file": "File:Firecrackers5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Firecrackers5.png/revision/latest?cb=20230516073659"
+        },
+        {
+          "file": "File:Firecrackers6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Firecrackers6.png/revision/latest?cb=20230516073704"
+        },
+        {
+          "file": "File:Firecrackers7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Firecrackers7.png/revision/latest?cb=20230516073710"
+        },
+        {
+          "file": "File:Firecrackers8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Firecrackers8.png/revision/latest?cb=20230516073718"
+        },
+        {
+          "file": "File:Firecrackers9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Firecrackers9.png/revision/latest?cb=20230516073723"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Crusher",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Crusher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "125",
+              "438",
+              "1,000",
+              "120,000",
+              "2h",
+              "84",
+              "3"
+            ],
+            [
+              "2",
+              "138",
+              "483",
+              "1,100",
+              "180,000",
+              "5h",
+              "134",
+              "3"
+            ],
+            [
+              "3",
+              "152",
+              "532",
+              "1,250",
+              "220,000",
+              "12h",
+              "207",
+              "3"
+            ],
+            [
+              "4",
+              "167",
+              "585",
+              "1,400",
+              "350,000",
+              "1d",
+              "293",
+              "4"
+            ],
+            [
+              "5",
+              "184",
+              "644",
+              "1,600",
+              "1,200,000",
+              "2d",
+              "415",
+              "5"
+            ],
+            [
+              "6",
+              "202",
+              "707",
+              "1,850",
+              "1,500,000",
+              "4d",
+              "581",
+              "6"
+            ],
+            [
+              "7",
+              "222",
+              "777",
+              "2,100",
+              "2,400,000",
+              "6d",
+              "720",
+              "7"
+            ],
+            [
+              "8",
+              "244",
+              "854",
+              "2,350",
+              "3,400,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "9",
+              "269",
+              "942",
+              "2,600",
+              "4,400,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "296",
+              "1,036",
+              "2,900",
+              "5,400,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "2.3 tiles",
+              "3.5s",
+              "Area Splash - 2.8 tiles*",
+              "Ground"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Capital Hall Level Required",
+            "District Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "150",
+              "525",
+              "2,300",
+              "4,000",
+              "4",
+              "1"
+            ],
+            [
+              "2",
+              "175",
+              "612.5",
+              "2,550",
+              "8,000",
+              "5",
+              "2"
+            ],
+            [
+              "3",
+              "200",
+              "700",
+              "2,700",
+              "16,000",
+              "6",
+              "3"
+            ],
+            [
+              "4",
+              "225",
+              "787.5",
+              "2,950",
+              "27,000",
+              "8",
+              "4"
+            ],
+            [
+              "5",
+              "250",
+              "875",
+              "3,200",
+              "45,000",
+              "10",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "1.7",
+              "3.5s",
+              "Area Splash",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Guard Post",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Guard_Post1.png/revision/latest?cb=20171109182016",
+      "source": "https://clashofclans.fandom.com/wiki/Guard_Post",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Troop Level",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "2",
+              "300",
+              "200,000",
+              "4h",
+              "120",
+              "4"
+            ],
+            [
+              "2",
+              "4",
+              "350",
+              "240,000",
+              "8h",
+              "169",
+              "4"
+            ],
+            [
+              "3",
+              "6",
+              "400",
+              "280,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "4",
+              "8",
+              "460",
+              "320,000",
+              "1d",
+              "293",
+              "4"
+            ],
+            [
+              "5",
+              "10",
+              "550",
+              "1,000,000",
+              "2d",
+              "415",
+              "5"
+            ],
+            [
+              "6",
+              "12",
+              "650",
+              "1,400,000",
+              "4d",
+              "587",
+              "6"
+            ],
+            [
+              "7",
+              "14",
+              "750",
+              "2,300,000",
+              "6d",
+              "720",
+              "7"
+            ],
+            [
+              "8",
+              "16",
+              "850",
+              "3,200,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "9",
+              "18",
+              "1,000",
+              "4,100,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "20",
+              "1,150",
+              "5,100,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Guard Post1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/63/Guard_Post1.png/revision/latest?cb=20171109182016"
+        },
+        {
+          "file": "File:Guard Post10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Guard_Post10.png/revision/latest?cb=20230517041059"
+        },
+        {
+          "file": "File:Guard Post2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Guard_Post2.png/revision/latest?cb=20171109182017"
+        },
+        {
+          "file": "File:Guard Post3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cd/Guard_Post3.png/revision/latest?cb=20171109182017"
+        },
+        {
+          "file": "File:Guard Post4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c5/Guard_Post4.png/revision/latest?cb=20171109182017"
+        },
+        {
+          "file": "File:Guard Post5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Guard_Post5.png/revision/latest?cb=20171109182018"
+        },
+        {
+          "file": "File:Guard Post6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/Guard_Post6.png/revision/latest?cb=20171109182018"
+        },
+        {
+          "file": "File:Guard Post7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Guard_Post7.png/revision/latest?cb=20171109182018"
+        },
+        {
+          "file": "File:Guard Post8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/35/Guard_Post8.png/revision/latest?cb=20171109182019"
+        },
+        {
+          "file": "File:Guard Post9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Guard_Post9.png/revision/latest?cb=20190616222444"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Air Bombs",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Air_Bombs",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Common Statistics",
+          "columns": [
+            "Range",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "11 tiles",
+              "Area Splash - 1.5 tiles",
+              "Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 1: Hitpoints",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "600",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "1,000",
+              "40,000",
+              "8h",
+              "169"
+            ],
+            [
+              "3",
+              "1,500",
+              "50,000",
+              "10h",
+              "189"
+            ],
+            [
+              "4",
+              "2,000",
+              "60,000",
+              "11h",
+              "198"
+            ],
+            [
+              "5",
+              "2,600",
+              "70,000",
+              "13h",
+              "216"
+            ],
+            [
+              "6",
+              "3,200",
+              "80,000",
+              "15h",
+              "232"
+            ],
+            [
+              "7",
+              "3,800",
+              "90,000",
+              "1d 3h",
+              "311"
+            ],
+            [
+              "8",
+              "4,400",
+              "100,000",
+              "2d 6h",
+              "440"
+            ],
+            [
+              "9",
+              "5,200",
+              "110,000",
+              "4d 12h",
+              "623"
+            ],
+            [
+              "10",
+              "6,000",
+              "120,000",
+              "9d",
+              "881"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 2: Damage",
+          "columns": [
+            "Level",
+            "Damage per Hit",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "590",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "620",
+              "3,000,000",
+              "4h",
+              "120"
+            ],
+            [
+              "3",
+              "650",
+              "4,000,000",
+              "6h",
+              "146"
+            ],
+            [
+              "4",
+              "680",
+              "5,000,000",
+              "8h",
+              "169"
+            ],
+            [
+              "5",
+              "710",
+              "6,000,000",
+              "10h",
+              "189"
+            ],
+            [
+              "6",
+              "740",
+              "7,000,000",
+              "12h",
+              "207"
+            ],
+            [
+              "7",
+              "775",
+              "8,000,000",
+              "1d",
+              "293"
+            ],
+            [
+              "8",
+              "820",
+              "9,000,000",
+              "2d",
+              "415"
+            ],
+            [
+              "9",
+              "880",
+              "10,000,000",
+              "4d",
+              "587"
+            ],
+            [
+              "10",
+              "950",
+              "11,000,000",
+              "8d",
+              "831"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 3: Attack Cooldown",
+          "columns": [
+            "Level",
+            "Attack Cooldown",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "3.4s",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "3.2s",
+              "3,500,000",
+              "6h",
+              "146"
+            ],
+            [
+              "3",
+              "3s",
+              "4,500,000",
+              "8h",
+              "169"
+            ],
+            [
+              "4",
+              "2.8s",
+              "5,500,000",
+              "10h",
+              "189"
+            ],
+            [
+              "5",
+              "2.6s",
+              "6,500,000",
+              "12h",
+              "207"
+            ],
+            [
+              "6",
+              "2.4s",
+              "7,500,000",
+              "14h",
+              "224"
+            ],
+            [
+              "7",
+              "2.2s",
+              "8,500,000",
+              "1d 2h",
+              "305"
+            ],
+            [
+              "8",
+              "2s",
+              "10,000,000",
+              "2d 4h",
+              "432"
+            ],
+            [
+              "9",
+              "1.8s",
+              "11,500,000",
+              "4d 6h",
+              "605"
+            ],
+            [
+              "10",
+              "1.6s",
+              "13,000,000",
+              "8d 12h",
+              "856"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "90",
+              "270",
+              "1,000",
+              "300,000",
+              "6h",
+              "146",
+              "4"
+            ],
+            [
+              "2",
+              "99",
+              "297",
+              "1,100",
+              "320,000",
+              "12h",
+              "207",
+              "4"
+            ],
+            [
+              "3",
+              "109",
+              "327",
+              "1,250",
+              "340,000",
+              "1d",
+              "293",
+              "4"
+            ],
+            [
+              "4",
+              "119",
+              "357",
+              "1,400",
+              "360,000",
+              "2d",
+              "415",
+              "4"
+            ],
+            [
+              "5",
+              "131",
+              "393",
+              "1,600",
+              "1,200,000",
+              "3d",
+              "509",
+              "5"
+            ],
+            [
+              "6",
+              "145",
+              "435",
+              "1,850",
+              "1,500,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "7",
+              "159",
+              "477",
+              "2,100",
+              "2,400,000",
+              "7d",
+              "777",
+              "7"
+            ],
+            [
+              "8",
+              "175",
+              "525",
+              "2,350",
+              "3,400,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "9",
+              "193",
+              "579",
+              "2,600",
+              "4,400,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "212",
+              "636",
+              "2,900",
+              "5,400,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7.5",
+              "3 seconds",
+              "Area Splash - 1.5 tiles",
+              "Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Capital Hall Level Required",
+            "District Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "225",
+              "675",
+              "2,300",
+              "6,000",
+              "3",
+              "1"
+            ],
+            [
+              "2",
+              "250",
+              "750",
+              "2,550",
+              "12,000",
+              "4",
+              "2"
+            ],
+            [
+              "3",
+              "275",
+              "825",
+              "2,700",
+              "24,000",
+              "6",
+              "3"
+            ],
+            [
+              "4",
+              "300",
+              "900",
+              "2,950",
+              "39,000",
+              "8",
+              "4"
+            ],
+            [
+              "5",
+              "325",
+              "975",
+              "3,200",
+              "65,000",
+              "10",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "8.5",
+              "3s",
+              "Area Splash",
+              "Air"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Multi Mortar",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Multi_Mortar",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Burst Fire (Shots)",
+            "Damage per Hit",
+            "Time Between Bursts",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "22",
+              "3",
+              "45",
+              "6s",
+              "500",
+              "600,000",
+              "8h",
+              "169",
+              "5"
+            ],
+            [
+              "2",
+              "27",
+              "4",
+              "45",
+              "5.5s",
+              "575",
+              "700,000",
+              "12h",
+              "207",
+              "5"
+            ],
+            [
+              "3",
+              "30",
+              "4",
+              "50",
+              "5.5s",
+              "660",
+              "800,000",
+              "1d",
+              "293",
+              "5"
+            ],
+            [
+              "4",
+              "33",
+              "4",
+              "55",
+              "5.5s",
+              "760",
+              "1,000,000",
+              "2d",
+              "415",
+              "5"
+            ],
+            [
+              "5",
+              "36",
+              "4",
+              "60",
+              "5.5s",
+              "875",
+              "1,200,000",
+              "3d",
+              "509",
+              "5"
+            ],
+            [
+              "6",
+              "40",
+              "4",
+              "66",
+              "5.5s",
+              "1,050",
+              "1,600,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "7",
+              "44",
+              "4",
+              "73",
+              "5.5s",
+              "1,250",
+              "2,500,000",
+              "7d",
+              "777",
+              "7"
+            ],
+            [
+              "8",
+              "49",
+              "4",
+              "80",
+              "5.5s",
+              "1,450",
+              "3,500,000",
+              "9d",
+              "881",
+              "8"
+            ],
+            [
+              "9",
+              "53",
+              "4",
+              "88",
+              "5.5s",
+              "1,650",
+              "4,500,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "62",
+              "5",
+              "88",
+              "5s",
+              "1,850",
+              "5,500,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "4-11",
+              "0.5s",
+              "Splash - 3 tiles",
+              "Ground"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Capital Hall Level Required",
+            "District Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "49",
+              "80",
+              "1,700",
+              "5,000",
+              "2",
+              "1"
+            ],
+            [
+              "2",
+              "55",
+              "90",
+              "1,900",
+              "10,000",
+              "3",
+              "2"
+            ],
+            [
+              "3",
+              "61",
+              "100",
+              "2,100",
+              "20,000",
+              "5",
+              "3"
+            ],
+            [
+              "4",
+              "67",
+              "110",
+              "2,300",
+              "33,000",
+              "7",
+              "4"
+            ],
+            [
+              "5",
+              "73",
+              "120",
+              "2,500",
+              "55,000",
+              "9",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Burst Fire (Shots)",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "3-10",
+              "4",
+              "0.5s",
+              "5s",
+              "Splash - ? tiles",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "O.T.T.O's Outpost",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/O.T.T.O%27s_Outpost-4.png/revision/latest?cb=20240614191212",
+      "source": "https://clashofclans.fandom.com/wiki/O.T.T.O's_Outpost",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Spawned Zappies",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "650",
+              "2",
+              "N/A",
+              "N/A",
+              "N/A",
+              "6"
+            ],
+            [
+              "2",
+              "800",
+              "2",
+              "1,000,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "3",
+              "975",
+              "2",
+              "1,250,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "4",
+              "1,150",
+              "3",
+              "1,500,000",
+              "3d",
+              "509",
+              "6"
+            ],
+            [
+              "5",
+              "1,350",
+              "3",
+              "1,750,000",
+              "4d",
+              "587",
+              "6"
+            ],
+            [
+              "6",
+              "1,600",
+              "3",
+              "2,000,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "7",
+              "1,850",
+              "4",
+              "3,000,000",
+              "7d",
+              "777",
+              "7"
+            ],
+            [
+              "8",
+              "2,150",
+              "4",
+              "4,000,000",
+              "9d",
+              "881",
+              "8"
+            ],
+            [
+              "9",
+              "2,450",
+              "4",
+              "5,000,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "10",
+              "2,750",
+              "5",
+              "6,000,000",
+              "11d",
+              "974",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:O.T.T.O's Outpost-4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/O.T.T.O%27s_Outpost-4.png/revision/latest?cb=20240614191212"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost-5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/O.T.T.O%27s_Outpost-5.png/revision/latest?cb=20240614191312"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/O.T.T.O%27s_Outpost1.png/revision/latest?cb=20230516082344"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/O.T.T.O%27s_Outpost10.png/revision/latest?cb=20230516082352"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O%27s_Outpost2.png/revision/latest?cb=20230516082345"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/O.T.T.O%27s_Outpost3.png/revision/latest?cb=20230516082346"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/O.T.T.O%27s_Outpost4.png/revision/latest?cb=20230516082347"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/O.T.T.O%27s_Outpost5.png/revision/latest?cb=20230516082348"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/O.T.T.O%27s_Outpost6.png/revision/latest?cb=20230607054238"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/O.T.T.O%27s_Outpost7.png/revision/latest?cb=20230607054249"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/20/O.T.T.O%27s_Outpost8.png/revision/latest?cb=20230516082350"
+        },
+        {
+          "file": "File:O.T.T.O's Outpost9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/O.T.T.O%27s_Outpost9.png/revision/latest?cb=20230516082351"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Roaster",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Roaster",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Common Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Bewtween Bursts",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "10 tiles",
+              "0.25?s*",
+              "1.5s",
+              "Area Splash - 1.5 tiles",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 1: Hitpoints",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "960",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "1,500",
+              "3,500,000",
+              "6h",
+              "146"
+            ],
+            [
+              "3",
+              "2,000",
+              "4,500,000",
+              "8h",
+              "169"
+            ],
+            [
+              "4",
+              "2,500",
+              "5,500,000",
+              "10h",
+              "189"
+            ],
+            [
+              "5",
+              "3,000",
+              "6,500,000",
+              "12h",
+              "207"
+            ],
+            [
+              "6",
+              "3,500",
+              "7,500,000",
+              "14h",
+              "224"
+            ],
+            [
+              "7",
+              "4,000",
+              "8,500,000",
+              "1d 2h",
+              "305"
+            ],
+            [
+              "8",
+              "4,500",
+              "10,000,000",
+              "2d 4h",
+              "432"
+            ],
+            [
+              "9",
+              "5,200",
+              "11,500,000",
+              "4d 6h",
+              "605"
+            ],
+            [
+              "10",
+              "6,000",
+              "13,000,000",
+              "8d 12h",
+              "856"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 2: Damage",
+          "columns": [
+            "Level",
+            "Damage per Hit",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "85",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "90",
+              "4,000,000",
+              "8h",
+              "169"
+            ],
+            [
+              "3",
+              "95",
+              "5,000,000",
+              "10h",
+              "189"
+            ],
+            [
+              "4",
+              "100",
+              "6,000,000",
+              "11h",
+              "198"
+            ],
+            [
+              "5",
+              "105",
+              "7,500,000",
+              "13h",
+              "216"
+            ],
+            [
+              "6",
+              "110",
+              "9,000,000",
+              "15h",
+              "232"
+            ],
+            [
+              "7",
+              "115",
+              "10,500,000",
+              "1d 3h",
+              "311"
+            ],
+            [
+              "8",
+              "120",
+              "12,000,000",
+              "2d 6h",
+              "440"
+            ],
+            [
+              "9",
+              "125",
+              "13,500,000",
+              "4d 12h",
+              "623"
+            ],
+            [
+              "10",
+              "135",
+              "15,000,000",
+              "9d",
+              "881"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 3: Burst Fire",
+          "columns": [
+            "Level",
+            "Burst Count",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "8",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "9",
+              "30,000",
+              "4h",
+              "120"
+            ],
+            [
+              "3",
+              "10",
+              "40,000",
+              "6h",
+              "146"
+            ],
+            [
+              "4",
+              "11",
+              "50,000",
+              "8h",
+              "169"
+            ],
+            [
+              "5",
+              "12",
+              "60,000",
+              "10h",
+              "189"
+            ],
+            [
+              "6",
+              "13",
+              "70,000",
+              "12h",
+              "207"
+            ],
+            [
+              "7",
+              "14",
+              "80,000",
+              "1d",
+              "293"
+            ],
+            [
+              "8",
+              "15",
+              "90,000",
+              "2d",
+              "415"
+            ],
+            [
+              "9",
+              "16",
+              "100,000",
+              "4d",
+              "587"
+            ],
+            [
+              "10",
+              "17",
+              "110,000",
+              "8d",
+              "831"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "59",
+              "15",
+              "800",
+              "1,000,000",
+              "1d",
+              "293",
+              "6"
+            ],
+            [
+              "2",
+              "67",
+              "17",
+              "950",
+              "1,200,000",
+              "2d",
+              "415",
+              "6"
+            ],
+            [
+              "3",
+              "75",
+              "19",
+              "1,100",
+              "1,400,000",
+              "3d",
+              "509",
+              "6"
+            ],
+            [
+              "4",
+              "83",
+              "21",
+              "1,300",
+              "1,500,000",
+              "4d",
+              "587",
+              "6"
+            ],
+            [
+              "5",
+              "91",
+              "23",
+              "1,500",
+              "1,600,000",
+              "5d",
+              "657",
+              "6"
+            ],
+            [
+              "6",
+              "99",
+              "25",
+              "1,700",
+              "1,700,000",
+              "6d",
+              "720",
+              "6"
+            ],
+            [
+              "7",
+              "107",
+              "27",
+              "1,900",
+              "2,600,000",
+              "8d",
+              "831",
+              "7"
+            ],
+            [
+              "8",
+              "119",
+              "30",
+              "2,100",
+              "3,600,000",
+              "10d",
+              "929",
+              "8"
+            ],
+            [
+              "9",
+              "131",
+              "33",
+              "2,350",
+              "4,600,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "143",
+              "36",
+              "2,600",
+              "5,600,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Shots Per Burst",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7 tiles",
+              "0.125?s",
+              "0.05?s",
+              "15",
+              "Area Splash - 1.2 tiles",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Giant Cannon",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Giant_Cannon",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "41",
+              "205",
+              "700",
+              "2,000,000",
+              "1d",
+              "293",
+              "7"
+            ],
+            [
+              "2",
+              "45",
+              "225",
+              "800",
+              "2,100,000",
+              "2d",
+              "415",
+              "7"
+            ],
+            [
+              "3",
+              "49",
+              "245",
+              "950",
+              "2,200,000",
+              "3d",
+              "509",
+              "7"
+            ],
+            [
+              "4",
+              "54",
+              "270",
+              "1,100",
+              "2,300,000",
+              "4d",
+              "587",
+              "7"
+            ],
+            [
+              "5",
+              "60",
+              "300",
+              "1,300",
+              "2,400,000",
+              "5d",
+              "657",
+              "7"
+            ],
+            [
+              "6",
+              "66",
+              "330",
+              "1,500",
+              "2,500,000",
+              "6d",
+              "720",
+              "7"
+            ],
+            [
+              "7",
+              "72",
+              "360",
+              "1,700",
+              "2,700,000",
+              "8d",
+              "831",
+              "7"
+            ],
+            [
+              "8",
+              "79",
+              "395",
+              "1,900",
+              "3,800,000",
+              "10d",
+              "929",
+              "8"
+            ],
+            [
+              "9",
+              "87",
+              "435",
+              "2,150",
+              "4,700,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "96",
+              "480",
+              "2,400",
+              "5,700,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted",
+            "Favorite Target"
+          ],
+          "rows": [
+            [
+              "9.5",
+              "5 seconds",
+              "Area Splash",
+              "Ground",
+              "Any"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Capital Hall Level Required",
+            "District Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "80",
+              "400",
+              "3,700",
+              "10,000",
+              "5",
+              "1"
+            ],
+            [
+              "2",
+              "90",
+              "450",
+              "3,900",
+              "20,000",
+              "6",
+              "2"
+            ],
+            [
+              "3",
+              "100",
+              "500",
+              "4,100",
+              "40,000",
+              "7",
+              "3"
+            ],
+            [
+              "4",
+              "110",
+              "550",
+              "4,300",
+              "63,000",
+              "8",
+              "4"
+            ],
+            [
+              "5",
+              "120",
+              "600",
+              "4,500",
+              "105,000",
+              "10",
+              "5"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "10",
+              "5s",
+              "Area Splash",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "Mega Tesla",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla1.png/revision/latest?cb=20170527182000",
+      "source": "https://clashofclans.fandom.com/wiki/Mega_Tesla",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "95",
+              "380",
+              "700",
+              "3,000,000",
+              "2d",
+              "415",
+              "8"
+            ],
+            [
+              "2",
+              "104",
+              "416",
+              "800",
+              "3,100,000",
+              "3d",
+              "509",
+              "8"
+            ],
+            [
+              "3",
+              "115",
+              "460",
+              "950",
+              "3,200,000",
+              "4d",
+              "587",
+              "8"
+            ],
+            [
+              "4",
+              "126",
+              "504",
+              "1,100",
+              "3,300,000",
+              "5d",
+              "657",
+              "8"
+            ],
+            [
+              "5",
+              "139",
+              "556",
+              "1,300",
+              "3,400,000",
+              "6d",
+              "720",
+              "8"
+            ],
+            [
+              "6",
+              "153",
+              "612",
+              "1,500",
+              "3,600,000",
+              "7d",
+              "777",
+              "8"
+            ],
+            [
+              "7",
+              "168",
+              "672",
+              "1,700",
+              "3,800,000",
+              "8d",
+              "831",
+              "8"
+            ],
+            [
+              "8",
+              "185",
+              "740",
+              "1,900",
+              "4,000,000",
+              "10d",
+              "929",
+              "8"
+            ],
+            [
+              "9",
+              "204",
+              "816",
+              "2,150",
+              "4,800,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "224",
+              "896",
+              "2,400",
+              "5,800,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Number of Targets",
+            "Chain Damage Decay",
+            "Chain Distance",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7.5 tiles",
+              "4s",
+              "Chain Lightning",
+              "2",
+              "-40%",
+              "3 tiles",
+              "Ground & Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mega Tesla1.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla1.png/revision/latest?cb=20170527182000"
+        },
+        {
+          "file": "File:Mega Tesla10.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Mega_Tesla10.png/revision/latest?cb=20230517050242"
+        },
+        {
+          "file": "File:Mega Tesla2.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Mega_Tesla2.png/revision/latest?cb=20180929013650"
+        },
+        {
+          "file": "File:Mega Tesla3.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla3.png/revision/latest?cb=20170527182001"
+        },
+        {
+          "file": "File:Mega Tesla4.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Tesla4.png/revision/latest?cb=20170527182001"
+        },
+        {
+          "file": "File:Mega Tesla5.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Mega_Tesla5.png/revision/latest?cb=20180929013702"
+        },
+        {
+          "file": "File:Mega Tesla6.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Mega_Tesla6.png/revision/latest?cb=20170527182002"
+        },
+        {
+          "file": "File:Mega Tesla7.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Mega_Tesla7.png/revision/latest?cb=20180929013713"
+        },
+        {
+          "file": "File:Mega Tesla8.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Mega_Tesla8.png/revision/latest?cb=20180929013724"
+        },
+        {
+          "file": "File:Mega Tesla9.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Mega_Tesla9.png/revision/latest?cb=20190616234612"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    },
+    {
+      "n": "Lava Launcher",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Lava_Launcher",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Common Statistics",
+          "columns": [
+            "Minimum Range",
+            "Attack Speed",
+            "Lava Lifetime",
+            "Burn Damage Tick Rate",
+            "Lava Radius",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "6 tiles",
+              "7s",
+              "20s",
+              "0.4s",
+              "2.5 tiles",
+              "Area Splash - 3 tiles",
+              "Ground"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 1: Hitpoints",
+          "columns": [
+            "Level",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "450",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "800",
+              "3,000,000",
+              "4h",
+              "120"
+            ],
+            [
+              "3",
+              "1,200",
+              "4,000,000",
+              "6h",
+              "146"
+            ],
+            [
+              "4",
+              "1,600",
+              "5,000,000",
+              "8h",
+              "169"
+            ],
+            [
+              "5",
+              "2,100",
+              "6,000,000",
+              "10h",
+              "189"
+            ],
+            [
+              "6",
+              "2,600",
+              "7,000,000",
+              "12h",
+              "207"
+            ],
+            [
+              "7",
+              "3,100",
+              "8,000,000",
+              "1d",
+              "293"
+            ],
+            [
+              "8",
+              "3,600",
+              "9,000,000",
+              "2d",
+              "415"
+            ],
+            [
+              "9",
+              "4,200",
+              "10,000,000",
+              "4d",
+              "587"
+            ],
+            [
+              "10",
+              "4,900",
+              "11,000,000",
+              "8d",
+              "831"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 2: Damage",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Total Burn Damage",
+            "Burn Damage per Tick",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "72",
+              "504",
+              "1,050",
+              "21",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "75",
+              "525",
+              "1,100",
+              "22",
+              "35,000",
+              "6h",
+              "146"
+            ],
+            [
+              "3",
+              "80",
+              "560",
+              "1,150",
+              "23",
+              "45,000",
+              "8h",
+              "169"
+            ],
+            [
+              "4",
+              "85",
+              "595",
+              "1,200",
+              "24",
+              "55,000",
+              "10h",
+              "189"
+            ],
+            [
+              "5",
+              "90",
+              "630",
+              "1,250",
+              "25",
+              "65,000",
+              "12h",
+              "207"
+            ],
+            [
+              "6",
+              "95",
+              "665",
+              "1,300",
+              "26",
+              "75,000",
+              "14h",
+              "224"
+            ],
+            [
+              "7",
+              "100",
+              "700",
+              "1,350",
+              "27",
+              "85,000",
+              "1d 2h",
+              "305"
+            ],
+            [
+              "8",
+              "105",
+              "735",
+              "1,450",
+              "29",
+              "95,000",
+              "2d 4h",
+              "432"
+            ],
+            [
+              "9",
+              "110",
+              "770",
+              "1,500",
+              "30",
+              "105,000",
+              "4d 6h",
+              "605"
+            ],
+            [
+              "10",
+              "115",
+              "805",
+              "1,600",
+              "32",
+              "115,000",
+              "8d 12h",
+              "856"
+            ]
+          ]
+        },
+        {
+          "heading": "Module 3: Range",
+          "columns": [
+            "Level",
+            "Maximum Range",
+            "Cost",
+            "Build Time",
+            "Experience Gained"
+          ],
+          "rows": [
+            [
+              "1",
+              "11",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "2",
+              "11.5",
+              "4,000,000",
+              "8h",
+              "169"
+            ],
+            [
+              "3",
+              "12",
+              "5,000,000",
+              "10h",
+              "189"
+            ],
+            [
+              "4",
+              "12.5",
+              "6,000,000",
+              "11h",
+              "198"
+            ],
+            [
+              "5",
+              "13",
+              "7,500,000",
+              "13h",
+              "216"
+            ],
+            [
+              "6",
+              "13.5",
+              "9,000,000",
+              "15h",
+              "232"
+            ],
+            [
+              "7",
+              "14",
+              "10,500,000",
+              "1d 3h",
+              "311"
+            ],
+            [
+              "8",
+              "14.5",
+              "12,000,000",
+              "2d 6h",
+              "440"
+            ],
+            [
+              "9",
+              "15",
+              "13,500,000",
+              "4d 12h",
+              "623"
+            ],
+            [
+              "10",
+              "16",
+              "15,000,000",
+              "9d",
+              "881"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Burn Damage per Second",
+            "Total Burn Damage",
+            "Burn Damage per Tick",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "7.1",
+              "50",
+              "15",
+              "300",
+              "6",
+              "500",
+              "3,000,000",
+              "2d",
+              "415",
+              "9"
+            ],
+            [
+              "2",
+              "7.8",
+              "55",
+              "17.5",
+              "350",
+              "7",
+              "575",
+              "3,100,000",
+              "3d",
+              "509",
+              "9"
+            ],
+            [
+              "3",
+              "8.7",
+              "61",
+              "20",
+              "400",
+              "8",
+              "660",
+              "3,200,000",
+              "4d",
+              "587",
+              "9"
+            ],
+            [
+              "4",
+              "9.5",
+              "67",
+              "22.5",
+              "450",
+              "9",
+              "760",
+              "3,400,000",
+              "5d",
+              "657",
+              "9"
+            ],
+            [
+              "5",
+              "10.4",
+              "73",
+              "25",
+              "500",
+              "10",
+              "875",
+              "3,700,000",
+              "6d",
+              "720",
+              "9"
+            ],
+            [
+              "6",
+              "11.5",
+              "81",
+              "27.5",
+              "550",
+              "11",
+              "1,050",
+              "4,000,000",
+              "7d",
+              "777",
+              "9"
+            ],
+            [
+              "7",
+              "12.7",
+              "89",
+              "30",
+              "600",
+              "12",
+              "1,250",
+              "4,300,000",
+              "8d",
+              "831",
+              "9"
+            ],
+            [
+              "8",
+              "13.8",
+              "97",
+              "32.5",
+              "650",
+              "13",
+              "1,450",
+              "4,600,000",
+              "10d",
+              "929",
+              "9"
+            ],
+            [
+              "9",
+              "15.2",
+              "107",
+              "35",
+              "700",
+              "14",
+              "1,650",
+              "4,900,000",
+              "11d",
+              "974",
+              "9"
+            ],
+            [
+              "10",
+              "16.8",
+              "118",
+              "37.5",
+              "750",
+              "15",
+              "1,850",
+              "5,900,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Lava Lifetime",
+            "Burn Damage Tick Rate",
+            "Lava Radius",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "6-13 tiles",
+              "7s",
+              "20s",
+              "0.4s",
+              "2.5 tiles",
+              "Splash - 3 tiles",
+              "Ground"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    },
+    {
+      "n": "X-Bow/Builder Base",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/X-Bow1B_Air.png/revision/latest?cb=20230516212125",
+      "source": "https://clashofclans.fandom.com/wiki/X-Bow/Builder_Base",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Builder Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "80",
+              "15.36",
+              "1,700",
+              "4,400,000",
+              "7d",
+              "777",
+              "10"
+            ],
+            [
+              "2",
+              "88",
+              "16.9",
+              "1,900",
+              "4,800,000",
+              "8d",
+              "831",
+              "10"
+            ],
+            [
+              "3",
+              "96",
+              "18.43",
+              "2,100",
+              "5,200,000",
+              "10d",
+              "929",
+              "10"
+            ],
+            [
+              "4",
+              "106",
+              "20.35",
+              "2,350",
+              "5,600,000",
+              "11d",
+              "974",
+              "10"
+            ],
+            [
+              "5",
+              "116",
+              "22.27",
+              "2,600",
+              "6,000,000",
+              "12d",
+              "1,018",
+              "10"
+            ]
+          ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "12",
+              "0.192s",
+              "Single Target",
+              "Ground Air"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "File:X-Bow1B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/X-Bow1B_Air.png/revision/latest?cb=20230516212125"
+        },
+        {
+          "file": "File:X-Bow1B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/X-Bow1B_Ground.png/revision/latest?cb=20230516212126"
+        },
+        {
+          "file": "File:X-Bow2B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/X-Bow2B_Air.png/revision/latest?cb=20230516212126"
+        },
+        {
+          "file": "File:X-Bow2B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/X-Bow2B_Ground.png/revision/latest?cb=20230516212127"
+        },
+        {
+          "file": "File:X-Bow3B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/01/X-Bow3B_Air.png/revision/latest?cb=20230516212128"
+        },
+        {
+          "file": "File:X-Bow3B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/X-Bow3B_Ground.png/revision/latest?cb=20230516212129"
+        },
+        {
+          "file": "File:X-Bow4B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/X-Bow4B_Air.png/revision/latest?cb=20230516212130"
+        },
+        {
+          "file": "File:X-Bow4B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/X-Bow4B_Ground.png/revision/latest?cb=20230516212131"
+        },
+        {
+          "file": "File:X-Bow5B Air.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/X-Bow5B_Air.png/revision/latest?cb=20230516212132"
+        },
+        {
+          "file": "File:X-Bow5B Ground.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/X-Bow5B_Ground.png/revision/latest?cb=20230516212133"
+        }
+      ],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
+      ]
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}
