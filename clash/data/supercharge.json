@@ -1,0 +1,978 @@
+{
+  "id": "supercharge",
+  "label": "Supercharges",
+  "format": "wiki-review-v1",
+  "updated": "2026-11-03",
+  "units": [
+    {
+      "n": "Supercharge",
+      "av": "",
+      "source": "https://clashofclans.fandom.com/wiki/Supercharge",
+      "revision": null,
+      "tables": [
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "75",
+              "375",
+              "2,550",
+              "9,000,000",
+              "4d",
+              "509",
+              "18"
+            ],
+            [
+              "2",
+              "75",
+              "375",
+              "2,625",
+              "7,000,000",
+              "6d",
+              "720",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "91",
+              "153.08",
+              "2,550",
+              "9,000,000",
+              "4d",
+              "509",
+              "17"
+            ],
+            [
+              "2",
+              "91",
+              "153.08",
+              "2,625",
+              "7,000,000",
+              "6d",
+              "720",
+              "17"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "720",
+              "720",
+              "2,000",
+              "2,500,000",
+              "1d 12h",
+              "360",
+              "18"
+            ],
+            [
+              "2",
+              "740",
+              "740",
+              "2,000",
+              "1,250,000",
+              "1d 17h",
+              "384",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "195",
+              "117",
+              "1,750",
+              "4,750,000",
+              "1d 19h",
+              "393",
+              "18"
+            ],
+            [
+              "2",
+              "195",
+              "117",
+              "1,800",
+              "3,250,000",
+              "2d 14h",
+              "472",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "127",
+              "139.7",
+              "3,050",
+              "6,000,000",
+              "2d 12h",
+              "464",
+              "18"
+            ],
+            [
+              "2",
+              "127",
+              "139.7",
+              "3,150",
+              "3,000,000",
+              "4d",
+              "587",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "255",
+              "32.64",
+              "5,000",
+              "5,500,000",
+              "2d 5h",
+              "436",
+              "18"
+            ],
+            [
+              "2",
+              "255",
+              "32.64",
+              "5,100",
+              "3,500,000",
+              "3d",
+              "509",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge",
+            "Damage per Second",
+            "Damage per Second",
+            "Damage per Second",
+            "Damage per Hit",
+            "Damage per Hit",
+            "Damage per Hit",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "Charge",
+              "Initial",
+              "After 1.5s",
+              "After 5.25s",
+              "Initial",
+              "After 1.5s",
+              "After 5.25s",
+              "Hitpoints",
+              "Cost",
+              "Build Time",
+              "Experience Gained",
+              "Town Hall Level Required"
+            ],
+            [
+              "1",
+              "165",
+              "350",
+              "3,500",
+              "21.12",
+              "44.8",
+              "448",
+              "5,100",
+              "13,000,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "165",
+              "350",
+              "3,500",
+              "21.12",
+              "44.8",
+              "448",
+              "5,300",
+              "8,500,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second per Target",
+            "Damage per Hit",
+            "Number of Targets",
+            "HP",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "165",
+              "21.12",
+              "6",
+              "5,100",
+              "13,000,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "165",
+              "21.12",
+              "6",
+              "5,300",
+              "8,500,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge",
+            "Damage per Second",
+            "Damage per Shot*",
+            "Splash Damage**",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "193",
+              "450-617.6",
+              "160-450",
+              "5,800",
+              "14,500,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "193",
+              "450-617.6",
+              "160-450",
+              "5,950",
+              "9,500,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot",
+            "Repair per Second",
+            "Repair per Hit",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "187",
+              "74.8",
+              "95",
+              "71.25",
+              "2,100",
+              "4,000,000",
+              "1d 14h",
+              "369",
+              "18"
+            ],
+            [
+              "2",
+              "187",
+              "74.8",
+              "95",
+              "71.25",
+              "2,150",
+              "3,250,000",
+              "2d 10h",
+              "456",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "7",
+              "0.4s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Level",
+            "Base Damage per Second",
+            "Base Damage per Shot",
+            "Bonus Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "235",
+              "352.5",
+              "15%",
+              "5,959",
+              "220,000",
+              "5d",
+              "657",
+              "18"
+            ],
+            [
+              "2",
+              "235",
+              "352.5",
+              "15%",
+              "6,161",
+              "200,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second per Archer",
+            "Damage per Shot",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "126",
+              "76",
+              "5,500",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "126",
+              "76",
+              "5,600",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Shot (Primary Target)",
+            "Secondary Chain Damage",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "420",
+              "336",
+              "235.2",
+              "6,100",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "420",
+              "336",
+              "235.2",
+              "6,250",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Level",
+            "Damage per Second",
+            "Damage per Hit",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "400",
+              "400",
+              "4,350",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "400",
+              "400",
+              "4,500",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "12",
+              "1s",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Level",
+            "Damage per Second*",
+            "Damage per Hit**",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "720",
+              "172.8",
+              "4,350",
+              "4,750,000",
+              "2d 10h",
+              "456",
+              "18"
+            ],
+            [
+              "2",
+              "720",
+              "172.8",
+              "4,500",
+              "4,000,000",
+              "2d 19h",
+              "491",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Range",
+            "Attack Speed",
+            "Time Between Bursts",
+            "Shots Per Burst",
+            "Damage Type",
+            "Unit Type Targeted"
+          ],
+          "rows": [
+            [
+              "8",
+              "0.192s",
+              "0.383s",
+              "4 shots",
+              "Single Target",
+              "Ground & Air"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second*",
+            "Damage per Hit**",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "473",
+              "53.08",
+              "5,300",
+              "14,000,000",
+              "6d 12h",
+              "749",
+              "18"
+            ],
+            [
+              "2",
+              "473",
+              "53.08",
+              "5,550",
+              "12,000,000",
+              "7d 12h",
+              "804",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge",
+            "Damage per Second",
+            "Damage per Shot",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "425",
+              "510",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "425",
+              "510",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge",
+            "Maximum Damage per Second",
+            "Damage per Shot (Primary)",
+            "Damage per Shot (Secondary)",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "433",
+              "260",
+              "156",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "433",
+              "260",
+              "156",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge",
+            "Maximum Damage per Second",
+            "Damage per Shot (Primary)",
+            "Damage per Shot (Secondary)",
+            "Damage per Shot (Tertiary)",
+            "Hitpoints",
+            "Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "742",
+              "260",
+              "156",
+              "93.6",
+              "6,200",
+              "220,000",
+              "7d",
+              "777",
+              "18"
+            ],
+            [
+              "2",
+              "742",
+              "260",
+              "156",
+              "93.6",
+              "6,300",
+              "200,000",
+              "8d",
+              "831",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Defensive Buildings",
+          "columns": [
+            "Charge Level",
+            "Damage per Second",
+            "Damage per Hit (Primary)",
+            "Damage per Hit (Secondary)",
+            "Hitpoints",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "327",
+              "425.1",
+              "170.04",
+              "6,300",
+              "12,000,000",
+              "6d",
+              "720",
+              "18"
+            ],
+            [
+              "2",
+              "327",
+              "425.1",
+              "170.04",
+              "6,450",
+              "14,000,000",
+              "7d",
+              "777",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Resource Buildings",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "436,500",
+              "7,857/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "9h 30m",
+              "184",
+              "50d 21h 49m 6s",
+              "18"
+            ],
+            [
+              "2",
+              "453,000",
+              "8,154/hr",
+              "1,400",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "14h 30m",
+              "228",
+              "79d 8h 43m 39s",
+              "18"
+            ],
+            [
+              "3",
+              "453,000",
+              "8,154/hr",
+              "1,450",
+              "11",
+              "2d 7h 33m 20s",
+              "250,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        },
+        {
+          "heading": "Resource Buildings",
+          "columns": [
+            "Charge Level",
+            "Capacity",
+            "Production Rate",
+            "Hitpoints",
+            "Boost Cost",
+            "Time to Fill",
+            "Build Cost",
+            "Build Time",
+            "Experience Gained",
+            "Catch-Up Point*",
+            "Town Hall Level Required"
+          ],
+          "rows": [
+            [
+              "1",
+              "4,807",
+              "209/hr",
+              "1,600",
+              "55",
+              "23h",
+              "750,000",
+              "14h 30m",
+              "228",
+              "66d 16h",
+              "18"
+            ],
+            [
+              "2",
+              "5,014",
+              "218/hr",
+              "1,600",
+              "55",
+              "23h",
+              "750,000",
+              "19h",
+              "261",
+              "92d 21h 20m",
+              "18"
+            ],
+            [
+              "3",
+              "5,014",
+              "218/hr",
+              "1,650",
+              "55",
+              "23h",
+              "500,000",
+              "1d",
+              "293",
+              "N/A",
+              "18"
+            ]
+          ]
+        }
+      ],
+      "images": [],
+      "unverified": [
+        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.",
+        "No image passed the no-referrer HTTP 200 check."
+      ]
+    }
+  ],
+  "unverified": [],
+  "note": "Hidden source-table draft. Normal wiki values; no discounts applied. Hall caps and calculated totals are pending review.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+}
