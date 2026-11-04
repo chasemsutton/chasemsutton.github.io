@@ -53,7 +53,7 @@ h3.sec{margin:18px 0 8px;text-align:center;font-size:20px;text-transform:upperca
 table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}
 th,td{padding:9px 8px;text-align:center;border-bottom:1px solid var(--line)}
 th{position:sticky;top:0;background:var(--panel2);color:var(--mut);font-weight:700;white-space:normal;line-height:1.25;vertical-align:middle}
-.column-label{display:block;min-width:2.5rem;max-width:7rem;margin:auto;overflow-wrap:anywhere}
+.column-label{display:block;min-width:min-content;max-width:7rem;margin:auto;overflow-wrap:normal;word-break:normal;hyphens:none}
 .resource-heading{white-space:nowrap}
 .resource-icon{display:inline-block;width:22px;height:24px;object-fit:contain;vertical-align:middle}
 .cost-kind{display:block;margin-top:2px;font-size:10px}

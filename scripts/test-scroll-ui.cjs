@@ -56,6 +56,19 @@ const root = path.resolve(__dirname, '..', 'clash');
     return Math.abs(f.querySelectorAll('th')[2].getBoundingClientRect().left-w.querySelectorAll('th')[2].getBoundingClientRect().left)<2;
    });
    assert(aligned,'Header columns aligned after horizontal swipe');
+   await page.evaluate(()=>location.hash='#/c/equip/Barbarian%20Puppet');
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Barbarian Puppet');
+   const brokenWords = await page.locator('#app .column-label').evaluateAll(labels=>labels.flatMap(label=> {
+    const text=label.firstChild;
+    if(!text || text.nodeType!==Node.TEXT_NODE)return [];
+    return [...text.textContent.matchAll(/[^\s/]+/g)].filter(match=> {
+     const range=document.createRange();
+     range.setStart(text,match.index);range.setEnd(text,match.index+match[0].length);
+     return range.getClientRects().length>1;
+    }).map(match=>match[0]);
+   }));
+   assert.deepEqual(brokenWords,[],'Header words must not split across lines');
+
    await page.evaluate(()=> {
     document.querySelector('#app').insertAdjacentHTML('beforeend','<div style="height:1000px"></div>');
     window.scrollTo(0,document.body.scrollHeight);
