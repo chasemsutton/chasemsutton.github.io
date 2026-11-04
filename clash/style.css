@@ -54,6 +54,10 @@ table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}
 th,td{padding:9px 8px;text-align:center;border-bottom:1px solid var(--line)}
 th{position:sticky;top:0;background:var(--panel2);color:var(--mut);font-weight:700}
 th:first-child,td:first-child{position:sticky;left:0;background:inherit}
+thead th:first-child{background:var(--panel2);z-index:2}
+.floating-table-header{position:fixed;z-index:4;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;background:var(--panel2);box-shadow:0 2px 4px #0008}
+.floating-table-header::-webkit-scrollbar{display:none}
+.floating-table-header table{table-layout:fixed}
 tbody tr{background:var(--panel)}
 tbody tr.sel{background:#4a2a1c}
 tbody tr.over td{color:#777}

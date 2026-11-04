@@ -1,0 +1,62 @@
+const { chromium } = require('playwright');
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const root = path.resolve(__dirname, '..', 'clash');
+(async () => {
+ const browser = await chromium.launch({channel:'msedge',headless:true});
+ try {
+  for(const width of [320,390,760]) {
+   const page = await browser.newPage({viewport:{width,height:800}});
+   await page.route('**/*', route => {
+    const url = new URL(route.request().url());
+    if(url.hostname !== 'clash.test') return route.abort();
+    const file = path.join(root, decodeURIComponent(url.pathname).replace(/^\//,'') || 'index.html');
+    const contentType = file.endsWith('.js') ? 'application/javascript; charset=utf-8' : file.endsWith('.css') ? 'text/css; charset=utf-8' : file.endsWith('.json') ? 'application/json; charset=utf-8' : 'text/html; charset=utf-8';
+    return route.fulfill({body:fs.readFileSync(file),contentType});
+   });
+   await page.goto('https://clash.test/?preview=all#/c/heroes/Barbarian%20King');
+   await page.locator('.tblwrap').waitFor();
+   assert(!(await page.locator('body').innerText()).match(/[\u00c2\u00c3]|\u00e2\u20ac/),'Garbled text');
+   assert((await page.locator('.lvnum small').innerText()).includes(' · '),'Correct middle dot');
+   await page.evaluate(()=>window.scrollTo(0,document.querySelector('.tblwrap').getBoundingClientRect().top+window.scrollY+300));
+   await page.locator('.floating-table-header').waitFor({state:'visible'});
+   await page.locator('#settingsBtn').click();
+   await page.waitForFunction(()=> {
+    const panel=document.querySelector('#settings').getBoundingClientRect();
+    return panel.height>0 && panel.top>=0 && panel.bottom<innerHeight;
+   });
+   assert.equal(await page.locator('#settingsBtn').getAttribute('aria-expanded'),'true');
+   await page.waitForFunction(()=>Math.abs(document.querySelector('.floating-table-header').getBoundingClientRect().top-document.querySelector('.top').getBoundingClientRect().bottom)<2);
+   await page.locator('#settingsBtn').click();
+   await page.waitForFunction(()=>document.querySelector('#settings').hidden);
+   await page.locator('#thSel').evaluate(el=>{el.value='18';el.dispatchEvent(new Event('change'));});
+   await page.locator('tbody tr').last().waitFor();
+   await page.evaluate(()=>location.hash='#/c/equip/Giant%20Gauntlet');
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Giant Gauntlet');
+   await page.evaluate(()=>{
+    const w=[...document.querySelectorAll('.tblwrap')].find(w=>w.querySelector('thead th').textContent==='Level');
+    window.scrollTo(0,w.getBoundingClientRect().top+window.scrollY+250);w.scrollLeft=220;
+   });
+   await page.waitForFunction(()=>{
+    const w=[...document.querySelectorAll('.tblwrap')].find(w=>w.querySelector('thead th').textContent==='Level');
+    const f=document.querySelector('.floating-table-header');return !f.hidden && Math.abs(f.scrollLeft-w.scrollLeft)<1;
+   });
+   const aligned=await page.evaluate(()=>{
+    const w=[...document.querySelectorAll('.tblwrap')].find(w=>w.querySelector('thead th').textContent==='Level');
+    const f=document.querySelector('.floating-table-header');
+    return Math.abs(f.querySelectorAll('th')[2].getBoundingClientRect().left-w.querySelectorAll('th')[2].getBoundingClientRect().left)<2;
+   });
+   assert(aligned,'Header columns aligned after horizontal swipe');
+   await page.evaluate(()=> {
+    document.querySelector('#app').insertAdjacentHTML('beforeend','<div style="height:1000px"></div>');
+    window.scrollTo(0,document.body.scrollHeight);
+   });
+   await page.waitForFunction(()=>document.querySelector('.floating-table-header').hidden);
+   await page.evaluate(()=>window.scrollTo(0,0));
+   await page.waitForFunction(()=>document.querySelector('.floating-table-header').hidden);
+   await page.close();
+  }
+  console.log('UTF-8 text, scrolled TH dropdown, sticky headers, horizontal alignment and table-end cleanup passed at 320/390/760px.');
+ } finally {await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});
