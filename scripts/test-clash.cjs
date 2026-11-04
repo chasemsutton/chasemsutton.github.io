@@ -267,9 +267,8 @@ function context(search, savedTH = null) {
  const gallery=vm.runInContext('galleryEntries(testUnit)',ctx);
  assert.equal(gallery[0].label,'Level 1');assert.equal(gallery[20].label,'Level 21');
  assert.equal(vm.runInContext(`galleryEntries({n:'Test',av:'icon',images:[{file:'File:Test_info.png',url:'icon'},{file:'File:Test Effect.png',url:'effect'}],tables:[]})[0].label`,ctx),'Icon');
- const candidates=vm.runInContext(`imageSources('https://static.wikia.nocookie.net/clashofclans/images/a/ab/Test.png/revision/latest?cb=123','lv')`,ctx);
- assert(candidates.includes('/150?cb=123 1x')&&candidates.includes('/450?cb=123 3x'));
- assert.equal(vm.runInContext(`imageSources('/local.png','lv')`,ctx),'');
+ const originalImage=vm.runInContext(`img('https://static.wikia.nocookie.net/clashofclans/images/a/ab/Test.png/revision/latest?cb=123','Test','lv')`,ctx);
+ assert(!originalImage.includes('srcset')&&!originalImage.includes('scale-to-width-down'),'Use original image URLs without derived CDN requests');
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

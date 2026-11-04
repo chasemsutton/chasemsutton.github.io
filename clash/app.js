@@ -48,20 +48,7 @@ function levelPill(level, fullMax, fallback) {
   const full = level > 0 && level === fullMax;
   return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="Level ' + level + ', maximum level in game"' : ''}>${level ? "Lv " + level : esc(fallback)}</span>`;
 }
-function imageSources(src, cls) {
-  if (!/^https:\/\/static\.wikia\.nocookie\.net\/clashofclans\/images\/.+\.(?:png|jpe?g|webp)\/revision\/latest(?:[/?]|$)/i.test(src)) return "";
-  const width = cls === "resource-icon" ? 22 : cls === "av" ? 96 : cls === "lv" ? 150 : 180;
-  return [1, 2, 3, 4].map((density) => `${src.replace(/\/revision\/latest(?:\/[^?]*)?/, "/revision/latest/scale-to-width-down/" + width * density)} ${density}x`).join(", ");
-}
-const img = (src, alt, cls = "") => {
-  const sources = imageSources(src, cls);
-  return `<img class="${cls}" src="${esc(src)}"${sources ? ` srcset="${esc(sources)}"` : ""} alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" decoding="async" referrerpolicy="no-referrer">`;
-};
-// Keep the source image available if a CDN thumbnail cannot be delivered.
-window.addEventListener("error", (event) => {
-  const target = event.target;
-  if (target?.tagName === "IMG" && target.hasAttribute("srcset")) target.removeAttribute("srcset");
-}, true);
+const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
 // Keep source labels in tooltips/accessibility text; only compact their presentation.
 const RESOURCE_ICONS = {
   "Gold": "1/10/Gold.png/revision/latest?cb=20180110234054",

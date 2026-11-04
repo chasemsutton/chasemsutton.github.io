@@ -85,7 +85,7 @@ const root=path.resolve(__dirname,'..','clash');
    assert.equal(captions.length,21);assert.equal(captions[0],'Level 1');assert.equal(captions[20],'Level 21');
    assert(captions.every(text=>/^Level \d+$/.test(text)));
    await page.locator('.imgs-list img').first().scrollIntoViewIfNeeded();
-   await page.waitForFunction(()=>{const i=document.querySelector('.imgs-list img');return i.complete&&i.naturalWidth>0&&i.currentSrc.includes('/scale-to-width-down/');});
+   await page.waitForFunction(()=>{const i=document.querySelector('.imgs-list img');return i.complete&&i.naturalWidth>0&&i.currentSrc===i.src&&!i.hasAttribute('srcset');});
    await page.unrouteAll({behavior:"ignoreErrors"});
    await page.close();
   }

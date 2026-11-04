@@ -12,7 +12,6 @@ const delayed=hog.images.find(i=>i.file==='File:Hog Rider14.png').url;
     const url=new URL(route.request().url());
     if(url.hostname==='static.wikia.nocookie.net') {
      if(url.pathname.split('/revision/')[0]===new URL(delayed).pathname.split('/revision/')[0])await gate;
-     if(url.pathname.includes('FallbackTest.png') && url.pathname.includes('/scale-to-width-down/'))return route.fulfill({status:404,body:''});
      return route.fulfill({contentType:'image/svg+xml',headers:{'cache-control':'no-store'},body:'<svg xmlns="http://www.w3.org/2000/svg" width="90" height="200"><rect width="90" height="200" fill="#aaa"/></svg>'});
     }
     if(url.hostname!=='clash.test')return route.abort();
@@ -46,8 +45,6 @@ const delayed=hog.images.find(i=>i.file==='File:Hog Rider14.png').url;
     await page.locator('#lvDown').click();
     assert.equal(await page.locator('.hero .imgs img').count(),1);
    }
-   await page.evaluate(()=>document.querySelector('#app').insertAdjacentHTML('beforeend',img('https://static.wikia.nocookie.net/clashofclans/images/a/ab/FallbackTest.png/revision/latest','CDN fallback','lv')));
-   await page.waitForFunction(()=>{const image=document.querySelector('img[alt="CDN fallback"]');return image.complete&&image.naturalWidth>0&&!image.hasAttribute('srcset');});
    await page.close();
   }
   console.log('Delayed image loading causes no avatar shift; heroes and defenses use one centered image at phone/desktop widths.');
