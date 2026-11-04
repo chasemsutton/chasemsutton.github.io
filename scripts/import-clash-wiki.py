@@ -1,4 +1,4 @@
-﻿"""Refresh hidden review datasets from Fandom's live MediaWiki API.
+"""Refresh hidden review datasets from Fandom's live MediaWiki API.
 Raw wikitext is fetched alongside expanded tables; no game-data dumps are used.
 """
 import concurrent.futures, hashlib, json, pathlib, re, subprocess, tempfile, time
@@ -111,7 +111,7 @@ def unit(page):
                 url=v['imageinfo'][0]['url']
                 status=subprocess.run(['curl.exe','-s','-L','-o','NUL','-w','%{http_code}',url],capture_output=True,text=True).stdout
                 if status=='200': images.append({'file':v['title'],'url':url})
-    avatar=next((x['url'] for x in images if 'Avatar_' in x['file']), images[0]['url'] if images else '')
+    avatar=next((x['url'] for x in images if re.match(r'File:Avatar[ _]', x['file'])), images[0]['url'] if images else '')
     gaps=[]
     if not tables: gaps.append('No structured statistics tables extracted; requires manual source review.')
     gaps.append('Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.')

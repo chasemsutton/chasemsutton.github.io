@@ -1,6 +1,6 @@
 # Hidden category review status
 
-Elixir Troops, Heroes, and Hero Equipment are live. The remaining categories are hidden source-table drafts.
+Elixir Troops, Dark Troops, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
 
 The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=all` enables all drafts.
 
@@ -34,6 +34,8 @@ Known limitations: hall mappings are only used where the required building progr
 | Builder Buildings | [?preview=bbbuildings](https://chasemsutton.github.io/clash/?preview=bbbuildings) | 16 | 10 |
 
 ## Dark Troops
+
+Published on the home screen at Chase's request. The remaining verification notes below are retained.
 
 - Minion: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Hog Rider: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
@@ -120,6 +122,8 @@ One unresolved source conflict: Stun Blaster level 6 lists **940 Shiny Ore**, wh
 Run `python scripts/verify-equipment.py` after generic import/refinement to reproduce the equipment checks. This does not unlock the home tile.
 
 ## Pets
+
+Published on the home screen at Chase's request. The remaining verification notes below are retained.
 
 - L.A.S.S.I: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Electro Owl: Calculated upgrade totals and patch-note cross-check require manual review before unlock.

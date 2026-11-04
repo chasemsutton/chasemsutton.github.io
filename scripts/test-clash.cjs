@@ -40,6 +40,8 @@ function context(search) {
    count++;
   }
  }
+ const dark = JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
+ assert(dark.units.find(u=>u.n==='Apprentice Warden').av.includes('Avatar_Apprentice_Warden.png'));
  const equipment = JSON.parse(fs.readFileSync(path.join(root,'data/equip.json')));
  assert.equal(equipment.units.length,43);
  for (const u of equipment.units) {
@@ -115,6 +117,6 @@ function context(search) {
  vm.runInContext("S.th=18; S.tab='max'; S.cur['dark|Hog Rider']='14'; unitView(testCat,testUnit)",ctx);
  assert(html().includes('340,000'), 'Hog Rider level 15 normal cost');
  assert(html().includes('14d 12h'), 'Hog Rider level 15 normal time');
- assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['elixir','equip','heroes']);
- console.log(`Preview access controls and all four tabs passed for ${count} entities; only Elixir Troops, Heroes, and Hero Equipment published.`);
+ assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['dark','elixir','equip','heroes','pets']);
+ console.log(`Preview access controls and all four tabs passed for ${count} entities; five approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});
