@@ -170,6 +170,12 @@ function troopLink(cat, u) {
   const link = troopConnection(cat, u);
   return link ? `<div class="troop-connection"><a class="related-link" href="#/c/${link.cat}/${encodeURIComponent(link.name)}">See ${esc(link.name)} &rarr;</a><p>Boost requires ${esc(link.base)} level ${link.level} \u00b7 TH${link.th}</p></div>` : "";
 }
+function detailArtwork(cat, u, level) {
+  const single = ["heroes", "bbheroes", "defenses", "bbdefenses"].includes(cat.id);
+  const levelImage = cat.format === "wiki-review-v1" ? reviewLevelImage(u, level) : img(imgFor(u, level), `${u.n} level ${level}`, "lv");
+  if (single) return `<div class="imgs single">${levelImage || img(u.av, u.n, "lv")}</div>`;
+  return `<div class="imgs${levelImage ? "" : " single"}">${u.av ? img(u.av, u.n, "av") : ""}${levelImage}</div>`;
+}
 function unitView(cat, u) {
   if (cat.format === "wiki-review-v1") return reviewUnit(cat, u);
   setChrome(u.n, true, true);
@@ -181,7 +187,7 @@ function unitView(cat, u) {
   const idx = levels.indexOf(lvl);
   const R = resOf(cat, u);
   const needs = +row[3 + k] ? `${cat.reqName} ${row[3 + k]} (TH${reqTH(cat, u, row)})` : unlockText(cat, u);
-  let html = `<div class="hero"><div class="imgs">${img(u.av, u.n, "av")}${img(imgFor(u, lvl), u.n + " level " + lvl, "lv")}</div>
+  let html = `<div class="hero">${detailArtwork(cat, u, lvl)}
     <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>${mTH ? "max " + mTH + " at TH" + S.th : "Unlock at TH " + u.u} \u00b7 ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
     <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}${troopLink(cat, u)}</div>
     `;
@@ -316,7 +322,7 @@ function reviewUnit(cat, u) {
   const stored = String(S.lvl[key] || "");
   const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.removedAtTH && reviewHall(cat) >= u.removedAtTH ? `Removed at TH ${u.removedAtTH}` : u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${troopLink(cat, u)}</div>`;
+  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero">${detailArtwork(cat, u, selected)}${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.removedAtTH && reviewHall(cat) >= u.removedAtTH ? `Removed at TH ${u.removedAtTH}` : u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${troopLink(cat, u)}</div>`;
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
     return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;

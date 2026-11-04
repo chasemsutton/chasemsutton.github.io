@@ -252,6 +252,16 @@ function context(search, savedTH = null) {
  assert(cardFor('Cannon').includes('locked'));
  assert(!cardFor('Cannon').includes('full-max'));
  for(const name of ['Archer Tower','Wizard Tower']) assert(!cardFor(name).includes('Removed at'));
+ for(const id of ['heroes','defenses','bbheroes','bbdefenses']) {
+   ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data',id+'.json')));ctx.testUnit=ctx.testCat.units[0];
+   const artwork=vm.runInContext('detailArtwork(testCat,testUnit,1)',ctx);
+   assert(artwork.includes('class="imgs single"'));
+   assert(!artwork.includes('class="av"'));
+   assert.equal((artwork.match(/<img /g)||[]).length,1);
+ }
+ ctx.testCat=bases.elixir;ctx.testUnit=bases.elixir.units[0];
+ const pair=vm.runInContext('detailArtwork(testCat,testUnit,1)',ctx);
+ assert(pair.includes('class="av"')&&pair.includes('class="lv"'),'Troops retain avatar and level artwork');
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');
