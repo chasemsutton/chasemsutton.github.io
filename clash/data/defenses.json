@@ -5010,7 +5010,10 @@
         "checked": "2026-11-03",
         "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
         "levels": 7
-      }
+      },
+      "removedAtTH": 17,
+      "note": "Removed at TH 17: the level 7 Eagle Artillery is merged into the Town Hall to create the Inferno Artillery. Higher-TH views retain its historical stats and final appearance for reference.",
+      "removalSource": "https://supercell.com/en/games/clashofclans/blog/game-updates/the-town-hall-17-update-is-here-2/"
     },
     {
       "n": "Scattershot",

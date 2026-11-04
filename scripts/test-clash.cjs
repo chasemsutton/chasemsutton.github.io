@@ -166,6 +166,17 @@ function context(search, savedTH = null) {
      assert(card.includes(`${u.n.replaceAll("'", "&#39;")} level ${level}`));
    }
  }
+ for(const [th,status] of [[10,'Unlock at TH 11'],[16,'Lv 7'],[17,'Removed at TH 17'],[18,'Removed at TH 17']]) {
+   ctx.testCat=defenses;
+   vm.runInContext(`S.th=${th}; catView(testCat)`,ctx);
+   const eagle=cardFor('Eagle Artillery');
+   assert(eagle.includes(status),`Eagle status at TH${th}`);
+   if(th>=17) {assert(eagle.includes('locked'));assert(!eagle.includes('full-max'));}
+ }
+ ctx.testUnit=defenses.units.find(u=>u.n==='Eagle Artillery');
+ vm.runInContext("S.th=18; S.tab='max'; unitView(testCat,testUnit)",ctx);
+ assert(html().includes('Removed at TH 17'));
+ assert(!html().includes('id="reviewCurrent"'),'No upgrade plan for a removed building');
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

@@ -204,6 +204,7 @@ function bindReviewHall(cat, rerender) {
   if ($("#reviewHall")) $("#reviewHall").onchange = (e) => { localStorage.setItem("cr.bh", e.target.value); rerender(); };
 }
 function reviewTotals(cat, u, table, levels, key) {
+  if (u.removedAtTH && reviewHall(cat) >= u.removedAtTH) return `<p class="note">Removed at TH ${u.removedAtTH}. Historical upgrade stats remain available in Stats.</p>`;
   if (!table || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
   if (!levels.length) return `<p class="note">Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${Math.min(...Object.values(u.hallByLevel))}. Select a higher hall to calculate upgrades.</p>`;
   const current = levels.includes(String(S.cur[key])) ? String(S.cur[key]) : levels[0];
@@ -235,12 +236,13 @@ function reviewCategory(cat) {
     const caps = u.hallByLevel;
     const max = caps ? Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
     const unlock = caps ? Math.min(...Object.values(caps)) : null;
-    const badge = caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`) : levelPill(0, 0, "Hall cap unverified");
+    const removed = u.removedAtTH && hall >= u.removedAtTH;
+    const badge = removed ? levelPill(0, 0, `Removed at TH ${u.removedAtTH}`) : caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`) : levelPill(0, 0, "Hall cap unverified");
     const defense = cat.id === "defenses";
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = defense ? u.levelImages?.[imageLevel]?.url || u.av : u.av;
     const artwork = defense ? `<span class="tile-art">${img(source, `${u.n} level ${imageLevel}`)}</span>` : source ? img(source, u.n) : "";
-    return `<a class="tile unit${defense ? " defense" : ""}${max === 0 ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${artwork}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
+    return `<a class="tile unit${defense ? " defense" : ""}${max === 0 || removed ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${artwork}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
   }).join("")}</div>`;
   bindReviewHall(cat, () => reviewCategory(cat));
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
@@ -274,7 +276,7 @@ function reviewUnit(cat, u) {
   const stored = String(S.lvl[key] || "");
   const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + reviewNotice(cat, u) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}</div>`;
+  let html = reviewHallControl(cat) + reviewNotice(cat, u) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.removedAtTH && reviewHall(cat) >= u.removedAtTH ? `Removed at TH ${u.removedAtTH}` : u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}</div>`;
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
     return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
