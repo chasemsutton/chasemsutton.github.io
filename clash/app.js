@@ -114,11 +114,11 @@ let q = "";
 function catView(cat) {
   if (cat.format === "wiki-review-v1") return reviewCategory(cat);
   setChrome(cat.label, true, false);
-  const list = cat.units.filter((u) => (!S.only || u.u <= S.th) && u.n.toLowerCase().includes(q.toLowerCase()));
+  const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()));
   app.innerHTML = `<input class="search" id="q" type="search" placeholder="Search ${cat.nouns || cat.noun + "s"}" value="${esc(q)}">
-  <div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "TH" + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
-  ${list.length ? "" : `<p class="note">Nothing unlocked at TH${S.th}. Turn off \u201cOnly show what my TH can reach\u201d in the TH menu to see everything.</p>`}
-  <p class="note">Badge = max level at TH${S.th}. Tap the TH button at top right to change Town Hall.</p>` + footer();
+  <div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "Unlock at TH " + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
+  ${list.length ? "" : `<p class="note">No matching items.</p>`}
+  <p class="note">Badge = max level at TH${S.th}; gray cards show the unlock TH. Tap the TH button at top right to change Town Hall.</p>` + footer();
   const inp = $("#q"); inp.oninput = () => { q = inp.value; const pos = inp.selectionStart; catView(cat); const n = $("#q"); n.focus(); n.setSelectionRange(pos, pos); };
 }
 function unitView(cat, u) {
@@ -133,7 +133,7 @@ function unitView(cat, u) {
   const R = resOf(cat, u);
   const needs = +row[3 + k] ? `${cat.reqName} ${row[3 + k]} (TH${reqTH(cat, u, row)})` : unlockText(cat, u);
   let html = `<div class="hero"><div class="imgs">${img(u.av, u.n, "av")}${img(imgFor(u, lvl), u.n + " level " + lvl, "lv")}</div>
-    <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>max ${mTH || "\u2013"} at TH${S.th} \u00b7 ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
+    <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>${mTH ? "max " + mTH + " at TH" + S.th : "Unlock at TH " + u.u} \u00b7 ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
     <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div></div>
     <div class="props">${u.c.map((c, i) => `<div><span>${esc(c)}</span><span>${fmt(row[1 + i])}</span></div>`).join("")}
     <div><span>Upgrade cost</span><span>${+row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
@@ -209,8 +209,14 @@ function reviewNotice(cat, u) {
 function reviewCategory(cat) {
   setChrome(cat.label, true, false);
   const hall = reviewHall(cat);
-  const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()) && (!S.only || !u.hallByLevel || Object.values(u.hallByLevel).some((h) => h <= hall)));
-  app.innerHTML = reviewHallControl(cat) + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${list.map((u) => `<a class="tile unit" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${u.av ? img(u.av, u.n) : ""}${u.hallByLevel ? levelPill(Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l)), Math.max(...Object.keys(u.hallByLevel).map(Number)), "Locked") : levelPill(0, 0, "Hall cap unverified")}<span class="lbl">${esc(u.n)}</span></a>`).join("")}</div>`;
+  const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()));
+  app.innerHTML = reviewHallControl(cat) + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${list.map((u) => {
+    const caps = u.hallByLevel;
+    const max = caps ? Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
+    const unlock = caps ? Math.min(...Object.values(caps)) : null;
+    const badge = caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`) : levelPill(0, 0, "Hall cap unverified");
+    return `<a class="tile unit${max === 0 ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${u.av ? img(u.av, u.n) : ""}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
+  }).join("")}</div>`;
   bindReviewHall(cat, () => reviewCategory(cat));
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }

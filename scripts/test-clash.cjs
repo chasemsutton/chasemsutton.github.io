@@ -73,6 +73,27 @@ function context(search) {
  assert(vm.runInContext(`columnHeader('Upgrade Cost / Shiny Ore')`,ctx).includes('alt="Shiny Ore"'));
  assert(vm.runInContext(`columnHeader('Upgrade cost','Dark Elixir')`,ctx).includes('alt="Dark Elixir"'));
  assert(vm.runInContext(`columnHeader('Damage per Second')`,ctx).includes('>DPS</span>'));
+ // Future items remain visible under either detail-level filter setting.
+ const cardFor = (name) => [...html().matchAll(/<a class="tile unit[^>]*>[\s\S]*?<\/a>/g)].map(m=>m[0]).find(c=>c.includes(`>${name}</span>`));
+ for (const only of [true,false]) {
+   ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/elixir.json')));
+   vm.runInContext(`S.th=1; S.only=${only}; catView(testCat)`,ctx);
+   assert(cardFor('Dragon').includes('locked'));
+   assert(cardFor('Dragon').includes('Unlock at TH 7'));
+   assert(!cardFor('Barbarian').includes('locked'));
+   ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/heroes.json')));
+   vm.runInContext('S.th=8; catView(testCat)',ctx);
+   assert(cardFor('Grand Warden').includes('Unlock at TH 11'));
+   ctx.testCat=equipment;
+   vm.runInContext('catView(testCat)',ctx);
+   assert(cardFor('Fireball').includes('locked'));
+   assert(cardFor('Fireball').includes('Unlock at TH 11'));
+   assert(!cardFor('Fireball').includes('full-max'));
+   vm.runInContext('S.th=18; catView(testCat)',ctx);
+   assert(cardFor('Fireball').includes('full-max'));
+   assert(!cardFor('Fireball').includes('locked'));
+ }
+ vm.runInContext('S.only=true',ctx);
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

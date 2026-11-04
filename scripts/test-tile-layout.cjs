@@ -14,7 +14,7 @@ const image = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www
     for (const width of [320, 375, 390, 430, 560, 760]) {
       for (const size of [11, 22]) {
         await page.setViewportSize({width, height: 900});
-        await page.setContent(`<style>${css}\n.tile.unit .lbl{font-size:${size}px}</style><main><div class="grid units">${equipment.map((u, i) => `<a class="tile unit"><img src="${image}"><span class="sub${i % 2 ? " full-max" : ""}">Lv 18</span><span class="lbl">${u.n}</span></a>`).join('')}</div></main>`);
+        await page.setContent(`<style>${css}\n.tile.unit .lbl{font-size:${size}px}</style><main><div class="grid units">${equipment.map((u, i) => `<a class="tile unit${i % 3 === 0 ? " locked" : ""}"><img src="${image}"><span class="sub${i % 2 && i % 3 !== 0 ? " full-max" : ""}">${i % 3 === 0 ? "Unlock at TH 15" : "Lv 18"}</span><span class="lbl">${u.n}</span></a>`).join('')}</div></main>`);
         await page.locator('img').evaluateAll(images => Promise.all(images.map(i => i.decode())));
         const gold = await page.locator('.sub.full-max').first().evaluate(el => ({color:getComputedStyle(el).color,border:getComputedStyle(el).borderTopWidth}));
         assert.equal(gold.color,'rgb(255, 211, 107)');
