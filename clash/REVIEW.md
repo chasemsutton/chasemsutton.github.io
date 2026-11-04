@@ -13,7 +13,7 @@ Known limitations: hall mappings are only used where the required building progr
 | Category | Preview | Entities | Verified hall maps |
 |---|---|---:|---:|
 | Dark Troops | [?preview=dark](https://chasemsutton.github.io/clash/?preview=dark) | 13 | 13 |
-| Super Troops | [?preview=super](https://chasemsutton.github.io/clash/?preview=super) | 17 | 4 |
+| Super Troops | [?preview=super](https://chasemsutton.github.io/clash/?preview=super) | 17 | 17 |
 | Elixir Spells | [?preview=espells](https://chasemsutton.github.io/clash/?preview=espells) | 10 | 10 |
 | Dark Spells | [?preview=dspells](https://chasemsutton.github.io/clash/?preview=dspells) | 8 | 8 |
 | Siege Machines | [?preview=siege](https://chasemsutton.github.io/clash/?preview=siege) | 9 | 9 |
@@ -53,23 +53,13 @@ Published on the home screen at Chase's request. The remaining verification note
 
 ## Super Troops
 
-- Super Barbarian: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Archer: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Giant: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Sneaky Goblin: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Wall Breaker: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Rocket Balloon: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Super Wizard: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Dragon: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Inferno Dragon: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Miner: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Yeti: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Minion: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Super Hog Rider: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Valkyrie: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Super Witch: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Ice Hound: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Super Bowler: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
+All 17 normal unlocks and complete level-by-TH maps are verified against fresh wiki Super Troop and base troop pages, Laboratory requirements, Barracks/Dark Barracks unlocks, and the TH11 boosting rule. Lower event-only levels are explicitly separated and excluded from normal unlocks. No hall-cap verification gaps remain.
+
+The normal stats table includes base research cost/resource, time, required Laboratory, and TH. The Info tab explains the base troop unlock and shows all TH caps. To max sums the base research upgrades; the separate 25,000 Dark Elixir / Super Potion boost lasts 3 days.
+
+The wiki?s final Inferno Dragon row was mislabeled as a second level 11. Corrected it to level 12 using Supercell?s February 2026 release notes and the wiki history, preserving its numeric stats and recording the correction.
+
+Full caps, special-level exclusions, and source links: [SUPER_TROOPS_VERIFICATION.md](SUPER_TROOPS_VERIFICATION.md). Source revisions and raw hashes are recorded per unit in super.json. Reproduce with `python scripts/verify-super-troops.py`. Super Troops remain hidden pending Chase?s review.
 
 ## Elixir Spells
 

@@ -202,7 +202,8 @@ function bindReviewHall(cat, rerender) {
   if ($("#reviewHall")) $("#reviewHall").onchange = (e) => { localStorage.setItem("cr.bh", e.target.value); rerender(); };
 }
 function reviewTotals(cat, u, table, levels, key) {
-  if (!table || !levels.length || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
+  if (!table || !u.hallByLevel) return `<p class="note">Totals need a verified hall mapping. See Stats for individual costs and times.</p>`;
+  if (!levels.length) return `<p class="note">Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${Math.min(...Object.values(u.hallByLevel))}. Select a higher hall to calculate upgrades.</p>`;
   const current = levels.includes(String(S.cur[key])) ? String(S.cur[key]) : levels[0];
   const left = table.rows.filter((r) => levels.includes(r[0]) && +r[0] > +current);
   const costs = table.columns.map((c, i) => ({c, i})).filter(({c}) => /cost/i.test(c) && !/cumulative|boost|gear up/i.test(c));
@@ -277,6 +278,7 @@ function reviewUnit(cat, u) {
     html += reviewTotals(cat, u, table, levels, key);
   } else if (S.tab === "info") {
     html += [...u.tables, ...(u.lowerTownHallStats || [])].filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
+    if (u.specialLevelTables?.length) html += `<details class="note"><summary>Event-only levels (excluded from normal caps)</summary>${u.specialLevelTables.map(renderTable).join("")}</details>`;
     if (u.verification && u.hallByLevel) html += renderTable({heading: "Maximum usable level by Town Hall", columns: ["Town Hall", "Max level"], rows: Array.from({length: 18}, (_, i) => [String(i + 1), String(Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= i + 1).map(([l]) => +l)))])});
   } else {
     if (table) {

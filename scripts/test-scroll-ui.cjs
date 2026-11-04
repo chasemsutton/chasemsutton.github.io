@@ -68,6 +68,19 @@ const root = path.resolve(__dirname, '..', 'clash');
     }).map(match=>match[0]);
    }));
    assert.deepEqual(brokenWords,[],'Header words must not split across lines');
+   await page.evaluate(()=>location.hash='#/c/super');
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Super Troops');
+   assert.equal(await page.locator('.tile.unit').count(),17);
+   assert(!(await page.locator('#app').innerText()).includes('Hall cap unverified'));
+   await page.locator('#thSel').evaluate(el=>{el.value='11';el.dispatchEvent(new Event('change'));});
+   await page.waitForFunction(()=>document.querySelector('#thBadge').textContent==='11');
+   const miner=page.locator('a[href="#/c/super/Super%20Miner"]');
+   assert((await miner.getAttribute('class')).includes('locked'));
+   assert((await miner.innerText()).includes('Unlock at TH 13'));
+   await page.locator('a[href="#/c/super/Sneaky%20Goblin"]').click();
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Sneaky Goblin');
+   assert((await page.locator('.lvnum').textContent()).includes('Level 7'));
+
 
    await page.evaluate(()=> {
     document.querySelector('#app').insertAdjacentHTML('beforeend','<div style="height:1000px"></div>');

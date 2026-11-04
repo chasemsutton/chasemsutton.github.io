@@ -111,6 +111,36 @@ function context(search) {
    assert(!cardFor('Fireball').includes('locked'));
  }
  vm.runInContext('S.only=true',ctx);
+ const superTroops = JSON.parse(fs.readFileSync(path.join(root,'data/super.json')));
+ const unlocks = {'Super Barbarian':11,'Super Archer':11,'Super Giant':12,'Sneaky Goblin':11,'Super Wall Breaker':11,'Rocket Balloon':12,'Super Wizard':12,'Super Dragon':12,'Inferno Dragon':12,'Super Miner':13,'Super Yeti':13,'Super Minion':12,'Super Hog Rider':13,'Super Valkyrie':12,'Super Witch':12,'Ice Hound':12,'Super Bowler':12};
+ assert.equal(superTroops.units.length,17);
+ for (const u of superTroops.units) {
+   assert.equal(u.unlockTH,unlocks[u.n],u.n+' unlock');
+   assert.deepEqual(u.unverified,[],u.n+' verified');
+   const stats=u.tables.find(t=>t.columns[0]==='Level');
+   assert.deepEqual(Object.keys(u.hallByLevel),stats.rows.map(r=>r[0]),u.n+' every normal level mapped');
+   assert(stats.rows.every(r=>/^\d+$/.test(r[0])),u.n+' no event-only normal levels');
+   for(const [level,hall] of Object.entries(u.hallByLevel)) {
+     assert(hall>=11 && hall>=u.unlockTH);
+     assert.equal(hall,Math.max(11,u.baseResearch[level].townHall),u.n+' base level cross-reference');
+   }
+   assert(u.verification.baseTroop.revision>0 && u.verification.superTroop.revision>0);
+ }
+ const superCap=(name,th)=>Math.max(0,...Object.entries(superTroops.units.find(u=>u.n===name).hallByLevel).filter(([,h])=>h<=th).map(([l])=>+l));
+ for(const [name,th,level] of [['Sneaky Goblin',10,0],['Sneaky Goblin',11,7],['Sneaky Goblin',14,8],['Super Barbarian',17,12],['Super Barbarian',18,13],['Super Witch',14,5],['Super Witch',17,7],['Ice Hound',11,0],['Ice Hound',15,6],['Ice Hound',18,8],['Inferno Dragon',17,11],['Inferno Dragon',18,12],['Super Giant',18,14],['Super Valkyrie',18,12]]) assert.equal(superCap(name,th),level,`${name} TH${th}`);
+ ctx.testCat=superTroops;
+ vm.runInContext('S.th=10; catView(testCat)',ctx);
+ assert(!html().includes('Hall cap unverified'));
+ assert.equal((html().match(/class="tile unit locked"/g)||[]).length,17);
+ vm.runInContext('S.th=18; catView(testCat)',ctx);
+ assert.equal((html().match(/class="sub full-max"/g)||[]).length,17);
+ ctx.testUnit=superTroops.units.find(u=>u.n==='Super Miner');
+ vm.runInContext("S.th=18; S.tab='info'; unitView(testCat,testUnit)",ctx);
+ assert(html().includes('Unlock at TH 13 with Miner level 7'));
+ assert(html().includes('Maximum usable level by Town Hall'));
+ ctx.testUnit=superTroops.units.find(u=>u.n==='Sneaky Goblin');
+ vm.runInContext("S.tab='max'; S.cur['super|Sneaky Goblin']='9'; unitView(testCat,testUnit)",ctx);
+ assert(html().includes('26,000,000') && html().includes('14d'),'Remaining base Goblin research to level 10');
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');
