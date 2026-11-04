@@ -136,6 +136,8 @@ Published on the home screen at Chase's request. The remaining verification note
 
 ## Defenses
 
+Removal badges: Eagle Artillery at TH17 (merged into the Town Hall); Cannon at TH18 (mandatory Ricochet Cannon / Multi-Gear Tower merges completed). Cannons can remain during TH17 progression. Archer Towers and Wizard Towers retain unmerged instances at TH18, so they have no removal badge.
+
 Defense cards now use the exact normal appearance for the maximum level at the selected TH, or the first level when locked. All 204 level images across 21 defenses were resolved through Fandom imageinfo and checked for HTTP 200 without a Referer. Artwork uses a contained square area above the name. Default modes are X-Bow ground-and-air, single-target Inferno Tower, the highest unlocked Spell Tower spell, fast-attack Multi-Gear Tower, and dormant Revenge Tower. Refresh with `python scripts/refresh-defense-images.py`. Defense visibility is unchanged.
 
 - Cannon: Calculated upgrade totals and patch-note cross-check require manual review before unlock.

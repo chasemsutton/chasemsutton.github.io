@@ -177,6 +177,15 @@ function context(search, savedTH = null) {
  vm.runInContext("S.th=18; S.tab='max'; unitView(testCat,testUnit)",ctx);
  assert(html().includes('Removed at TH 17'));
  assert(!html().includes('id="reviewCurrent"'),'No upgrade plan for a removed building');
+ ctx.testCat=defenses;
+ vm.runInContext('S.th=17; catView(testCat)',ctx);
+ assert(cardFor('Cannon').includes('Lv 21'));
+ assert(!cardFor('Cannon').includes('Removed at TH 18'));
+ vm.runInContext('S.th=18; catView(testCat)',ctx);
+ assert(cardFor('Cannon').includes('Removed at TH 18'));
+ assert(cardFor('Cannon').includes('locked'));
+ assert(!cardFor('Cannon').includes('full-max'));
+ for(const name of ['Archer Tower','Wizard Tower']) assert(!cardFor(name).includes('Removed at'));
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

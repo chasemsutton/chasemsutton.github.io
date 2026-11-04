@@ -720,7 +720,10 @@
         "checked": "2026-11-03",
         "method": "Fandom imageinfo, exact level file; HTTP 200 without Referer for every URL",
         "levels": 21
-      }
+      },
+      "removedAtTH": 18,
+      "note": "Removed at TH 18: the normal Cannons are merged into Ricochet Cannons, and the geared-up Cannon and Archer Tower form the Multi-Gear Tower. Completing these merges is required before upgrading from TH17 to TH18. TH17 can still have Cannons until its merges are completed.",
+      "removalSource": "https://clashofclans.fandom.com/wiki/Cannon/Home_Village"
     },
     {
       "n": "Archer Tower",
