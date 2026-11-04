@@ -49,7 +49,7 @@
      "id": "equip",
      "label": "Hero Equipment",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest?cb=20231218115547",
-     "data": null
+     "data": "data/equip.json"
     },
     {
      "id": "pets",

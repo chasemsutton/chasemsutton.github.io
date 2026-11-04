@@ -1,6 +1,6 @@
 # Hidden category review status
 
-These are source-table drafts, not completed release-ready categories. Live Elixir Troops, Heroes, and categories.json are unchanged.
+Elixir Troops, Heroes, and Hero Equipment are live. The remaining categories are hidden source-table drafts.
 
 The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=all` enables all drafts.
 
@@ -106,6 +106,8 @@ Known limitations: hall mappings are only used where the required building progr
 - Sky Wagon: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 
 ## Hero Equipment
+
+Published on the home screen at Chase's request. Preview parameters are no longer required.
 
 All 43 usable hall-cap maps now verified against equipment acquisition requirements, Blacksmith progression, and Hero Hall unlocks (Nov 3, 2026). Default equipment has level 1 when the hero unlocks, including Barbarian King's TH4 unlock. Equipment upgrade time is instant. Level-1 King stats are reduced at TH4–5 and are displayed accordingly.
 
