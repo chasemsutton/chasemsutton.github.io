@@ -80,6 +80,25 @@ const root = path.resolve(__dirname, '..', 'clash');
    await page.locator('a[href="#/c/super/Sneaky%20Goblin"]').click();
    await page.waitForFunction(()=>document.querySelector('#title').textContent==='Sneaky Goblin');
    assert((await page.locator('.lvnum').textContent()).includes('Level 7'));
+   await page.evaluate(()=>location.hash='#/c/defenses');
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Defenses');
+   await page.locator('#thSel').evaluate(el=>{el.value='15';el.dispatchEvent(new Event('change'));});
+   await page.waitForFunction(()=>document.querySelector('a[href="#/c/defenses/Air%20Defense"] img')?.alt==='Air Defense level 13');
+   for(const [name,level] of [['Air Defense',13],['Wizard Tower',15],['Hidden Tesla',14],['Inferno Tower',9],["Builder's Hut",5],['Spell Tower',3]]) {
+    const card=page.locator(`a[href="#/c/defenses/${encodeURIComponent(name)}"]`);
+    assert.equal(await card.locator('img').getAttribute('alt'),`${name} level ${level}`);
+   }
+   const cropped=await page.locator('.tile.defense').evaluateAll(cards=>cards.flatMap(card=> {
+    const art=card.querySelector('.tile-art').getBoundingClientRect();
+    const label=card.querySelector('.lbl').getBoundingClientRect();
+    const image=card.querySelector('img');const box=image.getBoundingClientRect();
+    return getComputedStyle(image).objectFit!=='contain' || Math.abs(art.width-art.height)>1 || box.bottom>label.top || box.top<art.top || box.left<art.left || box.right>art.right ? [image.alt] : [];
+   }));
+   assert.deepEqual(cropped,[],'Defense art is contained in a square area above its label');
+   await page.locator('#thSel').evaluate(el=>{el.value='8';el.dispatchEvent(new Event('change'));});
+   await page.waitForFunction(()=>document.querySelector('a[href="#/c/defenses/Air%20Defense"] img')?.alt==='Air Defense level 6');
+   assert.equal(await page.locator('a[href="#/c/defenses/Monolith"] img').getAttribute('alt'),'Monolith level 1');
+
 
 
    await page.evaluate(()=> {

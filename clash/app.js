@@ -234,12 +234,17 @@ function reviewCategory(cat) {
     const max = caps ? Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
     const unlock = caps ? Math.min(...Object.values(caps)) : null;
     const badge = caps ? levelPill(max, Math.max(...Object.keys(caps).map(Number)), `Unlock at ${cat.id.startsWith("bb") ? "BH" : "TH"} ${unlock}`) : levelPill(0, 0, "Hall cap unverified");
-    return `<a class="tile unit${max === 0 ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${u.av ? img(u.av, u.n) : ""}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
+    const defense = cat.id === "defenses";
+    const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
+    const source = defense ? u.levelImages?.[imageLevel]?.url || u.av : u.av;
+    const artwork = defense ? `<span class="tile-art">${img(source, `${u.n} level ${imageLevel}`)}</span>` : source ? img(source, u.n) : "";
+    return `<a class="tile unit${defense ? " defense" : ""}${max === 0 ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${artwork}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
   }).join("")}</div>`;
   bindReviewHall(cat, () => reviewCategory(cat));
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }
 function reviewLevelImage(u, level) {
+  if (u.levelImages?.[level]) return img(u.levelImages[level].url, `${u.n} level ${level}`, "lv");
   const stem = u.n.split("/")[0].toLowerCase().replace(/[^a-z0-9]/g, "");
   const candidates = u.images.map((i) => {
     const name = i.file.replace(/^File:/, "").toLowerCase().replace(/[^a-z0-9]/g, "");

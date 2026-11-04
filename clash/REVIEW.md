@@ -136,6 +136,8 @@ Published on the home screen at Chase's request. The remaining verification note
 
 ## Defenses
 
+Defense cards now use the exact normal appearance for the maximum level at the selected TH, or the first level when locked. All 204 level images across 21 defenses were resolved through Fandom imageinfo and checked for HTTP 200 without a Referer. Artwork uses a contained square area above the name. Default modes are X-Bow ground-and-air, single-target Inferno Tower, the highest unlocked Spell Tower spell, fast-attack Multi-Gear Tower, and dormant Revenge Tower. Refresh with `python scripts/refresh-defense-images.py`. Defense visibility is unchanged.
+
 - Cannon: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Archer Tower: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Mortar: Calculated upgrade totals and patch-note cross-check require manual review before unlock.

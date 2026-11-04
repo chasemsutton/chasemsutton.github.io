@@ -100,7 +100,7 @@ function context(search) {
  assert(!html().includes('>Statistics</h3>'));
  for (const heading of ['Equipment details','Upgrade stats','Ability details']) assert(html().includes(`>${heading}</h3>`));
  // Future items remain visible under either detail-level filter setting.
- const cardFor = (name) => [...html().matchAll(/<a class="tile unit[^>]*>[\s\S]*?<\/a>/g)].map(m=>m[0]).find(c=>c.includes(`>${name}</span>`));
+ const cardFor = (name) => [...html().matchAll(/<a class="tile unit[^>]*>[\s\S]*?<\/a>/g)].map(m=>m[0]).find(c=>c.includes(`/${encodeURIComponent(name)}"`));
  for (const only of [true,false]) {
    ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/elixir.json')));
    vm.runInContext(`S.th=1; S.only=${only}; catView(testCat)`,ctx);
@@ -150,6 +150,20 @@ function context(search) {
  ctx.testUnit=superTroops.units.find(u=>u.n==='Sneaky Goblin');
  vm.runInContext("S.tab='max'; S.cur['super|Sneaky Goblin']='9'; unitView(testCat,testUnit)",ctx);
  assert(html().includes('26,000,000') && html().includes('14d'),'Remaining base Goblin research to level 10');
+ const defenses=JSON.parse(fs.readFileSync(path.join(root,'data/defenses.json')));
+ for(const u of defenses.units) {
+   assert.deepEqual(Object.keys(u.levelImages),Object.keys(u.hallByLevel),u.n+' exact artwork for every level');
+ }
+ ctx.testCat=defenses;
+ for(const th of [1,8,15,18]) {
+   vm.runInContext(`S.th=${th}; catView(testCat)`,ctx);
+   for(const u of defenses.units) {
+     const level=Math.max(0,...Object.entries(u.hallByLevel).filter(([,h])=>h<=th).map(([l])=>+l)) || Math.min(...Object.keys(u.hallByLevel).map(Number));
+     const card=cardFor(u.n);
+     assert(card.includes(u.levelImages[level].url.replaceAll('&','&amp;')),`${u.n} TH${th} artwork level ${level}`);
+     assert(card.includes(`${u.n.replaceAll("'", "&#39;")} level ${level}`));
+   }
+ }
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');
