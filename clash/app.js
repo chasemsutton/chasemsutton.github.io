@@ -156,6 +156,20 @@ function catView(cat) {
   <p class="note">Badge = max level at TH${S.th}; gray cards show the unlock TH. Tap the TH button at top right to change Town Hall.</p>` + footer();
   const inp = $("#q"); inp.oninput = () => { q = inp.value; const pos = inp.selectionStart; catView(cat); const n = $("#q"); n.focus(); n.setSelectionRange(pos, pos); };
 }
+function troopConnection(cat, u) {
+  if (!["elixir", "dark", "super"].includes(cat.id)) return null;
+  const boosted = cat.id === "super" ? u : CACHE.super?.units.find((troop) => troop.baseTroop === u.n);
+  if (!boosted?.baseTroop || !boosted.baseResearch) return null;
+  const baseCat = Object.values(boosted.baseResearch)[0].resource === "Dark Elixir" ? "dark" : "elixir";
+  const target = cat.id === "super" ? baseCat : "super";
+  const meta = CATS?.groups.flatMap((g) => g.cats).find((c) => c.id === target);
+  if (!meta || !categoryPath(meta)) return null;
+  return {cat: target, name: cat.id === "super" ? boosted.baseTroop : boosted.n, base: boosted.baseTroop, level: boosted.baseLevelRequired, th: boosted.unlockTH};
+}
+function troopLink(cat, u) {
+  const link = troopConnection(cat, u);
+  return link ? `<div class="troop-connection"><a class="related-link" href="#/c/${link.cat}/${encodeURIComponent(link.name)}">See ${esc(link.name)} &rarr;</a><p>Boost requires ${esc(link.base)} level ${link.level} \u00b7 TH${link.th}</p></div>` : "";
+}
 function unitView(cat, u) {
   if (cat.format === "wiki-review-v1") return reviewUnit(cat, u);
   setChrome(u.n, true, true);
@@ -169,7 +183,7 @@ function unitView(cat, u) {
   const needs = +row[3 + k] ? `${cat.reqName} ${row[3 + k]} (TH${reqTH(cat, u, row)})` : unlockText(cat, u);
   let html = `<div class="hero"><div class="imgs">${img(u.av, u.n, "av")}${img(imgFor(u, lvl), u.n + " level " + lvl, "lv")}</div>
     <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>${mTH ? "max " + mTH + " at TH" + S.th : "Unlock at TH " + u.u} \u00b7 ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
-    <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}</div>
+    <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}${troopLink(cat, u)}</div>
     `;
   if (S.tab !== "info") html += `<div class="props">${u.c.map((c, i) => `<div><span>${esc(c)}</span><span>${fmt(row[1 + i])}</span></div>`).join("")}
     <div><span>Upgrade cost</span><span>${+row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
@@ -302,7 +316,7 @@ function reviewUnit(cat, u) {
   const stored = String(S.lvl[key] || "");
   const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
   const index = levels.indexOf(selected);
-  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.removedAtTH && reviewHall(cat) >= u.removedAtTH ? `Removed at TH ${u.removedAtTH}` : u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}</div>`;
+  let html = reviewHallControl(cat) + (S.tab === "info" ? "" : reviewNotice(cat, u)) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${u.removedAtTH && reviewHall(cat) >= u.removedAtTH ? `Removed at TH ${u.removedAtTH}` : u.hallByLevel ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Hall cap unverified"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}${troopLink(cat, u)}</div>`;
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
     return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
@@ -350,6 +364,7 @@ async function render() {
     if (!r.unit) return catView(cat);
     const u = cat.units.find((x) => x.n === r.unit);
     if (!u) { location.hash = "#/c/" + cat.id; return; }
+    if (["elixir", "dark"].includes(cat.id)) await loadCat("super");
     if (S.tab === "info" && !INFO) {
       const response = await fetch("data/info.json", {cache: "no-cache"});
       if (!response.ok) throw new Error("Info descriptions unavailable");

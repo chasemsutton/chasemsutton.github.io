@@ -174,6 +174,23 @@ function context(search, savedTH = null) {
  const superTroops = JSON.parse(fs.readFileSync(path.join(root,'data/super.json')));
  const unlocks = {'Super Barbarian':11,'Super Archer':11,'Super Giant':12,'Sneaky Goblin':11,'Super Wall Breaker':11,'Rocket Balloon':12,'Super Wizard':12,'Super Dragon':12,'Inferno Dragon':12,'Super Miner':13,'Super Yeti':13,'Super Minion':12,'Super Hog Rider':13,'Super Valkyrie':12,'Super Witch':12,'Ice Hound':12,'Super Bowler':12};
  assert.equal(superTroops.units.length,17);
+ vm.runInContext('CACHE.super = '+JSON.stringify(superTroops),ctx);
+ const bases={elixir:JSON.parse(fs.readFileSync(path.join(root,'data/elixir.json'))),dark:JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')))};
+ for(const boosted of superTroops.units) {
+   const baseCat=bases.elixir.units.some(u=>u.n===boosted.baseTroop)?'elixir':'dark';
+   ctx.testCat=superTroops;ctx.testUnit=boosted;
+   vm.runInContext("S.tab='stats'; unitView(testCat,testUnit)",ctx);
+   assert(html().includes(`href="#/c/${baseCat}/${encodeURIComponent(boosted.baseTroop)}"`),boosted.n+' links to its base');
+   ctx.testCat=bases[baseCat];ctx.testUnit=bases[baseCat].units.find(u=>u.n===boosted.baseTroop);
+   vm.runInContext('unitView(testCat,testUnit)',ctx);
+   assert(html().includes(`href="#/c/super/${encodeURIComponent(boosted.n)}"`),boosted.baseTroop+' links to its Super Troop');
+   assert(html().includes(`level ${boosted.baseLevelRequired}`));
+   assert(html().includes(`TH${boosted.unlockTH}`));
+ }
+ ctx.testCat=bases.elixir;ctx.testUnit=bases.elixir.units.find(u=>u.n==='Healer');
+ vm.runInContext('unitView(testCat,testUnit)',ctx);
+ assert(!html().includes('class="troop-connection"'),'No invented counterpart for Healer');
+
  for (const u of superTroops.units) {
    assert.equal(u.unlockTH,unlocks[u.n],u.n+' unlock');
    assert.deepEqual(u.unverified,[],u.n+' verified');

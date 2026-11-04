@@ -48,6 +48,19 @@ const root=path.resolve(__dirname,'..','clash');
    await page.waitForFunction(()=>document.querySelector('#q').value==='');
    assert.equal(await page.locator('.tile.unit').count(),8);
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Compact filter fits phone width');
+   for(const [category,base,boosted,level,th] of [['elixir','Baby Dragon','Inferno Dragon',6,12],['dark','Minion','Super Minion',8,12]]) {
+    await page.evaluate(hash=>location.hash=hash,`#/c/${category}/${encodeURIComponent(base)}`);
+    await page.waitForFunction(name=>document.querySelector('#title').textContent===name,base);
+    assert((await page.locator('.troop-connection').innerText()).includes(`level ${level}`));
+    assert((await page.locator('.troop-connection').innerText()).includes(`TH${th}`));
+    const savedTH=await page.locator('#thBadge').textContent();
+    await page.locator('.troop-connection a').click();
+    await page.waitForFunction(name=>document.querySelector('#title').textContent===name,boosted);
+    assert.equal(await page.locator('#thBadge').textContent(),savedTH);
+    await page.locator('.troop-connection a').click();
+    await page.waitForFunction(name=>document.querySelector('#title').textContent===name,base);
+    assert.equal(await page.locator('#thBadge').textContent(),savedTH);
+   }
    await page.evaluate(()=>location.hash='#/c/defenses/Ricochet%20Cannon');
    await page.waitForFunction(()=>document.querySelector('#title').textContent==='Ricochet Cannon');
    assert.equal(infoRequests,1,'Shared copy loaded once');
