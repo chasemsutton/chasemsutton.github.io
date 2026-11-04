@@ -30,6 +30,7 @@ h2.group{margin:18px 4px 10px;font-size:14px;text-transform:uppercase;letter-spa
 .tile.unit img{flex:none;width:100%;height:auto;aspect-ratio:1;object-fit:cover;filter:none}
 .tile.unit .lbl{display:block;align-content:center;width:100%;min-height:calc(2.4em + 14px);margin:0;font-size:11px;line-height:1.2;padding:7px 3px;overflow-wrap:anywhere}
 .tile.unit .sub{top:6px;bottom:auto;right:4px;left:auto;background:#000c;color:#fff}
+.tile.unit .sub.full-max{border:1px solid #ffd36b;color:#ffd36b;background:#342507ed;box-shadow:0 0 5px #ffd36b40}
 .tile.locked{opacity:.5}
 .search{width:100%;margin:2px 0 12px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:16px}
 .hero{display:flex;flex-direction:column;align-items:center;background:radial-gradient(circle at 50% 40%,#3a3f49,#1b1d22 70%);border-radius:16px;padding:14px 10px 10px;margin-bottom:10px;border:1px solid var(--line)}

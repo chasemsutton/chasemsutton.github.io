@@ -17,7 +17,7 @@ Known limitations: hall mappings are only used where the required building progr
 | Elixir Spells | [?preview=espells](https://chasemsutton.github.io/clash/?preview=espells) | 10 | 10 |
 | Dark Spells | [?preview=dspells](https://chasemsutton.github.io/clash/?preview=dspells) | 8 | 8 |
 | Siege Machines | [?preview=siege](https://chasemsutton.github.io/clash/?preview=siege) | 9 | 9 |
-| Hero Equipment | [?preview=equip](https://chasemsutton.github.io/clash/?preview=equip) | 43 | 31 |
+| Hero Equipment | [?preview=equip](https://chasemsutton.github.io/clash/?preview=equip) | 43 | 43 |
 | Pets | [?preview=pets](https://chasemsutton.github.io/clash/?preview=pets) | 12 | 12 |
 | Defenses | [?preview=defenses](https://chasemsutton.github.io/clash/?preview=defenses) | 21 | 21 |
 | Traps | [?preview=traps](https://chasemsutton.github.io/clash/?preview=traps) | 8 | 8 |
@@ -107,49 +107,15 @@ Known limitations: hall mappings are only used where the required building progr
 
 ## Hero Equipment
 
-- Barbarian Puppet: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Rage Vial: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Earthquake Boots: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Vampstache: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Giant Gauntlet: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Spiky Ball: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Snake Bracelet: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Stick Horse: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Archer Puppet: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Invisibility Vial: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Giant Arrow: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Healer Puppet: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Frozen Arrow: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Magic Mirror: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Action Figure: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Monolith Arrow: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Henchmen Puppet: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Dark Orb: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Metal Pants: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Noble Iron: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Dark Crown: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Meteor Staff: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Portal Pendant: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Eternal Tome: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Life Gem: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Rage Gem: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Healing Tome: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Fireball: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Lavaloon Puppet: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Heroic Torch: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Royal Gem: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Seeking Shield: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Hog Rider Puppet: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Haste Vial: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Rocket Spear: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Electro Boots: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Frost Flake: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Fire Heart: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Flame Blower: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Stun Blaster: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Electro Fangs: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
-- Rocket Backpack: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
-- Revenge Deck: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
+All 43 usable hall-cap maps now verified against equipment acquisition requirements, Blacksmith progression, and Hero Hall unlocks (Nov 3, 2026). Default equipment has level 1 when the hero unlocks, including Barbarian King's TH4 unlock. Equipment upgrade time is instant. Level-1 King stats are reduced at TH4–5 and are displayed accordingly.
+
+The maps distinguish the Blacksmith upgrade requirement from the requirement to actually use equipment with its hero. Epic equipment still requires separate event/shop acquisition. Legacy migration and temporary boosts do not determine normal caps.
+
+All stats and ore columns refreshed from equipment raw wikitext / expanded API tables; source revisions and raw-source hashes are recorded in equip.json. Common and Epic ore schedules were cross-checked across the 43 pages. October Fire Heart, Frozen Arrow, and Portal Pendant changes checked against Supercell's October patch notes.
+
+One unresolved source conflict: Stun Blaster level 6 lists **940 Shiny Ore**, while every other Common item lists **840** at level 6. The current Stun Blaster source value is preserved and explicitly flagged; totals involving that upgrade are also flagged. Its hall caps are verified.
+
+Run `python scripts/verify-equipment.py` after generic import/refinement to reproduce the equipment checks. This does not unlock the home tile.
 
 ## Pets
 

@@ -8,8 +8,25 @@
       "n": "Barbarian Puppet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Barbarian_Puppet.png/revision/latest?cb=20231211153430",
       "source": "https://clashofclans.fandom.com/wiki/Barbarian_Puppet",
-      "revision": null,
+      "revision": 623371,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -242,16 +259,118 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Barbarian_Puppet.png/revision/latest?cb=20231211153430"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [
+        {
+          "heading": "Attributes at lower Town Hall levels",
+          "columns": [
+            "Town Hall Level",
+            "Ability Attributes / Summoned Barbarians",
+            "Ability Attributes / Barbarian Damage Increase",
+            "Ability Attributes / Barbarian Speed Increase",
+            "Hero Boosts / Hitpoint Increase*",
+            "Hero Boosts / HP Recovery Increase*"
+          ],
+          "rows": [
+            [
+              "4",
+              "8",
+              "+100%",
+              "9.5",
+              "154.5",
+              "55"
+            ],
+            [
+              "5",
+              "8",
+              "+100%",
+              "9.5",
+              "231.75",
+              "82.5"
+            ]
+          ]
+        }
+      ],
+      "hero": "Barbarian King",
+      "rarity": "Common",
+      "heroUnlockTH": 4,
+      "hallByLevel": {
+        "1": 4,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded. At TH4–5, default King equipment has reduced level-1 stats; see Info.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "3149af8bffb4393dbf97e07bae603dba58eb45518588794969754b43ba2e5201",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 4,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Rage Vial",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Rage_Vial.png/revision/latest?cb=20240101094305",
       "source": "https://clashofclans.fandom.com/wiki/Rage_Vial",
-      "revision": null,
+      "revision": 623370,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -465,16 +584,115 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Rage_Vial.png/revision/latest?cb=20240101094305"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [
+        {
+          "heading": "Attributes at lower Town Hall levels",
+          "columns": [
+            "Town Hall Level",
+            "Ability Attributes / Damage Increase",
+            "Ability Attributes / Movement Speed Increase",
+            "Hero Boosts / Damage per Second Increase*",
+            "Hero Boosts / HP Recovery Increase*"
+          ],
+          "rows": [
+            [
+              "4",
+              "+120%",
+              "18.0",
+              "8.5",
+              "75"
+            ],
+            [
+              "5",
+              "+120%",
+              "18.0",
+              "12.75",
+              "112.5"
+            ]
+          ]
+        }
+      ],
+      "hero": "Barbarian King",
+      "rarity": "Common",
+      "heroUnlockTH": 4,
+      "hallByLevel": {
+        "1": 4,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded. At TH4–5, default King equipment has reduced level-1 stats; see Info.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "474e7aaa7081716afc5ddc74aac828e53b779e5a7fddc975d7a773f6514e732c",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 4,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Earthquake Boots",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Earthquake_Boots.png/revision/latest?cb=20231211153708",
       "source": "https://clashofclans.fandom.com/wiki/Earthquake_Boots",
-      "revision": null,
+      "revision": 621771,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Active",
+              "Common",
+              "Blacksmith level 1"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -669,6 +887,60 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Ability Radius",
+            "Targets"
+          ],
+          "rows": [
+            [
+              "8 tiles",
+              "Ground"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -677,12 +949,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Earthquake_Boots.png/revision/latest?cb=20231211153708"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Barbarian King",
+      "rarity": "Common",
+      "heroUnlockTH": 4,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "693f301e28c54ee90d0130ea94803634a489ca376d80c9a554bea652dfdc92ca",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -707,8 +1012,25 @@
       "n": "Vampstache",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Vampstache.png/revision/latest?cb=20231211153806",
       "source": "https://clashofclans.fandom.com/wiki/Vampstache",
-      "revision": null,
+      "revision": 621314,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Passive",
+              "Common",
+              "Blacksmith level 3"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -884,6 +1206,47 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -892,12 +1255,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Vampstache.png/revision/latest?cb=20231211153806"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Barbarian King",
+      "rarity": "Common",
+      "heroUnlockTH": 4,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "f60b991b91c38291a673e56379fdfd519f332176f1d8ab5fa261c7cbe4b16a21",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 10,
         "2": 10,
         "3": 10,
@@ -922,8 +1318,25 @@
       "n": "Giant Gauntlet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest?cb=20231218115547",
       "source": "https://clashofclans.fandom.com/wiki/Giant_Gauntlet",
-      "revision": null,
+      "revision": 625390,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Active",
+              "Epic",
+              "Buy in Cookie Rumble event for 3,100 Buy in Toyshop Throwdown event for 3,100 Buy in Cosmic Rock event for 3,100 Buy in Equipment Blast event for 3,100 Purchasable from the Trader for 1,500 or purchasable from the League Shop for 750"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -1255,12 +1668,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest?cb=20231218115547"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Barbarian King",
+      "rarity": "Epic",
+      "heroUnlockTH": 4,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "40bf57781f623cae8fd0d1bf9cbd9bdd69a6a2bb8a924eafe1fb0cd103330ada",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -1294,8 +1750,25 @@
       "n": "Spiky Ball",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Spiky_Ball.png/revision/latest?cb=20251009104454",
       "source": "https://clashofclans.fandom.com/wiki/Spiky_Ball",
-      "revision": null,
+      "revision": 621313,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Active",
+              "Epic",
+              "Buy in Clash with Haaland event for 3,100 Buy in Snake Festival event for 3,100 Buy in Splash Bash event for 3,100 Buy in Meltdown Mayhem event for 3,100 But in Equipment Blast event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -1608,6 +2081,47 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -1616,12 +2130,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d9/Spiky_Ball.png/revision/latest?cb=20251009104454"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Barbarian King",
+      "rarity": "Epic",
+      "heroUnlockTH": 4,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "91699d452a6963002c991a6b21d7f25aeb3da696c31b6653ea0124b99c786a1d",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -1655,8 +2212,25 @@
       "n": "Snake Bracelet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Snake_Bracelet.png/revision/latest?cb=20250205152701",
       "source": "https://clashofclans.fandom.com/wiki/Snake_Bracelet",
-      "revision": null,
+      "revision": 621017,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Passive",
+              "Epic",
+              "Buy in Snake Festival event for 3,100 Buy in Dark Deal event for 3,100 Buy in Equipment Blast event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -1997,6 +2571,82 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Generic [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Xbow_Placed.ogg",
+              "Hero Equipment selected",
+              "When the Snake Bracelet is selected or swapped with another Hero Equipment"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Hero Equipment upgraded",
+              "When the Snake Bracelet is upgraded"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:SnakeBracelet_Summon.ogg",
+              "Snake summoned",
+              "When the Barbarian King takes damage and the snake appears"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparison [ ]",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -2005,12 +2655,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Snake_Bracelet.png/revision/latest?cb=20250205152701"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Barbarian King",
+      "rarity": "Epic",
+      "heroUnlockTH": 4,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "20d56be3aa73b3152a243aa96f4b4c5f6c812b1950312954c88dc5fb9fcb16ec",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -2044,8 +2737,25 @@
       "n": "Stick Horse",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Stick_Horse.png/revision/latest?cb=20260206172629",
       "source": "https://clashofclans.fandom.com/wiki/Stick_Horse",
-      "revision": null,
+      "revision": 622735,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Barbarian King",
+              "Passive",
+              "Epic",
+              "Buy in Wise Warriors event for 3,100"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -2386,6 +3096,47 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Comparisons [ ]",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -2394,12 +3145,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/Stick_Horse.png/revision/latest?cb=20260206172629"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Barbarian King",
+      "rarity": "Epic",
+      "heroUnlockTH": 4,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "69c10e7f305549df6795f85c4210f7ebabb3e3f94192cc8051291061506558de",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -2433,8 +3227,25 @@
       "n": "Archer Puppet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Archer_Puppet.png/revision/latest?cb=20231211153910",
       "source": "https://clashofclans.fandom.com/wiki/Archer_Puppet",
-      "revision": null,
+      "revision": 621670,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -2637,16 +3448,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Archer_Puppet.png/revision/latest?cb=20231211153910"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Common",
+      "heroUnlockTH": 8,
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "cddd0d623977043d2edc7cb9f9b061dadb7f34a24587d6c95e7b569da804499f",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Invisibility Vial",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Invisibility_Vial.png/revision/latest?cb=20240101094313",
       "source": "https://clashofclans.fandom.com/wiki/Invisibility_Vial",
-      "revision": null,
+      "revision": 623169,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -2830,16 +3713,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Invisibility_Vial.png/revision/latest?cb=20240101094313"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Common",
+      "heroUnlockTH": 8,
+      "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "11552e37c7575bf11ffb69c4bf61e6e3e9f1ffd8d6b18a084aecfeb642cbb8fe",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Giant Arrow",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Giant_Arrow.png/revision/latest?cb=20231211154034",
       "source": "https://clashofclans.fandom.com/wiki/Giant_Arrow",
-      "revision": null,
+      "revision": 623346,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Active",
+              "Common",
+              "Blacksmith Level 2"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -3036,12 +3991,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Giant_Arrow.png/revision/latest?cb=20231211154034"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Common",
+      "heroUnlockTH": 8,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "e8df61063c83e7405b2ad1e811e8a127ca7c93520394d91263ff09b11072f405",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 9,
         "2": 9,
         "3": 9,
@@ -3066,8 +4054,25 @@
       "n": "Healer Puppet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Healer_Puppet.png/revision/latest?cb=20231211154103",
       "source": "https://clashofclans.fandom.com/wiki/Healer_Puppet",
-      "revision": null,
+      "revision": 621291,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Active",
+              "Common",
+              "Blacksmith level 5"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -3262,6 +4267,47 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -3270,12 +4316,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Healer_Puppet.png/revision/latest?cb=20231211154103"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 12,
+        "5": 12,
+        "6": 12,
+        "7": 12,
+        "8": 12,
+        "9": 12,
+        "10": 12,
+        "11": 12,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Common",
+      "heroUnlockTH": 8,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "25334733f278d2c1e5a11cc7022d118d5f49dc24eab03552ca2971ac5e40f635",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 12,
         "2": 12,
         "3": 12,
@@ -3300,8 +4379,25 @@
       "n": "Frozen Arrow",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Frozen_Arrow.png/revision/latest?cb=20240207193559",
       "source": "https://clashofclans.fandom.com/wiki/Frozen_Arrow",
-      "revision": null,
+      "revision": 625733,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Passive",
+              "Epic",
+              "Buy in Dragon Festival event for 3,100 Buy in Toyshop Throwdown event for 3,100 Buy in Cosmic Rock event for 3,100 Buy in Equipment Blast event for 3,100 Purchasable from the Trader for 1,500 or purchasable from the League Shop for 750"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -3594,12 +4690,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Frozen_Arrow.png/revision/latest?cb=20240207193559"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Epic",
+      "heroUnlockTH": 8,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "ff1528028d775adfd382efc7a9ffc06dace233070290b2b40adab2b160897500",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -3633,8 +4772,25 @@
       "n": "Magic Mirror",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Magic_Mirror.png/revision/latest?cb=20260210072454",
       "source": "https://clashofclans.fandom.com/wiki/Magic_Mirror",
-      "revision": null,
+      "revision": 621024,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Active",
+              "Epic",
+              "Buy in Anime Clash event for 3,100 Buy in Dark Deal event for 3,100 Buy in Meltdown Mayhem event for 3,100 Buy in Equipment Blast event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -4003,6 +5159,17 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Invisibility"
+          ],
+          "rows": [
+            [
+              "1s"
+            ]
+          ]
         }
       ],
       "images": [
@@ -4011,12 +5178,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1d/Magic_Mirror.png/revision/latest?cb=20260210072454"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Epic",
+      "heroUnlockTH": 8,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "51d9e72bf7ba789f020e33e645033643b08261139a0a0cce4698fb74f045b22e",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -4050,8 +5260,25 @@
       "n": "Action Figure",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Action_Figure.png/revision/latest?cb=20250407081928",
       "source": "https://clashofclans.fandom.com/wiki/Action_Figure",
-      "revision": null,
+      "revision": 621807,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Active",
+              "Epic",
+              "Buy in Friend or Foe event for 3,100 Buy in Splash Bash event for 3,100 Buy in Equipment Blast event for 3,100 Buy in Wise Warriors event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -4364,6 +5591,58 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Invisibility"
+          ],
+          "rows": [
+            [
+              "1s"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -4372,12 +5651,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Action_Figure.png/revision/latest?cb=20250407081928"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Epic",
+      "heroUnlockTH": 8,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "a79a3c45c3b4854dccf81c12a5d4876ed5bf5c72420ccdb270933acb2acfd1c3",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -4411,8 +5733,25 @@
       "n": "Monolith Arrow",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Monolith_Arrow.png/revision/latest?cb=20260612134300",
       "source": "https://clashofclans.fandom.com/wiki/Monolith_Arrow",
-      "revision": null,
+      "revision": 625715,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Archer Queen",
+              "Passive",
+              "Epic",
+              "Buy in Anime Fury Medal Event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -4753,6 +6092,97 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Generic [ ]",
+          "columns": [
+            "Sound Effect",
+            "Caption",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Xbow_Placed.ogg",
+              "Hero Equipment equipped¹",
+              "When the Monolith Arrow is equipped"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Hero Equipment upgraded²",
+              "When the Monolith Arrow is upgraded"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Monolith_Arrow_shoot1.ogg https://clashofclans.fandom.com/wiki/File:Monolith_Arrow_shoot2.ogg https://clashofclans.fandom.com/wiki/File:Monolith_Arrow_shoot3.ogg",
+              "Monolith Arrow readies",
+              "When the Archer Queen is deployed while the Monolith Arrow is equipped"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Monolith_Arrow_hit_lvl3.ogg",
+              "Monolith Arrow hits (maximum damage)",
+              "When the Monolith Arrow hits a unit or building"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Monolith_Arrow_hit_lvl2.ogg",
+              "Monolith Arrow hits (medium damage)",
+              "When the Monolith Arrow hits a unit or building"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Monolith_Arrow_hit_lvl1.ogg",
+              "Monolith Arrow hits (minimum damage)",
+              "When the Monolith Arrow hits a unit or building"
+            ]
+          ]
+        },
+        {
+          "heading": "General [ ]",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -4761,12 +6191,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Monolith_Arrow.png/revision/latest?cb=20260612134300"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "11": 8,
+        "12": 8,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Archer Queen",
+      "rarity": "Epic",
+      "heroUnlockTH": 8,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "ad704064200a4eefa69986fa301106f8c0dc08df06b2267c18c07643f82b5fdb",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -4800,8 +6273,25 @@
       "n": "Henchmen Puppet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Henchmen_Puppet.png/revision/latest?cb=20241124131856",
       "source": "https://clashofclans.fandom.com/wiki/Henchmen_Puppet",
-      "revision": null,
+      "revision": 621392,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -4996,6 +6486,19 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Summoned Henchmen",
+            "Invisibility"
+          ],
+          "rows": [
+            [
+              "2",
+              "1s"
+            ]
+          ]
         }
       ],
       "images": [
@@ -5004,12 +6507,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Henchmen_Puppet.png/revision/latest?cb=20241124131856"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Common",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "8d9e1693ed2468c4082556ce9871d0ac188be96241cc08b53358752a73fa0206",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -5034,8 +6570,25 @@
       "n": "Dark Orb",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Dark_Orb.png/revision/latest?cb=20241124131854",
       "source": "https://clashofclans.fandom.com/wiki/Dark_Orb",
-      "revision": null,
+      "revision": 622302,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -5260,6 +6813,41 @@
               "5"
             ]
           ]
+        },
+        {
+          "heading": "Generic",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Xbow_Placed.ogg",
+              "Hero Equipment equipped",
+              "When the Dark Orb is equipped or swapped"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Hero Equipment upgraded",
+              "When the Dark Orb is upgraded"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:DarkOrb_Launch.ogg",
+              "Minion Prince launches Dark Orb",
+              "When the ability is activated while the Dark Orb is equipped"
+            ]
+          ]
         }
       ],
       "images": [
@@ -5268,12 +6856,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Dark_Orb.png/revision/latest?cb=20241124131854"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Common",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "94024ce1d7ddd75197e16326645995a6e2cd9da52ba86dc7b42c227ed1eef66f",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -5298,8 +6919,25 @@
       "n": "Metal Pants",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Metal_Pants.png/revision/latest?cb=20250209131331",
       "source": "https://clashofclans.fandom.com/wiki/Metal_Pants",
-      "revision": null,
+      "revision": 625669,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Active",
+              "Common",
+              "Blacksmith level 3"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -5494,6 +7132,47 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -5502,12 +7181,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/04/Metal_Pants.png/revision/latest?cb=20250209131331"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Common",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "ebbf5dbb3a88d8dde299176db313ca4e0e1d9aa230f48bc712259cdd8b1caba4",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 10,
         "2": 10,
         "3": 10,
@@ -5532,8 +7244,25 @@
       "n": "Noble Iron",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Noble_Iron.png/revision/latest?cb=20250323130911",
       "source": "https://clashofclans.fandom.com/wiki/Noble_Iron",
-      "revision": null,
+      "revision": 621029,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Passive",
+              "Common",
+              "Blacksmith level 5"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -5747,6 +7476,87 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Generic",
+          "columns": [
+            "Sound Effect",
+            "Caption",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Hero Equipment upgraded",
+              "When the Noble Iron is upgraded"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Xbow_Placed.ogg",
+              "Hero Equipment equipped",
+              "When the Noble Iron is equipped"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique",
+          "columns": [
+            "Sound Effect",
+            "Caption",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:NobleIronProjectile_Fire.ogg",
+              "Iron Fist launches",
+              "When the Minion Prince fires an iron fist for the first few attacks"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:NobleIronProjectile_Impact.ogg",
+              "Iron Fist hits something",
+              "When the Iron fist impacts a unit or building"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -5755,12 +7565,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Noble_Iron.png/revision/latest?cb=20250323130911"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 12,
+        "5": 12,
+        "6": 12,
+        "7": 12,
+        "8": 12,
+        "9": 12,
+        "10": 12,
+        "11": 12,
+        "12": 12,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Common",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "19bd5445a0632dd2dcee66df592fa70e1b78dfe9ce6554652af2ac4ca6e25bdc",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 12,
         "2": 12,
         "3": 12,
@@ -5785,8 +7628,25 @@
       "n": "Dark Crown",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Dark_Crown.png/revision/latest?cb=20250603163058",
       "source": "https://clashofclans.fandom.com/wiki/Dark_Crown",
-      "revision": null,
+      "revision": 625816,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Passive",
+              "Epic",
+              "Buy in Dark Deal event for 3,100 Buy in Meltdown Mayhem event for 3,100 Buy in Equipment Blast event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -6155,6 +8015,26 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Audio [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:DarkCrown_Deploy.ogg",
+              "Dark aura surrounds Minion Prince",
+              "When the Minion Prince is deployed, equipped with the Dark Crown"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:DarkCrown_PowerUp.ogg https://clashofclans.fandom.com/wiki/File:DarkCrown_SoulBeam.ogg",
+              "Minion Prince powers up",
+              "Both plays at the same time when 60 housing space worth of units is defeated, up to three times"
+            ]
+          ]
         }
       ],
       "images": [
@@ -6163,12 +8043,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Dark_Crown.png/revision/latest?cb=20250603163058"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 9,
+        "11": 9,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Epic",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "4e95253e594b865ed4f262d7bca42a25d819ad3d735fc6d86fe39fa7ca355918",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -6202,8 +8125,25 @@
       "n": "Meteor Staff",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Meteor_Staff.png/revision/latest?cb=20251011040708",
       "source": "https://clashofclans.fandom.com/wiki/Meteor_Staff",
-      "revision": null,
+      "revision": 624746,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Passive",
+              "Epic",
+              "Buy in Cosmic Rock event for 3,100 Buy in Wise Warriors event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -6527,6 +8467,26 @@
               "2 tiles"
             ]
           ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Meteor_Staff_Fall1.ogg https://clashofclans.fandom.com/wiki/File:Meteor_Staff_Fall2.ogg https://clashofclans.fandom.com/wiki/File:Meteor_Staff_Fall3.ogg",
+              "Meteor falls",
+              "When the meteor is about to hit a building"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Meteor_Staff_Hit1.ogg https://clashofclans.fandom.com/wiki/File:Meteor_Staff_Hit2.ogg https://clashofclans.fandom.com/wiki/File:Meteor_Staff_Hit3.ogg",
+              "Meteor smashes",
+              "When a meteor hits a building"
+            ]
+          ]
         }
       ],
       "images": [
@@ -6535,12 +8495,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Meteor_Staff.png/revision/latest?cb=20251011040708"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 9,
+        "11": 9,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Epic",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "acb938a796275f54cdd9d5adf053dec75f66facc57c43a6132f6211acd245c1c",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -6574,8 +8577,25 @@
       "n": "Portal Pendant",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Portal_Pendant.png/revision/latest?cb=20261030023941",
       "source": "https://clashofclans.fandom.com/wiki/Portal_Pendant",
-      "revision": null,
+      "revision": 625759,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Minion Prince",
+              "Active",
+              "Epic",
+              "Buy in Portal Panic event for 3,100"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -6963,12 +8983,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Portal_Pendant.png/revision/latest?cb=20261030023941"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 9,
+        "11": 9,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 10,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Minion Prince",
+      "rarity": "Epic",
+      "heroUnlockTH": 9,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "2a018a1424a47b93d3cdf6ba395fb8160308f3b4c0d1cf793030d5e7e25bd03d",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -7002,8 +9065,25 @@
       "n": "Eternal Tome",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Eternal_Tome.png/revision/latest?cb=20231211154154",
       "source": "https://clashofclans.fandom.com/wiki/Eternal_Tome",
-      "revision": null,
+      "revision": 621300,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -7149,16 +9229,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/29/Eternal_Tome.png/revision/latest?cb=20231211154154"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Common",
+      "heroUnlockTH": 11,
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "d8dfb85587d2000f8780bd55730a12314695a7d99c9cdc7588f2f42e975cbd87",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 11,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Life Gem",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Life_Gem.png/revision/latest?cb=20231212145821",
       "source": "https://clashofclans.fandom.com/wiki/Life_Gem",
-      "revision": null,
+      "revision": 623272,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Passive",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -7361,16 +9513,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Life_Gem.png/revision/latest?cb=20231212145821"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Common",
+      "heroUnlockTH": 11,
+      "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "f2b6713f955050861ff485635660bc0d62932e5cf0ea6749343993e7f091f3e4",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 11,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Rage Gem",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rage_Gem.png/revision/latest?cb=20231211154245",
       "source": "https://clashofclans.fandom.com/wiki/Rage_Gem",
-      "revision": null,
+      "revision": 622981,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Passive",
+              "Common",
+              "Blacksmith level 4"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -7554,12 +9778,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rage_Gem.png/revision/latest?cb=20231211154245"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Common",
+      "heroUnlockTH": 11,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "8fb4e10e3218887f63b712cf777c5d7ab1e388c8391e02592e28f3ef702262ff",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 11,
         "2": 11,
         "3": 11,
@@ -7584,8 +9841,25 @@
       "n": "Healing Tome",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Healing_Tome.png/revision/latest?cb=20231211154223",
       "source": "https://clashofclans.fandom.com/wiki/Healing_Tome",
-      "revision": null,
+      "revision": 621304,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Active",
+              "Common",
+              "Blacksmith level 6"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -7788,12 +10062,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Healing_Tome.png/revision/latest?cb=20231211154223"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Common",
+      "heroUnlockTH": 11,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "17db0e89a542be97c49beda7d020bb714a022fc59d41669a0ca4e329e081dfb4",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 13,
         "2": 13,
         "3": 13,
@@ -7818,8 +10125,25 @@
       "n": "Fireball",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Fireball_Equipment.png/revision/latest?cb=20240311163556",
       "source": "https://clashofclans.fandom.com/wiki/Fireball",
-      "revision": null,
+      "revision": 625671,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Active",
+              "Epic",
+              "Buy in Super Dragon Spotlight event for 3,100 Buy in Toyshop Throwdown event for 3,100 Buy in Cosmic Rock event for 3,100 Buy in Equipment Blast event for 3,100 Buy in Wise Warriors event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -8116,12 +10440,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Fireball_Equipment.png/revision/latest?cb=20240311163556"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 11,
+        "14": 11,
+        "15": 11,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Epic",
+      "heroUnlockTH": 11,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "ec2e5b5821e0d22f816916da4e18105e3f59715a24bc14648b1ea655f511f9d0",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -8155,8 +10522,25 @@
       "n": "Lavaloon Puppet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Lavaloon_Puppet.png/revision/latest?cb=20241011154209",
       "source": "https://clashofclans.fandom.com/wiki/Lavaloon_Puppet",
-      "revision": null,
+      "revision": 623290,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Active",
+              "Epic",
+              "Buy in Mashup Mania event for 3,100 Buy in Friend or Foe event for 3,100 Buy in Meltdown Mayhem event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -8477,12 +10861,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Lavaloon_Puppet.png/revision/latest?cb=20241011154209"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 11,
+        "14": 11,
+        "15": 11,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Epic",
+      "heroUnlockTH": 11,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "139b9aed5eab109c7625f93664e7fb314e1c959b68a799f97825e3e3cd334bbd",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -8516,8 +10943,25 @@
       "n": "Heroic Torch",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Heroic_Torch.png/revision/latest?cb=20250805185630",
       "source": "https://clashofclans.fandom.com/wiki/Heroic_Torch",
-      "revision": null,
+      "revision": 623829,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Grand Warden",
+              "Active",
+              "Epic",
+              "Buy in Splash Bash event for 3,100 Buy in Equipment Blast event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -8886,6 +11330,41 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Heroic_Torch_blast.ogg",
+              "Battle horn blares",
+              "When the Heroic Torch is activated"
+            ]
+          ]
+        },
+        {
+          "heading": "Generic [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Xbow_Placed.ogg",
+              "Hero Equipment selected",
+              "When the Heroic Torch swapped with another Hero Equipment"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Hero Equipment upgraded",
+              "When the Heroic Torch is upgraded"
+            ]
+          ]
         }
       ],
       "images": [
@@ -8894,12 +11373,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Heroic_Torch.png/revision/latest?cb=20250805185630"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 11,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 11,
+        "12": 11,
+        "13": 11,
+        "14": 11,
+        "15": 11,
+        "16": 12,
+        "17": 12,
+        "18": 12,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Grand Warden",
+      "rarity": "Epic",
+      "heroUnlockTH": 11,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "41c790b911cb8eabce351b12e987db3cd2b0b1af71fea9d6f7656c615cbd96ee",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -8933,8 +11455,25 @@
       "n": "Royal Gem",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Royal_Gem.png/revision/latest?cb=20231211154310",
       "source": "https://clashofclans.fandom.com/wiki/Royal_Gem",
-      "revision": null,
+      "revision": 621038,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -9118,16 +11657,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b9/Royal_Gem.png/revision/latest?cb=20231211154310"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Common",
+      "heroUnlockTH": 13,
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "dc4de8ff7be12b63cce3ffbba34b70101cd64edc7f5e537d919f73affa1e686c",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 13,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Seeking Shield",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Shield.png/revision/latest?cb=20231211154339",
       "source": "https://clashofclans.fandom.com/wiki/Seeking_Shield",
-      "revision": null,
+      "revision": 621327,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -9284,6 +11895,19 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Number of Targets",
+            "Targets"
+          ],
+          "rows": [
+            [
+              "4",
+              "Ground & Air"
+            ]
+          ]
         }
       ],
       "images": [
@@ -9292,16 +11916,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Shield.png/revision/latest?cb=20231211154339"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Common",
+      "heroUnlockTH": 13,
+      "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "fb8b5e79ce4b45c045e7882b7dd860eb238d2a973a8eaa610d43b1880399fd14",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 13,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Hog Rider Puppet",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Hog_Rider_Puppet.png/revision/latest?cb=20240225143837",
       "source": "https://clashofclans.fandom.com/wiki/Hog_Rider_Puppet",
-      "revision": null,
+      "revision": 621803,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Active",
+              "Common",
+              "Blacksmith level 7"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -9496,6 +12192,17 @@
               "7"
             ]
           ]
+        },
+        {
+          "heading": "Statistics",
+          "columns": [
+            "Invisibility"
+          ],
+          "rows": [
+            [
+              "1s"
+            ]
+          ]
         }
       ],
       "images": [
@@ -9504,12 +12211,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Hog_Rider_Puppet.png/revision/latest?cb=20240225143837"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 14,
+        "5": 14,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 14,
+        "10": 14,
+        "11": 14,
+        "12": 14,
+        "13": 14,
+        "14": 14,
+        "15": 14,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      },
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Common",
+      "heroUnlockTH": 13,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "b3306d3b2132f31bf27b933e8d3f806ecfb8fbf2b66cc96f2fc999499bbd53e6",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 14,
         "2": 14,
         "3": 14,
@@ -9534,8 +12274,25 @@
       "n": "Haste Vial",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Haste_Vial.png/revision/latest?cb=20240225143859",
       "source": "https://clashofclans.fandom.com/wiki/Haste_Vial",
-      "revision": null,
+      "revision": 621283,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Active",
+              "Common",
+              "Blacksmith level 8"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -9749,6 +12506,47 @@
               "8"
             ]
           ]
+        },
+        {
+          "heading": "References",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -9757,12 +12555,45 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Haste_Vial.png/revision/latest?cb=20240225143859"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      },
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Common",
+      "heroUnlockTH": 13,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "4b8e52244d76aed28f13c8c1959cf0fa1b7bc80e240298438fe5329d80ab90e7",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 15,
         "2": 15,
         "3": 15,
@@ -9787,8 +12618,25 @@
       "n": "Rocket Spear",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Rocket_Spear.png/revision/latest?cb=20240608113451",
       "source": "https://clashofclans.fandom.com/wiki/Rocket_Spear",
-      "revision": null,
+      "revision": 621041,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Active",
+              "Epic",
+              "Buy in Super Wall Breaker Spotlight event for 3,100 Buy in Snake Festival event for 3,100 Buy in Equipment Blast event for 3,100 Buy in Wise Warriors event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -10122,12 +12970,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Rocket_Spear.png/revision/latest?cb=20240608113451"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 13,
+        "17": 13,
+        "18": 13,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Epic",
+      "heroUnlockTH": 13,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "383675cbcc365800641abc3c2c1a2bead7f966fa21034cf429b3876f60ee6234",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -10161,8 +13052,25 @@
       "n": "Electro Boots",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Electro_Boots.png/revision/latest?cb=20241211095239",
       "source": "https://clashofclans.fandom.com/wiki/Electro_Boots",
-      "revision": null,
+      "revision": 625594,
       "tables": [
+        {
+          "heading": "Statistics",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Passive",
+              "Epic",
+              "Buy in Toyshop Throwdown event for 3,100 Buy in Friend or Foe event for 3,100 Buy in Cosmic Rock event for 3,100 Buy in Equipment Blast event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics",
           "columns": [
@@ -10488,6 +13396,82 @@
               "5 tiles"
             ]
           ]
+        },
+        {
+          "heading": "Generic",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Xbow_Placed.ogg",
+              "Hero Equipment selected",
+              "When the Electro Boots is selected or swapped with another Hero Equipment"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:HeroEquipment_Upgrade.ogg",
+              "Hero Equipment upgraded",
+              "When the Electro Boots is upgraded"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:ElectroBoots_Aura.ogg",
+              "Electric aura activates",
+              "When the Royal Champion is deployed with the Electro Boots"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparisons",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -10496,12 +13480,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Electro_Boots.png/revision/latest?cb=20241211095239"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 13,
+        "17": 13,
+        "18": 13,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Epic",
+      "heroUnlockTH": 13,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "5657a25497982b12c2809b5fa62acc79965993c5f906827ba71a30d508c90319",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -10535,8 +13562,25 @@
       "n": "Frost Flake",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Frost_Flake.png/revision/latest?cb=20251210120859",
       "source": "https://clashofclans.fandom.com/wiki/Frost_Flake",
-      "revision": null,
+      "revision": 621307,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Royal Champion",
+              "Active",
+              "Epic",
+              "Buy in Meltdown Mayhem event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -10849,6 +13893,17 @@
               "9"
             ]
           ]
+        },
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "Slow Down"
+          ],
+          "rows": [
+            [
+              "100%"
+            ]
+          ]
         }
       ],
       "images": [
@@ -10857,12 +13912,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Frost_Flake.png/revision/latest?cb=20251210120859"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 13,
+        "11": 13,
+        "12": 13,
+        "13": 13,
+        "14": 13,
+        "15": 13,
+        "16": 13,
+        "17": 13,
+        "18": 13,
+        "19": 14,
+        "20": 14,
+        "21": 14,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Royal Champion",
+      "rarity": "Epic",
+      "heroUnlockTH": 13,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "12d56f158cb7523fa0ea17bd3aa37dba6ec25ee631563337da2b69f690eda38b",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -10896,8 +13994,25 @@
       "n": "Fire Heart",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Fire_Heart.png/revision/latest?cb=20260227182842",
       "source": "https://clashofclans.fandom.com/wiki/Fire_Heart",
-      "revision": null,
+      "revision": 625757,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Dragon Duke",
+              "Passive",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -11084,6 +14199,21 @@
               "4 tiles"
             ]
           ]
+        },
+        {
+          "heading": "Audio [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Fire_Heart_heal.ogg",
+              "Dragon Duke heals",
+              "Plays in loop while Dragon Duke is in battle"
+            ]
+          ]
         }
       ],
       "images": [
@@ -11092,16 +14222,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Fire_Heart.png/revision/latest?cb=20260227182842"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Dragon Duke",
+      "rarity": "Common",
+      "heroUnlockTH": 15,
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "d0f8ca2c8b26aa4df96f71c251263a292e164f92d60adf4319bf1579055a0470",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 15,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Flame Blower",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Flame_Blower.png/revision/latest?cb=20260227182817",
       "source": "https://clashofclans.fandom.com/wiki/Flame_Blower",
-      "revision": null,
+      "revision": 624519,
       "tables": [
+        {
+          "heading": "Statistic [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Dragon Duke",
+              "Active",
+              "Common",
+              "Available by default"
+            ]
+          ]
+        },
         {
           "heading": "Statistic [ ]",
           "columns": [
@@ -11288,6 +14490,62 @@
               "12 tiles"
             ]
           ]
+        },
+        {
+          "heading": "Audio [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Flame_Blower_blast.ogg",
+              "Flame blast",
+              "When the Flame Blower is activated"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparison [ ]",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -11296,16 +14554,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Flame_Blower.png/revision/latest?cb=20260227182817"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Dragon Duke",
+      "rarity": "Common",
+      "heroUnlockTH": 15,
+      "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "e1431a24c6262b305f326550f64d818b84f9c2999ebc87e908b368c8e125de8a",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 15,
+        "2": 8,
+        "3": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "7": 8,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 10,
+        "12": 10,
+        "13": 12,
+        "14": 12,
+        "15": 12,
+        "16": 14,
+        "17": 14,
+        "18": 14
+      }
     },
     {
       "n": "Stun Blaster",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/3/34/Stun_Blaster.png/revision/latest?cb=20260227182901",
       "source": "https://clashofclans.fandom.com/wiki/Stun_Blaster",
-      "revision": null,
+      "revision": 624501,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Dragon Duke",
+              "Active",
+              "Common",
+              "Blacksmith level 9"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -11530,6 +14860,62 @@
               "8 tiles"
             ]
           ]
+        },
+        {
+          "heading": "Audio [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Stun_Blaster_blast.ogg",
+              "Shockwave blast",
+              "When the Stun Blaster is activated"
+            ]
+          ]
+        },
+        {
+          "heading": "Comparison [ ]",
+          "columns": [
+            "Home Village Army",
+            "Home Village Army"
+          ],
+          "rows": [
+            [
+              "Elixir Troops",
+              "Barbarian • Archer • Giant • Goblin • Wall Breaker • Balloon • Wizard • Healer • Dragon • P.E.K.K.A • Baby Dragon • Miner • Electro Dragon • Yeti ( Yetimite ) • Dragon Rider • Electro Titan • Root Rider • Thrower • Meteor Golem ( Meteormite )"
+            ],
+            [
+              "Dark Elixir Troops",
+              "Minion • Hog Rider • Valkyrie • Golem ( Golemite ) • Witch ( Skeleton ) • Lava Hound ( Lava Pup ) • Bowler • Ice Golem • Headhunter • Apprentice Warden • Druid ( Bear ) • Furnace ( Firemite ) • Ruin Witch ( Ruin Knight )"
+            ],
+            [
+              "Super Troops",
+              "Super Barbarian • Super Archer • Super Giant • Sneaky Goblin • Super Wall Breaker • Rocket Balloon • Super Wizard • Super Dragon • Inferno Dragon • Super Miner • Super Yeti ( Electromite ) • Super Minion • Super Hog Rider ( Super Hog • Super Rider ) • Super Valkyrie • Super Witch ( Big Boy ) • Ice Hound ( Ice Pup ) • Super Bowler"
+            ],
+            [
+              "Heroes & Hero Equipment",
+              "Barbarian King : Barbarian Puppet • Rage Vial • Earthquake Boots • Vampstache • Giant Gauntlet • Spiky Ball • Snake Bracelet ( Snake ) • Stick Horse Archer Queen : Archer Puppet • Invisibility Vial • Giant Arrow • Healer Puppet • Frozen Arrow • Magic Mirror • Action Figure ( Giant Giant ) • Monolith Arrow Minion Prince : Henchmen Puppet ( Henchmen ) • Dark Orb • Metal Pants • Noble Iron • Dark Crown • Meteor Staff • Portal Pendant Grand Warden : Eternal Tome • Life Gem • Rage Gem • Healing Tome • Fireball • Lavaloon Puppet ( Lavaloon • Lavaloon Pup ) • Heroic Torch Royal Champion : Royal Gem • Seeking Shield • Hog Rider Puppet • Haste Vial • Rocket Spear • Electro Boots • Frost Flake Dragon Duke : Fire Heart • Flame Blower • Stun Blaster • Electro Fangs • Rocket Backpack • Revenge Deck"
+            ],
+            [
+              "Elixir Spells",
+              "Lightning Spell • Healing Spell • Rage Spell • Jump Spell • Freeze Spell • Clone Spell • Invisibility Spell • Recall Spell • Revive Spell • Totem Spell"
+            ],
+            [
+              "Dark Spells",
+              "Poison Spell • Earthquake Spell • Haste Spell • Skeleton Spell ( Skeleton ) • Bat Spell ( Bat ) • Overgrowth Spell • Ice Block Spell • Angry Spell"
+            ],
+            [
+              "Siege Machines",
+              "Wall Wrecker • Battle Blimp • Stone Slammer • Siege Barracks • Log Launcher • Flame Flinger • Battle Drill • Troop Launcher • Sky Wagon"
+            ],
+            [
+              "Pets",
+              "L.A.S.S.I • Electro Owl • Mighty Yak • Unicorn • Frosty ( Frostmite ) • Diggy • Poison Lizard • Phoenix • Spirit Fox • Angry Jelly • Sneezy ( Booger ) • Greedy Raven"
+            ]
+          ]
         }
       ],
       "images": [
@@ -11539,15 +14925,89 @@
         }
       ],
       "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+        "Stun Blaster level 6: its wiki page lists 940 Shiny Ore, while every other Common equipment page lists 840. Preserved 940 pending independent confirmation; this also affects calculated Shiny Ore totals by 100."
+      ],
+      "lowerTownHallStats": [],
+      "hero": "Dragon Duke",
+      "rarity": "Common",
+      "heroUnlockTH": 15,
+      "hallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 16,
+        "5": 16,
+        "6": 16,
+        "7": 16,
+        "8": 16,
+        "9": 16,
+        "10": 16,
+        "11": 16,
+        "12": 16,
+        "13": 16,
+        "14": 16,
+        "15": 16,
+        "16": 16,
+        "17": 16,
+        "18": 16
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27360,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "57b825f1a7afb7ebed5fbe341de4b5d1ea23f1d1f91ebff167047ca2058aae20",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 16,
+        "5": 16,
+        "6": 16,
+        "7": 16,
+        "8": 16,
+        "9": 16,
+        "10": 16,
+        "11": 16,
+        "12": 16,
+        "13": 16,
+        "14": 16,
+        "15": 16,
+        "16": 16,
+        "17": 16,
+        "18": 16
+      }
     },
     {
       "n": "Electro Fangs",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/2/2c/Electro_Fangs.png/revision/latest?cb=20260426121243",
       "source": "https://clashofclans.fandom.com/wiki/Electro_Fangs",
-      "revision": null,
+      "revision": 624750,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Dragon Duke",
+              "Passive",
+              "Common",
+              "Blacksmith level 10"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -11736,6 +15196,26 @@
               "3 tiles"
             ]
           ]
+        },
+        {
+          "heading": "Audio [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Electro_Fangs_attack.ogg",
+              "Dragon Duke chomps",
+              "When the Dragon Duke is attacking something"
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Electro_Fangs_chain_hit1.ogg https://clashofclans.fandom.com/wiki/File:Electro_Fangs_chain_hit2.ogg https://clashofclans.fandom.com/wiki/File:Electro_Fangs_chain_hit3.ogg https://clashofclans.fandom.com/wiki/File:Electro_Fangs_chain_hit4.ogg https://clashofclans.fandom.com/wiki/File:Electro_Fangs_chain_hit5.ogg",
+              "Lightning chains",
+              "When the chain damage from Electro Fangs hits a unit or building"
+            ]
+          ]
         }
       ],
       "images": [
@@ -11744,16 +15224,88 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2c/Electro_Fangs.png/revision/latest?cb=20260426121243"
         }
       ],
-      "unverified": [
-        "Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock."
-      ]
+      "unverified": [],
+      "lowerTownHallStats": [],
+      "hero": "Dragon Duke",
+      "rarity": "Common",
+      "heroUnlockTH": 15,
+      "hallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17,
+        "7": 17,
+        "8": 17,
+        "9": 17,
+        "10": 17,
+        "11": 17,
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17,
+        "16": 17,
+        "17": 17,
+        "18": 17
+      },
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 27260,
+        "Glowy Ore": 1920
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "70a9a4d90d16ab4b2eaa55b331fd50f5adcafd5adbd4b816c3f061d30f6c879b",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17,
+        "7": 17,
+        "8": 17,
+        "9": 17,
+        "10": 17,
+        "11": 17,
+        "12": 17,
+        "13": 17,
+        "14": 17,
+        "15": 17,
+        "16": 17,
+        "17": 17,
+        "18": 17
+      }
     },
     {
       "n": "Rocket Backpack",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rocket_Backpack.png/revision/latest?cb=20260409103804",
       "source": "https://clashofclans.fandom.com/wiki/Rocket_Backpack",
-      "revision": null,
+      "revision": 623906,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Dragon Duke",
+              "Active",
+              "Epic",
+              "Buy in Sound of Clash event for 3,100 or purchasable from the Trader for 1,500"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -12097,12 +15649,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Rocket_Backpack_Range3.jpg/revision/latest?cb=20260406105728"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15,
+        "21": 15,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Dragon Duke",
+      "rarity": "Epic",
+      "heroUnlockTH": 15,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "b93a743f71e36c532ba1190aa7244ffd44d96f7e66568e2e8b312ff6e6885f67",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -12136,8 +15731,25 @@
       "n": "Revenge Deck",
       "av": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Revenge_Deck.png/revision/latest?cb=20260906171244",
       "source": "https://clashofclans.fandom.com/wiki/Revenge_Deck",
-      "revision": null,
+      "revision": 625660,
       "tables": [
+        {
+          "heading": "Statistics [ ]",
+          "columns": [
+            "User",
+            "Ability Type",
+            "Rarity",
+            "Unlock Requirement"
+          ],
+          "rows": [
+            [
+              "Dragon Duke",
+              "Passive",
+              "Epic",
+              "Buy in Awesome Medal Event for 3,100"
+            ]
+          ]
+        },
         {
           "heading": "Statistics [ ]",
           "columns": [
@@ -12435,6 +16047,41 @@
               "0.8s"
             ]
           ]
+        },
+        {
+          "heading": "Generic [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Fire_Heart_heal.ogg",
+              "Dragon Duke heals*",
+              "Plays in loop while Dragon Duke is in battle"
+            ]
+          ]
+        },
+        {
+          "heading": "Unique [ ]",
+          "columns": [
+            "Sound Effect",
+            "Captions",
+            "Description"
+          ],
+          "rows": [
+            [
+              "https://clashofclans.fandom.com/wiki/File:Revenge_Deck_shoot1.ogg https://clashofclans.fandom.com/wiki/File:Revenge_Deck_shoot2.ogg https://clashofclans.fandom.com/wiki/File:Revenge_Deck_shoot3.ogg",
+              "Card counter",
+              ""
+            ],
+            [
+              "https://clashofclans.fandom.com/wiki/File:Revenge_Deck_hit1.ogg https://clashofclans.fandom.com/wiki/File:Revenge_Deck_hit2.ogg https://clashofclans.fandom.com/wiki/File:Revenge_Deck_hit3.ogg",
+              "Card hits",
+              ""
+            ]
+          ]
         }
       ],
       "images": [
@@ -12443,12 +16090,55 @@
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Revenge_Deck.png/revision/latest?cb=20260906171244"
         }
       ],
-      "unverified": [
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock.",
-        "Calculated upgrade totals and patch-note cross-check require manual review before unlock."
-      ],
+      "unverified": [],
       "hallByLevel": {
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 15,
+        "5": 15,
+        "6": 15,
+        "7": 15,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 15,
+        "14": 15,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15,
+        "21": 15,
+        "22": 15,
+        "23": 15,
+        "24": 15,
+        "25": 16,
+        "26": 16,
+        "27": 16
+      },
+      "lowerTownHallStats": [],
+      "hero": "Dragon Duke",
+      "rarity": "Epic",
+      "heroUnlockTH": 15,
+      "upgradeTime": "Instant",
+      "totalUpgradeCost": {
+        "Shiny Ore": 56060,
+        "Glowy Ore": 3720,
+        "Starry Ore": 480
+      },
+      "note": "Hall caps show levels usable with the hero unlocked. Upgrades are instant. Epic equipment requires separate acquisition through an event or shop; a hall cap does not grant ownership. Legacy equipment migration and temporary boosts are excluded.",
+      "verification": {
+        "checked": "2026-11-03",
+        "rawWikitextSHA256": "39eecf5ed0a858d218218d9da811f3df743b7856ed8eef3c0f1ec1321a93f0bc",
+        "blacksmithRevision": 624544,
+        "heroHallRevision": 625521,
+        "method": "Equipment level-row Blacksmith requirement plus equipment acquisition/unlock requirement, Blacksmith TH requirement, and Hero Hall hero unlock. Ore totals checked against common and epic schedules."
+      },
+      "blacksmithHallByLevel": {
         "1": 8,
         "2": 8,
         "3": 8,
@@ -12480,6 +16170,11 @@
     }
   ],
   "unverified": [],
-  "note": "Hidden review data from current wiki tables. Normal values; no discounts applied. See verification gaps before unlocking.",
-  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+  "note": "All 43 usable equipment hall caps verified. Stats, ore costs, and instant upgrades checked against equipment, Blacksmith, and Hero Hall wiki pages; any conflicting value is flagged on the item. October equipment changes cross-checked against Supercell. Epic acquisition is separate from hall eligibility.",
+  "patchNotes": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+  "verificationSources": [
+    "https://clashofclans.fandom.com/wiki/Blacksmith",
+    "https://clashofclans.fandom.com/wiki/Hero_Hall",
+    "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/"
+  ]
 }

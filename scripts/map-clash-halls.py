@@ -14,6 +14,9 @@ for id in ['army','bbbuildings']:
   if hi is not None:requirements[u['n']]={num(r[0]):num(r[hi]) for r in t['rows'] if num(r[0])}
 for id,d in data.items():
  if d.get('format')!='wiki-review-v1':continue
+ # Equipment has acquisition and hero prerequisites beyond the level-row field.
+ # Rebuild it with verify-equipment.py, which checks those source requirements.
+ if id=='equip' and all('verification' in u for u in d['units']):continue
  for u in d['units']:
   t=primary(u)
   if not t:continue

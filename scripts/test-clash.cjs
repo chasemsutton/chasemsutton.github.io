@@ -40,6 +40,34 @@ function context(search) {
    count++;
   }
  }
+ const equipment = JSON.parse(fs.readFileSync(path.join(root,'data/equip.json')));
+ assert.equal(equipment.units.length,43);
+ for (const u of equipment.units) {
+   const rows = u.tables.find(t=>t.columns[0]==='Level').rows;
+   assert.deepEqual(Object.keys(u.hallByLevel),rows.map(r=>r[0]),u.n+' complete caps');
+   assert(u.revision > 0 && u.verification.rawWikitextSHA256.length===64,u.n+' source evidence');
+ }
+ const cap = (name,th) => Math.max(0,...Object.entries(equipment.units.find(u=>u.n===name).hallByLevel).filter(([,h])=>h<=th).map(([l])=>+l));
+ for(const [name,th,expected] of [
+   ['Barbarian Puppet',4,1],['Barbarian Puppet',7,1],['Barbarian Puppet',8,9],
+   ['Barbarian Puppet',10,12],['Barbarian Puppet',12,15],['Barbarian Puppet',14,18],
+   ['Vampstache',9,0],['Vampstache',10,12],['Eternal Tome',10,0],['Eternal Tome',11,12],
+   ['Royal Gem',12,0],['Royal Gem',13,15],['Rocket Spear',12,0],['Rocket Spear',13,18],
+   ['Rocket Spear',14,21],['Rocket Spear',15,24],['Rocket Spear',16,27],
+   ['Fire Heart',14,0],['Fire Heart',15,18],['Stun Blaster',15,0],['Stun Blaster',16,18],
+   ['Electro Fangs',16,0],['Electro Fangs',17,18]
+ ]) assert.equal(cap(name,th),expected,`${name} TH${th}`);
+ for(const [level,max,gold] of [[9,18,false],[18,18,true],[24,27,false],[27,27,true],[0,0,false]])
+   assert.equal(vm.runInContext(`levelPill(${level},${max},'Locked')`,ctx).includes('full-max'),gold);
+ ctx.testCat=equipment;
+ vm.runInContext('S.th=18; catView(testCat)',ctx);
+ assert(!html().includes('Hall cap unverified'));
+ ctx.testUnit=equipment.units.find(u=>u.n==='Barbarian Puppet');
+ vm.runInContext("S.th=4; S.tab='stats'; unitView(testCat,testUnit)",ctx);
+ assert(html().includes('154.5'),'TH4 reduced Barbarian Puppet HP');
+ ctx.testUnit=equipment.units.find(u=>u.n==='Fireball');
+ vm.runInContext("S.th=18; S.tab='max'; S.cur['equip|Fireball']='1'; unitView(testCat,testUnit)",ctx);
+ for(const value of ['56,060','3,720','480','Instant']) assert(html().includes(value),value);
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

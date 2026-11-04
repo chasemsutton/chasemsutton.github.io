@@ -39,6 +39,10 @@ const imgFor = (u, lvl) => {
   for (const [url, range] of u.img) { const [a, b] = String(range).split("-").map(Number); if (lvl >= a && lvl <= (b || a)) return url; }
   return u.img[u.img.length - 1][0];
 };
+function levelPill(level, fullMax, fallback) {
+  const full = level > 0 && level === fullMax;
+  return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="Level ' + level + ', maximum level in game"' : ''}>${level ? "Lv " + level : esc(fallback)}</span>`;
+}
 const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
 async function loadCat(id) {
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === id);
@@ -69,7 +73,7 @@ function catView(cat) {
   setChrome(cat.label, true, false);
   const list = cat.units.filter((u) => (!S.only || u.u <= S.th) && u.n.toLowerCase().includes(q.toLowerCase()));
   app.innerHTML = `<input class="search" id="q" type="search" placeholder="Search ${cat.nouns || cat.noun + "s"}" value="${esc(q)}">
-  <div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}<span class="sub">${m ? "Lv " + m : "TH" + u.u}</span><span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
+  <div class="grid units">${list.map((u) => { const m = maxAt(cat, u); return `<a class="tile unit ${m ? "" : "locked"}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${img(u.av, u.n)}${levelPill(m, +u.l[u.l.length - 1][0], "TH" + u.u)}<span class="lbl">${esc(u.n)}</span></a>`; }).join("")}</div>
   ${list.length ? "" : `<p class="note">Nothing unlocked at TH${S.th}. Turn off â€œOnly show what my TH can reachâ€ in the TH menu to see everything.</p>`}
   <p class="note">Badge = max level at TH${S.th}. Tap the TH button at top right to change Town Hall.</p>` + footer();
   const inp = $("#q"); inp.oninput = () => { q = inp.value; const pos = inp.selectionStart; catView(cat); const n = $("#q"); n.focus(); n.setSelectionRange(pos, pos); };
@@ -151,19 +155,19 @@ function reviewTotals(cat, u, table, levels, key) {
     return [...v.matchAll(/(\d+)\s*([dhms])/g)].reduce((a, m) => a + +m[1] * ({d:86400,h:3600,m:60,s:1}[m[2]]), 0);
   };
   const times = timeIndex < 0 ? [] : left.map((r) => seconds(r[timeIndex]));
-  return `<div class="props"><div><span>My current level</span><select id="reviewCurrent">${levels.map((v) => `<option ${v === current ? "selected" : ""}>${v}</option>`).join("")}</select></div><div><span>Target</span><span>Level ${levels[levels.length - 1]}</span></div>${costs.map(({c,i}) => `<div><span>${esc(c)}</span><span>${fmt(left.reduce((a,r) => a + parse(r[i]), 0))}</span></div>`).join("")}${timeIndex >= 0 && !times.includes(null) ? `<div><span>Upgrade time</span><span>${fmtMins(Math.floor(times.reduce((a,b) => a+b,0) / 60))}</span></div>` : ""}</div><p class="note">Normal source-table values. Alternative payment columns are shown separately. Excludes prerequisite building upgrades.</p>`;
+  return `<div class="props"><div><span>My current level</span><select id="reviewCurrent">${levels.map((v) => `<option ${v === current ? "selected" : ""}>${v}</option>`).join("")}</select></div><div><span>Target</span><span>Level ${levels[levels.length - 1]}</span></div>${costs.map(({c,i}) => `<div><span>${esc(c)}</span><span>${fmt(left.reduce((a,r) => a + parse(r[i]), 0))}</span></div>`).join("")}${u.upgradeTime === "Instant" ? `<div><span>Upgrade time</span><span>Instant</span></div>` : ""}${timeIndex >= 0 && !times.includes(null) ? `<div><span>Upgrade time</span><span>${fmtMins(Math.floor(times.reduce((a,b) => a+b,0) / 60))}</span></div>` : ""}</div><p class="note">Normal source-table values. Alternative payment columns are shown separately. Excludes prerequisite building upgrades.</p>`;
 }
 // Source-table previews deliberately do not infer hall limits from troop levels.
 // Multiple tables preserve alternate attack modes, abilities and resource costs.
 function reviewNotice(cat, u) {
   const gaps = [...(cat.unverified || []).map((x) => `${x.page}: ${x.reason}`), ...(u?.unverified || [])];
-  return `<p class="note">${esc(cat.note)}</p>${gaps.length ? `<details class="note"><summary>Verification gaps (${gaps.length})</summary><ul>${gaps.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}`;
+  return `<p class="note">${esc(cat.note)}</p>${u?.note ? `<p class="note">${esc(u.note)}</p>` : ""}${gaps.length ? `<details class="note"><summary>Verification gaps (${gaps.length})</summary><ul>${gaps.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}`;
 }
 function reviewCategory(cat) {
   setChrome(cat.label, true, false);
   const hall = reviewHall(cat);
   const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()) && (!S.only || !u.hallByLevel || Object.values(u.hallByLevel).some((h) => h <= hall)));
-  app.innerHTML = reviewHallControl(cat) + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${list.map((u) => `<a class="tile unit" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${u.av ? img(u.av, u.n) : ""}<span class="sub">${u.hallByLevel ? "Lv " + (Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l)) || "Locked") : "Hall cap unverified"}</span><span class="lbl">${esc(u.n)}</span></a>`).join("")}</div>`;
+  app.innerHTML = reviewHallControl(cat) + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${list.map((u) => `<a class="tile unit" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${u.av ? img(u.av, u.n) : ""}${u.hallByLevel ? levelPill(Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= hall).map(([l]) => +l)), Math.max(...Object.keys(u.hallByLevel).map(Number)), "Locked") : levelPill(0, 0, "Hall cap unverified")}<span class="lbl">${esc(u.n)}</span></a>`).join("")}</div>`;
   bindReviewHall(cat, () => reviewCategory(cat));
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }
@@ -175,6 +179,17 @@ function reviewLevelImage(u, level) {
     return match ? {url: i.url, level: +match[1]} : null;
   }).filter((i) => i && i.level <= +level).sort((a,b) => b.level - a.level);
   return candidates.length ? img(candidates[0].url, `${u.n} level ${level}`, "lv") : "";
+}
+function equipmentRowAtHall(u, table, row) {
+  if (row[0] !== "1") return row;
+  const lower = (u.lowerTownHallStats || []).find((t) => t.rows.some((r) => +r[0] === S.th));
+  if (!lower) return row;
+  const values = lower.rows.find((r) => +r[0] === S.th);
+  const normalize = (c) => c.replace(/\*/g, "");
+  return table.columns.map((c, i) => {
+    const j = lower.columns.findIndex((h) => normalize(h) === normalize(c));
+    return j < 0 ? row[i] : values[j];
+  });
 }
 function reviewUnit(cat, u) {
   setChrome(u.n, true, true);
@@ -191,13 +206,15 @@ function reviewUnit(cat, u) {
   } else if (S.tab === "max") {
     html += reviewTotals(cat, u, table, levels, key);
   } else if (S.tab === "info") {
-    html += u.tables.filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
+    html += [...u.tables, ...(u.lowerTownHallStats || [])].filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
+    if (u.verification && u.hallByLevel) html += renderTable({heading: "Maximum usable level by Town Hall", columns: ["Town Hall", "Max level"], rows: Array.from({length: 18}, (_, i) => [String(i + 1), String(Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= i + 1).map(([l]) => +l)))])});
   } else {
     if (table) {
-      const row = table.rows.find((r) => r[0] === selected);
+      const rawRow = table.rows.find((r) => r[0] === selected);
+      const row = rawRow && equipmentRowAtHall(u, table, rawRow);
       if (row) html += `<div class="props">${table.columns.map((c, i) => `<div><span>${esc(c)}</span><span>${esc(row[i] || "â€“")}</span></div>`).join("")}</div>`;
     }
-    html += u.tables.map(renderTable).join("");
+    html += u.tables.map((t) => renderTable(t === table && S.only && u.hallByLevel ? {...t, rows: t.rows.filter((r) => u.hallByLevel[r[0]] <= reviewHall(cat))} : t)).join("");
   }
   html += `<p class="note">Source: <a href="${esc(u.source)}" target="_blank" rel="noopener">${esc(u.n)} on Fandom</a> Â· fetched ${esc(cat.updated)}. Normal values; no Hammer Jam discount applied.</p>`;
   app.innerHTML = html;
