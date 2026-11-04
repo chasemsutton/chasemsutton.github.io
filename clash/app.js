@@ -348,7 +348,7 @@ function installTableHeaders() {
     if (active && active.scrollLeft !== floating.scrollLeft) active.scrollLeft = floating.scrollLeft;
   }, {passive: true});
   new MutationObserver(() => {
-    tables = [...app.querySelectorAll(".tblwrap")].filter((w) => $("thead", w));
+    tables = [...app.querySelectorAll(".tblwrap")].filter((w) => $("thead", w) && w.querySelectorAll("tbody tr").length >= 5);
     active = null;
     schedule();
   }).observe(app, {childList: true, subtree: true});

@@ -76,6 +76,15 @@ const root = path.resolve(__dirname, '..', 'clash');
    await page.waitForFunction(()=>document.querySelector('.floating-table-header').hidden);
    await page.evaluate(()=>window.scrollTo(0,0));
    await page.waitForFunction(()=>document.querySelector('.floating-table-header').hidden);
+   // Count data rows, excluding the header; exactly five opts in.
+   for (const count of [4,5,1]) {
+    await page.evaluate(async (count)=> {
+     document.querySelector('#app').innerHTML=`<div class="tblwrap"><table><thead><tr><th>Level</th></tr></thead><tbody>${Array.from({length:count},(_,i)=>`<tr style="height:70px"><td>${i+1}</td></tr>`).join('')}</tbody></table></div><div style="height:1000px"></div>`;
+     window.scrollTo(0,document.querySelector('.tblwrap').getBoundingClientRect().top+window.scrollY+20);
+     await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+    },count);
+    assert.equal(await page.locator('.floating-table-header').isVisible(),count>=5,`${count} data rows at ${width}px`);
+   }
    await page.close();
   }
   console.log('UTF-8 text, scrolled TH dropdown, sticky headers, horizontal alignment and table-end cleanup passed at 320/390/760px.');
