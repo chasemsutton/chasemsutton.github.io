@@ -19,13 +19,13 @@
      "id": "super",
      "label": "Super Troops",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/8/81/Avatar_Super_Barbarian.png/revision/latest?cb=20200913075458",
-     "data": null
+     "data": "data/super.json"
     },
     {
      "id": "espells",
      "label": "Elixir Spells",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434",
-     "data": null
+     "data": "data/espells.json"
     },
     {
      "id": "dspells",

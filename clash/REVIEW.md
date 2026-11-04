@@ -1,6 +1,6 @@
 # Hidden category review status
 
-Elixir Troops, Dark Troops, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
+Elixir Troops, Dark Troops, Super Troops, Elixir Spells, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
 
 The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=all` enables all drafts.
 
@@ -59,9 +59,11 @@ The normal stats table includes base research cost/resource, time, required Labo
 
 The wiki?s final Inferno Dragon row was mislabeled as a second level 11. Corrected it to level 12 using Supercell?s February 2026 release notes and the wiki history, preserving its numeric stats and recording the correction.
 
-Full caps, special-level exclusions, and source links: [SUPER_TROOPS_VERIFICATION.md](SUPER_TROOPS_VERIFICATION.md). Source revisions and raw hashes are recorded per unit in super.json. Reproduce with `python scripts/verify-super-troops.py`. Super Troops remain hidden pending Chase?s review.
+Full caps, special-level exclusions, and source links: [SUPER_TROOPS_VERIFICATION.md](SUPER_TROOPS_VERIFICATION.md). Source revisions and raw hashes are recorded per unit in super.json. Reproduce with `python scripts/verify-super-troops.py`. Super Troops are live following Chase's approval.
 
 ## Elixir Spells
+
+Published on the home screen at Chase's request. Remaining verification notes below are retained.
 
 - Lightning Spell: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Healing Spell: Calculated upgrade totals and patch-note cross-check require manual review before unlock.

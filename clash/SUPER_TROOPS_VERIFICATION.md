@@ -1,6 +1,6 @@
 # Super Troops verification
 
-Normal self-training and boosting caps, checked Nov 3, 2026. Super Troops remain hidden on the home screen.
+Normal self-training and boosting caps, checked Nov 3, 2026. Super Troops are live following Chase's approval.
 
 Each normal Super Troop level matches the same base troop level. The required TH is the maximum of TH11, the base troop unlock, and the TH needed for its Laboratory research. Boost unlock also requires the minimum base troop level shown on the Super Troop page. Starred event-only levels are retained separately and excluded from normal unlocks. Clan Castle donations and temporary boosts do not determine these caps.
 
