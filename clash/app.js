@@ -81,6 +81,24 @@ function columnHeader(label, resource = "") {
   }
   return `<th title="${esc(label)}" aria-label="${esc(label)}"><span class="column-label">${esc(compactColumn(label))}</span></th>`;
 }
+function tableTitle(table, cat) {
+  const source = (table.heading || "").replace(/\s*\[\s*\]/g, "");
+  if (source && !/^Statistics(?: \/|$)/i.test(source)) return source;
+  const columns = table.columns.join(" | ");
+  let title;
+  if (/gear up/i.test(columns)) title = "Gear-up requirements";
+  else if (/boost (?:cost|duration)/i.test(columns)) title = "Boost requirements";
+  else if (/^charge/i.test(table.columns[0])) title = "Supercharge stats";
+  else if (/^level$/i.test(table.columns[0])) title = /cost|time/i.test(columns) ? "Upgrade stats" : "Stats by level";
+  else if (/rarity|unlock requirement/i.test(columns)) title = "Equipment details";
+  else if (/^(?:Town|Builder) Hall Level$/i.test(table.columns[0])) title = "Hall requirements";
+  else if (["espells", "dspells"].includes(cat.id)) title = "Spell details";
+  else if (cat.id === "equip") title = "Ability details";
+  else if (/attack|preferred target|movement speed|range/i.test(columns)) title = "Attack details";
+  else title = "General details";
+  const context = source.split(" / ").slice(1).filter((part) => !["Home Village", "Builder Base"].includes(part));
+  return [title, ...context].join(" / ");
+}
 function tableColumnOrder(columns) {
   const rest = columns.map((_, i) => i).slice(1);
   if (!/level|charge/i.test(columns[0])) return [0, ...rest];
@@ -251,7 +269,7 @@ function reviewUnit(cat, u) {
   let html = reviewHallControl(cat) + reviewNotice(cat, u) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>${cat.id === "equip" ? `max ${Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= reviewHall(cat)).map(([l]) => +l))} at TH${reviewHall(cat)} \u00b7 ${Math.max(...Object.keys(u.hallByLevel).map(Number))} in game` : "Source-table preview"}</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}</div>`;
   const renderTable = (t) => {
     const order = tableColumnOrder(t.columns);
-    return `<h3 class="sec">${esc(t.heading || "Statistics")}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
   if (S.tab === "images") {
     html += `<div class="imgs-list">${u.images.map((i) => `<figure>${img(i.url, i.file)}<figcaption>${esc(i.file.replace(/^File:/, ""))}</figcaption></figure>`).join("")}</div>`;

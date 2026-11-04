@@ -73,6 +73,21 @@ function context(search) {
  assert(vm.runInContext(`columnHeader('Upgrade Cost / Shiny Ore')`,ctx).includes('alt="Shiny Ore"'));
  assert(vm.runInContext(`columnHeader('Upgrade cost','Dark Elixir')`,ctx).includes('alt="Dark Elixir"'));
  assert(vm.runInContext(`columnHeader('Damage per Second')`,ctx).includes('>DPS</span>'));
+ for (const [id,columns,expected] of [
+   ['dark',['Level','Research Cost (Dark Elixir)'],'Upgrade stats'],
+   ['dark',['Preferred Target','Attack Type'],'Attack details'],
+   ['super',['Boost Cost (Dark Elixir)','Boost Duration'],'Boost requirements'],
+   ['equip',['User','Rarity','Unlock Requirement'],'Equipment details'],
+   ['equip',['Barbarian Rage Duration'],'Ability details'],
+   ['espells',['Damage Radius','Housing Space'],'Spell details']
+ ]) {
+   ctx.titleTable={heading:'Statistics / Home Village',columns}; ctx.titleCat={id};
+   assert.equal(vm.runInContext('tableTitle(titleTable,titleCat)',ctx),expected);
+ }
+ ctx.testCat=equipment; ctx.testUnit=equipment.units[0];
+ vm.runInContext("S.th=18; S.tab='stats'; unitView(testCat,testUnit)",ctx);
+ assert(!html().includes('>Statistics</h3>'));
+ for (const heading of ['Equipment details','Upgrade stats','Ability details']) assert(html().includes(`>${heading}</h3>`));
  // Future items remain visible under either detail-level filter setting.
  const cardFor = (name) => [...html().matchAll(/<a class="tile unit[^>]*>[\s\S]*?<\/a>/g)].map(m=>m[0]).find(c=>c.includes(`>${name}</span>`));
  for (const only of [true,false]) {
