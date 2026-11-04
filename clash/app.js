@@ -85,12 +85,13 @@ function columnHeader(label, resource = "") {
 }
 function tableTitle(table, cat) {
   const source = (table.heading || "").replace(/\s*\[\s*\]/g, "");
-  if (source && !/^Statistics(?: \/|$)/i.test(source)) return source;
+  const superchargeSection = /^Supercharges?(?: \/|$)/i.test(source);
+  if (source && !/^(?:Statistics|Supercharges?)(?: \/|$)/i.test(source)) return source;
   const columns = table.columns.join(" | ");
   let title;
-  if (/gear up/i.test(columns)) title = "Gear-up requirements";
+  if (/^charge/i.test(table.columns[0]) || (superchargeSection && /^level$/i.test(table.columns[0]))) title = "Supercharge stats";
+  else if (/gear up/i.test(columns)) title = "Gear-up requirements";
   else if (/boost (?:cost|duration)/i.test(columns)) title = "Boost requirements";
-  else if (/^charge/i.test(table.columns[0])) title = "Supercharge stats";
   else if (/^level$/i.test(table.columns[0])) title = /cost|time/i.test(columns) ? "Upgrade stats" : "Stats by level";
   else if (/rarity|unlock requirement/i.test(columns)) title = "Equipment details";
   else if (/^(?:Town|Builder) Hall Level$/i.test(table.columns[0])) title = "Hall requirements";

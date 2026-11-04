@@ -65,6 +65,15 @@ function context(search, savedTH = null) {
    assert(entry.overview.length>30 && entry.strategy.length>30);
    assert(entry.source.revision>0 && entry.source.rawWikitextSHA256.length===64);
  }
+ for(const [heading,columns,expected] of [
+   ['Supercharges',['Range','Attack Speed','Damage Type','Unit Type Targeted'],'Attack details'],
+   ['Supercharges / Home Village',['Charge Level','DPS','Cost (Gold)'],'Supercharge stats'],
+   ['Supercharges [ ]',['Level','Build Cost (Dark Elixir)'],'Supercharge stats'],
+   ['Supercharges',['Charge Level','Capacity','Boost Cost','Build Cost (Gold)'],'Supercharge stats']
+ ]) {
+   ctx.titleTable={heading,columns};
+   assert.equal(vm.runInContext('tableTitle(titleTable,{id:"defenses"})',ctx),expected);
+ }
  const ricochet=copy.entries.defenses['Ricochet Cannon'];
  assert(ricochet.mechanics.some(text=>text.includes('two level 21 Cannons')));
  assert.equal(ricochet.merge.ingredients.length,2);
