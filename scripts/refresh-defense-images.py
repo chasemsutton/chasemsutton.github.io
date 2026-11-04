@@ -5,6 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('wiki',ROOT/'scripts/import-clash-wiki.py');w=importlib.util.module_from_spec(spec);spec.loader.exec_module(w)
 p=ROOT/'clash/data/defenses.json';data=json.loads(p.read_text(encoding='utf-8'))
 def filename(name,level):
+ if name=='Cannon' and level>=7:return f'Cannon{level}B.png'
  if name=="Builder's Hut":return 'Builders Hut'+('' if level==1 else str(level))+'.png'
  suffix={'X-Bow':' Air','Inferno Tower':' Single','Multi-Gear Tower':' FastAttack','Revenge Tower':' Dormant'}.get(name,'')
  if name=='Spell Tower':suffix=' '+{1:'Rage',2:'Poison',3:'Invisibility',4:'Earthquake'}[level]

@@ -8,7 +8,7 @@ Raw wikitext and expanded tables were fetched from the Fandom API on 2026-11-03.
 
 October patch reference: https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/ . Full per-value patch reconciliation is unfinished.
 
-Known limitations: hall mappings are only used where the required building progression can be resolved. Unverified caps stay explicitly marked and are not used for totals. Non-levelled facilities and special mechanics need manual review. Layout has not been checked visually on a phone.
+Known limitations: hall mappings are only used where the required building progression can be resolved. Unverified caps stay explicitly marked and are not used for totals. Non-levelled facilities and special mechanics need manual review. Phone-width browser checks cover tile labels, table scrolling, and the Info layout; physical-device review remains useful.
 
 | Category | Preview | Entities | Verified hall maps |
 |---|---|---:|---:|
@@ -305,3 +305,7 @@ Defense cards now use the exact normal appearance for the maximum level at the s
 - Battle Copter Altar: Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.
 - Clock Tower: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Walls/Builder Base: No image passed the no-referrer HTTP 200 check.; Calculated upgrade totals and patch-note cross-check require manual review before unlock.
+
+## Info-tab content
+
+All 266 items across the 22 categories now have original plain-language overviews and practical role-based tips in data/info.json. Copy is maintained separately in scripts/info-copy.txt so refreshing numeric datasets does not erase it. Technical tables remain available behind a disclosure. Ricochet Cannon, Multi-Archer Tower, Multi-Gear Tower, and Super Wizard Tower include inline merge diagrams assembled from the verified building images. Source revisions and raw-wikitext hashes accompany the mechanics references. Strategy blurbs are editorial guidance rather than claims about the strongest current meta.

@@ -11,6 +11,7 @@ function context(search, savedTH = null) {
   const ctx = vm.createContext({document,location:{search,hash:'#/'},localStorage:{getItem:key=>key==='cr.th'?savedTH:null,setItem(){}},URLSearchParams,console,window:{addEventListener(){},scrollTo(){}},fetch:async p=>({ok:fs.existsSync(path.join(root,p)),json:async()=>JSON.parse(fs.readFileSync(path.join(root,p)))})});
   vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8').replace(/render\(\);\s*$/, ''),ctx);
   vm.runInContext('CATS = '+JSON.stringify(manifest),ctx);
+  vm.runInContext('INFO = '+fs.readFileSync(path.join(root,'data/info.json'),'utf8'),ctx);
   return {ctx,html:()=>document.querySelector('#app').innerHTML};
 }
 (async()=>{
@@ -28,7 +29,7 @@ function context(search, savedTH = null) {
  }
  const {ctx,html}=context('?preview=all');
  let count=0;
- for(const file of fs.readdirSync(path.join(root,'data')).filter(f=>f.endsWith('.json')&&f!=='categories.json')) {
+ for(const file of fs.readdirSync(path.join(root,'data')).filter(f=>f.endsWith('.json')&&!['categories.json','info.json'].includes(f))) {
   const cat=JSON.parse(fs.readFileSync(path.join(root,'data',file)));
   ctx.testCat=cat;
   vm.runInContext('catView(testCat)',ctx);
@@ -38,6 +39,11 @@ function context(search, savedTH = null) {
    for(const tab of ['info','stats','images','max']){
     vm.runInContext(`S.tab='${tab}'; unitView(testCat,testUnit)`,ctx);
     assert(!html().includes('NaN'),`${file} ${unit.n} ${tab}`);
+    if(tab==='info') {
+      assert(html().includes('class="info-copy"'),`${file} ${unit.n} description`);
+      assert(html().includes('<h4>Practical use</h4>'),`${file} ${unit.n} strategy`);
+      assert(html().includes('class="info-details"'),`${file} ${unit.n} technical details preserved`);
+    }
    }
    count++;
   }
@@ -53,6 +59,18 @@ function context(search, savedTH = null) {
    }
    assert.equal(manifest.groups.flatMap(g=>g.cats).find(c=>c.id===id).img,spells.units[0].av);
  }
+ const copy=JSON.parse(fs.readFileSync(path.join(root,'data/info.json')));
+ assert.equal(Object.values(copy.entries).reduce((n,items)=>n+Object.keys(items).length,0),266);
+ for(const items of Object.values(copy.entries)) for(const entry of Object.values(items)) {
+   assert(entry.overview.length>30 && entry.strategy.length>30);
+   assert(entry.source.revision>0 && entry.source.rawWikitextSHA256.length===64);
+ }
+ const ricochet=copy.entries.defenses['Ricochet Cannon'];
+ assert(ricochet.mechanics.some(text=>text.includes('two level 21 Cannons')));
+ assert.equal(ricochet.merge.ingredients.length,2);
+ assert(ricochet.merge.ingredients.every(item=>item.name==='Cannon' && item.level===21));
+ assert.equal(ricochet.merge.result.name,'Ricochet Cannon');
+ assert.equal(ricochet.merge.result.level,1);
  const equipment = JSON.parse(fs.readFileSync(path.join(root,'data/equip.json')));
  assert.equal(equipment.units.length,43);
  for (const u of equipment.units) {
