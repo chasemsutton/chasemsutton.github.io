@@ -68,6 +68,11 @@ function context(search) {
  ctx.testUnit=equipment.units.find(u=>u.n==='Fireball');
  vm.runInContext("S.th=18; S.tab='max'; S.cur['equip|Fireball']='1'; unitView(testCat,testUnit)",ctx);
  for(const value of ['56,060','3,720','480','Instant']) assert(html().includes(value),value);
+ assert.equal(JSON.stringify(vm.runInContext(`tableColumnOrder(['Level','DPS','HP','Research Cost (Dark Elixir)','Research Time','Laboratory Level Required'])`,ctx)),JSON.stringify([0,3,1,2,4,5]));
+ assert.equal(JSON.stringify(vm.runInContext(`tableColumnOrder(['Level','Damage','Upgrade Cost / Shiny Ore','Upgrade Cost / Glowy Ore','Upgrade Cost / Starry Ore','Blacksmith Level Required'])`,ctx)),JSON.stringify([0,2,3,4,1,5]));
+ assert(vm.runInContext(`columnHeader('Upgrade Cost / Shiny Ore')`,ctx).includes('alt="Shiny Ore"'));
+ assert(vm.runInContext(`columnHeader('Upgrade cost','Dark Elixir')`,ctx).includes('alt="Dark Elixir"'));
+ assert(vm.runInContext(`columnHeader('Damage per Second')`,ctx).includes('>DPS</span>'));
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

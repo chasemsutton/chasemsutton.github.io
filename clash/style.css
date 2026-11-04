@@ -52,7 +52,11 @@ h3.sec{margin:18px 0 8px;text-align:center;font-size:20px;text-transform:upperca
 .tblwrap{overflow-x:auto;border-radius:12px;border:1px solid var(--line);background:var(--panel)}
 table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}
 th,td{padding:9px 8px;text-align:center;border-bottom:1px solid var(--line)}
-th{position:sticky;top:0;background:var(--panel2);color:var(--mut);font-weight:700}
+th{position:sticky;top:0;background:var(--panel2);color:var(--mut);font-weight:700;white-space:normal;line-height:1.25;vertical-align:middle}
+.column-label{display:block;min-width:2.5rem;max-width:7rem;margin:auto;overflow-wrap:anywhere}
+.resource-heading{white-space:nowrap}
+.resource-icon{display:inline-block;width:22px;height:24px;object-fit:contain;vertical-align:middle}
+.cost-kind{display:block;margin-top:2px;font-size:10px}
 th:first-child,td:first-child{position:sticky;left:0;background:inherit}
 thead th:first-child{background:var(--panel2);z-index:2}
 .floating-table-header{position:fixed;z-index:4;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;background:var(--panel2);box-shadow:0 2px 4px #0008}

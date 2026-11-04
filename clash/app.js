@@ -44,6 +44,49 @@ function levelPill(level, fullMax, fallback) {
   return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="Level ' + level + ', maximum level in game"' : ''}>${level ? "Lv " + level : esc(fallback)}</span>`;
 }
 const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
+// Keep source labels in tooltips/accessibility text; only compact their presentation.
+const RESOURCE_ICONS = {
+  "Gold": "1/10/Gold.png/revision/latest?cb=20180110234054",
+  "Elixir": "4/43/Elixir.png/revision/latest?cb=20180110233824",
+  "Dark Elixir": "4/4e/Dark_Elixir.png/revision/latest?cb=20180110233856",
+  "Shiny Ore": "d/da/Shiny_Ore.png/revision/latest?cb=20231214003018",
+  "Glowy Ore": "7/72/Glowy_Ore.png/revision/latest?cb=20231214002947",
+  "Starry Ore": "0/07/Starry_Ore.png/revision/latest?cb=20231214002537",
+  "Gems": "d/d5/Gems.png/revision/latest?cb=20150520002705",
+  "Wall Ring": "6/60/Wall_Ring.png/revision/latest?cb=20180302001348",
+};
+function compactColumn(label) {
+  return label.replace(/^Ability Attributes \/ /, "").replace(/^Hero Boosts? \/ /, "Hero ")
+    .replace(/Damage per Second/gi, "DPS").replace(/Damage per (?:Hit|Shot|Attack)/gi, "Dmg/hit")
+    .replace(/Hitpoints?/gi, "HP").replace(/Laboratory/gi, "Lab").replace(/Blacksmith/gi, "Smith")
+    .replace(/Town Hall/g, "TH").replace(/Builder Hall/g, "BH")
+    .replace(/Level Required/g, "lvl").replace(/ Level\b/g, " lvl")
+    .replace(/^(?:Research|Build|Upgrade) Time$/, "Time").replace(/Experience Gained/g, "XP")
+    .replace(/Movement Speed/g, "Move speed").replace(/Increase/gi, "+")
+    .replace(/Maximum/g, "Max").replace(/Number of /g, "");
+}
+function columnHeader(label, resource = "") {
+  const names = resource ? resource.split(" / ") : [];
+  if (!resource && /cost/i.test(label)) {
+    const ore = label.match(/\b(?:Shiny|Glowy|Starry) Ore\b/);
+    const match = label.match(/\(([^)]+)\)/);
+    if (ore) names.push(ore[0]);
+    else if (match) names.push(...match[1].split(" / "));
+  }
+  const iconKey = (name) => name.replace(/^Builder /, "");
+  if (names.length && names.every((n) => RESOURCE_ICONS[iconKey(n)])) {
+    const description = `${label}: ${names.join(" or ")}`;
+    const kind = /cumulative/i.test(label) ? "Total" : /boost/i.test(label) ? "Boost" : /gear up/i.test(label) ? "Gear up" : "";
+    return `<th class="resource-heading" title="${esc(description)}" aria-label="${esc(description)}">${names.map((name) => img("https://static.wikia.nocookie.net/clashofclans/images/" + RESOURCE_ICONS[iconKey(name)], name, "resource-icon")).join(" / ")}${kind ? `<small class="cost-kind">${kind}</small>` : ""}</th>`;
+  }
+  return `<th title="${esc(label)}" aria-label="${esc(label)}"><span class="column-label">${esc(compactColumn(label))}</span></th>`;
+}
+function tableColumnOrder(columns) {
+  const rest = columns.map((_, i) => i).slice(1);
+  if (!/level|charge/i.test(columns[0])) return [0, ...rest];
+  const cost = (i) => /cost/i.test(columns[i]);
+  return [0, ...rest.filter(cost), ...rest.filter((i) => !cost(i))];
+}
 async function loadCat(id) {
   const meta = CATS.groups.flatMap((g) => g.cats).find((c) => c.id === id);
   if (!meta || !categoryPath(meta)) return null;
@@ -98,7 +141,7 @@ function unitView(cat, u) {
   const tab = S.tab;
   if (tab === "stats") {
     const rows = u.l.filter((r) => !S.only || reqTH(cat, u, r) <= S.th);
-    html += `<h3 class="sec">Upgrade stats</h3><div class="tblwrap"><table><thead><tr><th>Level</th><th>Cost</th><th>Time</th>${u.c.map((c) => `<th>${esc(c)}</th>`).join("")}<th>${cat.req}</th><th>TH</th></tr></thead><tbody>
+    html += `<h3 class="sec">Upgrade stats</h3><div class="tblwrap"><table><thead><tr>${columnHeader("Level")}${columnHeader("Upgrade cost", R)}${columnHeader("Time")}${u.c.map((c) => columnHeader(c)).join("")}${columnHeader(cat.req)}${columnHeader("TH")}</tr></thead><tbody>
     ${rows.map((r) => `<tr class="${+r[0] === lvl ? "sel" : ""}" data-l="${r[0]}"><td><b>${r[0]}</b></td><td class="cost">${+r[1 + k] ? fmt(+r[1 + k]) : "\u2013"}</td><td>${r[2 + k] || "\u2013"}</td>${u.c.map((c, i) => `<td>${fmt(r[1 + i])}</td>`).join("")}<td>${+r[3 + k] || "\u2013"}</td><td>${reqTH(cat, u, r)}</td></tr>`).join("")}</tbody></table></div>
     <p class="note">Cost (${R}) and time are to reach that level. ${cat.req} = ${cat.reqName} level required. Tap a row to select it. Swipe the table sideways for more columns.</p>`;
   } else if (tab === "info") {
@@ -200,7 +243,10 @@ function reviewUnit(cat, u) {
   const selected = levels.includes(stored) ? stored : levels[levels.length - 1] || "1";
   const index = levels.indexOf(selected);
   let html = reviewHallControl(cat) + reviewNotice(cat, u) + `<div class="hero"><div class="imgs">${u.av ? img(u.av, u.n, "av") : ""}${reviewLevelImage(u, selected)}</div>${levels.length ? `<div class="lvpick"><button id="lvDown" ${index <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${esc(selected)}<small>Source-table preview</small></div><button id="lvUp" ${index >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>` : ""}</div>`;
-  const renderTable = (t) => `<h3 class="sec">${esc(t.heading || "Statistics")}</h3><div class="tblwrap"><table><thead><tr>${t.columns.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${r.map((v) => `<td>${esc(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  const renderTable = (t) => {
+    const order = tableColumnOrder(t.columns);
+    return `<h3 class="sec">${esc(t.heading || "Statistics")}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  };
   if (S.tab === "images") {
     html += `<div class="imgs-list">${u.images.map((i) => `<figure>${img(i.url, i.file)}<figcaption>${esc(i.file.replace(/^File:/, ""))}</figcaption></figure>`).join("")}</div>`;
   } else if (S.tab === "max") {

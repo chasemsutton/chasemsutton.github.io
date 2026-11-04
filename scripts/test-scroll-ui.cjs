@@ -34,6 +34,14 @@ const root = path.resolve(__dirname, '..', 'clash');
    await page.locator('tbody tr').last().waitFor();
    await page.evaluate(()=>location.hash='#/c/equip/Giant%20Gauntlet');
    await page.waitForFunction(()=>document.querySelector('#title').textContent==='Giant Gauntlet');
+   const stats = page.locator('#app .tblwrap table').filter({has:page.locator('thead th[aria-label="Level"]')}).first();
+   const oreOrder = await stats.locator('thead th').evaluateAll(cells=>cells.slice(1,4).map(c=>c.querySelector('img')?.alt));
+   assert.deepEqual(oreOrder,['Shiny Ore','Glowy Ore','Starry Ore']);
+   const values = await stats.locator('tbody tr').nth(1).locator('td').allTextContents();
+   assert.deepEqual(values.slice(0,4),['2','120','-','-'],'Costs follow level and retain the right values');
+   assert(await stats.locator('.column-label').evaluateAll(labels=>labels.every(l=>l.getBoundingClientRect().width<=112.1)),'Wrapped headers have bounded width');
+   assert((await stats.locator('thead th').nth(1).getAttribute('aria-label')).includes('Shiny Ore'));
+
    await page.evaluate(()=>{
     const w=[...document.querySelectorAll('.tblwrap')].find(w=>w.querySelector('thead th').textContent==='Level');
     window.scrollTo(0,w.getBoundingClientRect().top+window.scrollY+250);w.scrollLeft=220;
