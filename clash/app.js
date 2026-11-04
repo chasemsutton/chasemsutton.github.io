@@ -3,8 +3,10 @@
 // Add a category: drop data/<id>.json (same shape as elixir.json) and set "data" for it in data/categories.json.
 const $ = (s, el = document) => el.querySelector(s);
 const app = $("#app"), titleEl = $("#title"), backBtn = $("#back"), tabsEl = $("#tabs");
+// Highest supported TH; update here when new Town Hall data is added.
+const MAX_TH = 18;
 const S = {
-  th: Number(localStorage.getItem("cr.th") || 15),
+  th: Number(localStorage.getItem("cr.th") || MAX_TH),
   only: localStorage.getItem("cr.only") !== "0",
   tab: localStorage.getItem("cr.tab") || "stats",
   lvl: {}, cur: {},
@@ -21,7 +23,7 @@ const short = (n) => n >= 1e6 ? (n / 1e6).toFixed(n % 1e6 ? 1 : 0).replace(/\.0$
 
 // ---- settings bar ----
 const thSel = $("#thSel");
-for (let i = 1; i <= 18; i++) thSel.insertAdjacentHTML("beforeend", `<option value="${i}">Town Hall ${i}</option>`);
+for (let i = 1; i <= MAX_TH; i++) thSel.insertAdjacentHTML("beforeend", `<option value="${i}">Town Hall ${i}</option>`);
 function syncSettings() { thSel.value = S.th; $("#onlyTH").checked = S.only; $("#thBadge").textContent = S.th; }
 thSel.onchange = () => { S.th = +thSel.value; localStorage.setItem("cr.th", S.th); syncSettings(); render(); };
 $("#onlyTH").onchange = (e) => { S.only = e.target.checked; localStorage.setItem("cr.only", S.only ? "1" : "0"); render(); };
@@ -166,7 +168,7 @@ function unitView(cat, u) {
     const P = [...(u.hs ? [["Housing space", u.hs]] : []), ["Preferred target", u.tg], ["Attack type", u.at], ["Movement speed", u.ms], ["Attack speed", u.sp], ["Range", u.rg], ...u.ex,
       ["Upgrade resource", R], ["Unlocks", unlockText(cat, u)], [`Max level at TH${S.th}`, mTH || "Not unlocked yet"], ["Max level in game", `${maxAll} (TH${reqTH(cat, u, u.l[u.l.length - 1])})`],
       ...(cat.regen ? [["Regeneration time", cat.regen]] : []), ["Last balance change", u.ch || "\u2013"]];
-    const ths = []; for (let t = 1; t <= 18; t++) { let m = 0; u.l.forEach((r) => { if (reqTH(cat, u, r) <= t) m = +r[0]; }); if (m) ths.push([t, m]); }
+    const ths = []; for (let t = 1; t <= MAX_TH; t++) { let m = 0; u.l.forEach((r) => { if (reqTH(cat, u, r) <= t) m = +r[0]; }); if (m) ths.push([t, m]); }
     html += `<h3 class="sec">Info</h3>${u.note ? `<div class="props"><div><span>${esc(u.note)}</span></div></div>` : ""}<div class="props">${P.map(([a, b]) => `<div><span>${esc(a)}</span><span>${esc(b)}</span></div>`).join("")}</div>
     ${u.eq ? `<h3 class="sec">Equipment &amp; pets</h3><div class="props"><div><span>Equipment (pick 2)</span><span>${u.eq.map(esc).join(", ")}</span></div><div><span>Pets</span><span>${esc(u.pets || "")}</span></div></div>` : ""}
     <h3 class="sec">Max level by Town Hall</h3><div class="tblwrap"><table><thead><tr><th>Town Hall</th><th>Max level</th></tr></thead><tbody>${ths.map(([t, m]) => `<tr class="${t === S.th ? "sel" : ""}"><td>TH${t}</td><td>${m}</td></tr>`).join("")}</tbody></table></div>`;
@@ -284,7 +286,7 @@ function reviewUnit(cat, u) {
   } else if (S.tab === "info") {
     html += [...u.tables, ...(u.lowerTownHallStats || [])].filter((t) => !/^(?:level|charge(?: level)?)\b/i.test(t.columns[0])).map(renderTable).join("");
     if (u.specialLevelTables?.length) html += `<details class="note"><summary>Event-only levels (excluded from normal caps)</summary>${u.specialLevelTables.map(renderTable).join("")}</details>`;
-    if (u.verification && u.hallByLevel) html += renderTable({heading: "Maximum usable level by Town Hall", columns: ["Town Hall", "Max level"], rows: Array.from({length: 18}, (_, i) => [String(i + 1), String(Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= i + 1).map(([l]) => +l)))])});
+    if (u.verification && u.hallByLevel) html += renderTable({heading: "Maximum usable level by Town Hall", columns: ["Town Hall", "Max level"], rows: Array.from({length: MAX_TH}, (_, i) => [String(i + 1), String(Math.max(0, ...Object.entries(u.hallByLevel).filter(([, h]) => h <= i + 1).map(([l]) => +l)))])});
   } else {
     if (table) {
       const rawRow = table.rows.find((r) => r[0] === selected);

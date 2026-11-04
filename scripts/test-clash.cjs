@@ -4,16 +4,18 @@ const assert = require('node:assert/strict');
 const path = require('node:path');
 const root = path.join(__dirname, '..', 'clash');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'data/categories.json')));
-function context(search) {
+function context(search, savedTH = null) {
   const elements = new Map();
   const make = () => ({innerHTML:'',textContent:'',value:'',hidden:false,style:{},dataset:{},classList:{contains:()=>false,toggle:()=>false},querySelectorAll:()=>[],setAttribute(){},insertAdjacentHTML(){},focus(){},setSelectionRange(){}});
   const document = {querySelector(s) {if(!elements.has(s)) elements.set(s,make());return elements.get(s);}};
-  const ctx = vm.createContext({document,location:{search,hash:'#/'},localStorage:{getItem:()=>null,setItem(){}},URLSearchParams,console,window:{addEventListener(){},scrollTo(){}},fetch:async p=>({ok:fs.existsSync(path.join(root,p)),json:async()=>JSON.parse(fs.readFileSync(path.join(root,p)))})});
+  const ctx = vm.createContext({document,location:{search,hash:'#/'},localStorage:{getItem:key=>key==='cr.th'?savedTH:null,setItem(){}},URLSearchParams,console,window:{addEventListener(){},scrollTo(){}},fetch:async p=>({ok:fs.existsSync(path.join(root,p)),json:async()=>JSON.parse(fs.readFileSync(path.join(root,p)))})});
   vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8').replace(/render\(\);\s*$/, ''),ctx);
   vm.runInContext('CATS = '+JSON.stringify(manifest),ctx);
   return {ctx,html:()=>document.querySelector('#app').innerHTML};
 }
 (async()=>{
+ assert.equal(vm.runInContext('S.th',context('').ctx),18,'New visitors start at highest supported TH');
+ assert.equal(vm.runInContext('S.th',context('','12').ctx),12,'Saved TH is preserved');
  for (const preview of ['', '?preview=dark', '?preview=all', '?preview=unknown']) {
   const {ctx,html}=context(preview);
   vm.runInContext('home()',ctx);
