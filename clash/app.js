@@ -28,7 +28,10 @@ function syncSettings() { thSel.value = S.th; $("#onlyTH").checked = S.only; $("
 thSel.onchange = () => { S.th = +thSel.value; localStorage.setItem("cr.th", S.th); syncSettings(); render(); };
 $("#onlyTH").onchange = (e) => { S.only = e.target.checked; localStorage.setItem("cr.only", S.only ? "1" : "0"); render(); };
 $("#settingsBtn").onclick = () => { const p = $("#settings"); p.hidden = !p.hidden; $("#settingsBtn").setAttribute("aria-expanded", String(!p.hidden)); };
-backBtn.onclick = () => { const r = route(); location.hash = r.unit ? "#/c/" + r.cat : "#/"; };
+backBtn.onclick = () => {
+  const r = route();
+  location.hash = r.unit ? `#/c/${r.cat}${r.cat === "equip" && r.hero ? "?hero=" + encodeURIComponent(r.hero) : ""}` : r.cat === "equip" && r.hero ? `#/c/heroes/${encodeURIComponent(r.hero)}` : "#/";
+};
 tabsEl.querySelectorAll("button").forEach((b) => (b.onclick = () => { S.tab = b.dataset.tab; localStorage.setItem("cr.tab", S.tab); render(); }));
 
 // ---- helpers over a category data file ----
@@ -118,7 +121,11 @@ async function loadCat(id) {
   }
   return CACHE[id];
 }
-function route() { const p = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent); return p[0] === "c" ? { cat: p[1], unit: p[2] } : {}; }
+function route() {
+  const [path, query = ""] = location.hash.replace(/^#\/?/, "").split("?");
+  const p = path.split("/").map(decodeURIComponent);
+  return p[0] === "c" ? {cat: p[1], unit: p[2], hero: new URLSearchParams(query).get("hero") || ""} : {};
+}
 
 // ---- views ----
 function footer() {
@@ -162,7 +169,7 @@ function unitView(cat, u) {
   const needs = +row[3 + k] ? `${cat.reqName} ${row[3 + k]} (TH${reqTH(cat, u, row)})` : unlockText(cat, u);
   let html = `<div class="hero"><div class="imgs">${img(u.av, u.n, "av")}${img(imgFor(u, lvl), u.n + " level " + lvl, "lv")}</div>
     <div class="lvpick"><button id="lvDown" ${idx <= 0 ? "disabled" : ""} aria-label="Lower level">&minus;</button><div class="lvnum">Level ${lvl}<small>${mTH ? "max " + mTH + " at TH" + S.th : "Unlock at TH " + u.u} \u00b7 ${maxAll} in game</small></div><button id="lvUp" ${idx < 0 || idx >= levels.length - 1 ? "disabled" : ""} aria-label="Higher level">+</button></div>
-    <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div></div>
+    <div class="cap">${u.hs ? "Housing " + u.hs + " \u00b7 " : ""}Unlocks: ${esc(unlockText(cat, u))} \u00b7 Upgrades with ${R}</div>${cat.id === "heroes" ? `<a class="related-link" href="#/c/equip?hero=${encodeURIComponent(u.n)}" aria-label="See ${esc(u.n)} equipment">See equipment &rarr;</a>` : ""}</div>
     `;
   if (S.tab !== "info") html += `<div class="props">${u.c.map((c, i) => `<div><span>${esc(c)}</span><span>${fmt(row[1 + i])}</span></div>`).join("")}
     <div><span>Upgrade cost</span><span>${+row[1 + k] ? fmt(+row[1 + k]) + " " + R : "Unlocked with the " + cat.noun}</span></div>
@@ -240,8 +247,11 @@ function reviewNotice(cat, u) {
 function reviewCategory(cat) {
   setChrome(cat.label, true, false);
   const hall = reviewHall(cat);
-  const list = cat.units.filter((u) => u.n.toLowerCase().includes(q.toLowerCase()));
-  app.innerHTML = reviewHallControl(cat) + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${list.map((u) => {
+  const hero = cat.id === "equip" ? route().hero || "" : "";
+  const heroes = cat.id === "equip" ? [...new Set(cat.units.map((u) => u.hero))] : [];
+  const suffix = hero ? "?hero=" + encodeURIComponent(hero) : "";
+  const list = cat.units.filter((u) => (!hero || u.hero === hero) && u.n.toLowerCase().includes(q.toLowerCase()));
+  const renderTile = (u) => {
     const caps = u.hallByLevel;
     const max = caps ? Math.max(0, ...Object.entries(caps).filter(([, h]) => h <= hall).map(([l]) => +l)) : null;
     const unlock = caps ? Math.min(...Object.values(caps)) : null;
@@ -251,9 +261,16 @@ function reviewCategory(cat) {
     const imageLevel = max || Math.min(...Object.keys(caps || {1: 1}).map(Number));
     const source = defense ? u.levelImages?.[imageLevel]?.url || u.av : u.av;
     const artwork = defense ? `<span class="tile-art">${img(source, `${u.n} level ${imageLevel}`)}</span>` : source ? img(source, u.n) : "";
-    return `<a class="tile unit${defense ? " defense" : ""}${max === 0 || removed ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}">${artwork}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
-  }).join("")}</div>`;
+    return `<a class="tile unit${defense ? " defense" : ""}${max === 0 || removed ? " locked" : ""}" href="#/c/${cat.id}/${encodeURIComponent(u.n)}${suffix}">${artwork}${badge}<span class="lbl">${esc(u.n)}</span></a>`;
+  };
+  const tiles = cat.id === "equip" ? heroes.map((name) => {
+    const items = list.filter((u) => u.hero === name);
+    return items.length ? `<h2 class="equipment-group">${esc(name)}</h2>${items.map(renderTile).join("")}` : "";
+  }).join("") : list.map(renderTile).join("");
+  const filter = cat.id === "equip" ? `<div class="equipment-filter"><label for="heroFilter">Hero</label><select id="heroFilter"><option value="">All heroes</option>${heroes.map((name) => `<option value="${esc(name)}" ${name === hero ? "selected" : ""}>${esc(name)}</option>`).join("")}</select>${hero ? `<a href="#/c/equip">All equipment</a>` : ""}</div>` : "";
+  app.innerHTML = reviewHallControl(cat) + filter + reviewNotice(cat) + `<input class="search" id="q" type="search" placeholder="Search ${esc(cat.label)}" value="${esc(q)}"><div class="grid units">${tiles}</div>${!list.length ? `<p class="note">No matching equipment or items.</p>` : ""}`;
   bindReviewHall(cat, () => reviewCategory(cat));
+  if (cat.id === "equip") $("#heroFilter").onchange = (e) => { location.hash = "#/c/equip" + (e.target.value ? "?hero=" + encodeURIComponent(e.target.value) : ""); };
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }
 function reviewLevelImage(u, level) {
@@ -318,12 +335,14 @@ function reviewUnit(cat, u) {
   tabsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", S.tab === b.dataset.tab));
 }
 
-let lastRoute = "";
+let lastRoute = "", lastSearchScope = "";
 async function render() {
   syncSettings();
   try {
     if (!CATS) CATS = await fetch("data/categories.json", { cache: "no-cache" }).then((r) => r.json());
     const r = route();
+    const searchScope = `${r.cat || ""}|${r.hero || ""}`;
+    if (searchScope !== lastSearchScope) { q = ""; lastSearchScope = searchScope; }
     if (location.hash !== lastRoute) { window.scrollTo(0, 0); lastRoute = location.hash; }
     if (!r.cat) return home();
     const cat = await loadCat(r.cat);

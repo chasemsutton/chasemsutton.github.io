@@ -87,6 +87,28 @@ function context(search, savedTH = null) {
    assert.deepEqual(Object.keys(u.hallByLevel),rows.map(r=>r[0]),u.n+' complete caps');
    assert(u.revision > 0 && u.verification.rawWikitextSHA256.length===64,u.n+' source evidence');
  }
+ ctx.testCat=equipment;
+ vm.runInContext('location.hash="#/c/equip"; catView(testCat)',ctx);
+ assert.equal((html().match(/class="equipment-group"/g)||[]).length,6,'Six compact hero headings');
+ for(const hero of [...new Set(equipment.units.map(u=>u.hero))]) {
+   ctx.heroName=hero;
+   vm.runInContext('location.hash="#/c/equip?hero="+encodeURIComponent(heroName); catView(testCat)',ctx);
+   assert.equal((html().match(/class="equipment-group"/g)||[]).length,1);
+   assert.equal((html().match(/<a class="tile unit/g)||[]).length,equipment.units.filter(u=>u.hero===hero).length);
+   for(const u of equipment.units.filter(u=>u.hero!==hero)) assert(!html().includes(`href="#/c/equip/${encodeURIComponent(u.n)}?`));
+ }
+ vm.runInContext('location.hash="#/c/equip/Giant%20Arrow?hero=Archer%20Queen"',ctx);
+ assert.equal(vm.runInContext('route().unit',ctx),'Giant Arrow');
+ assert.equal(vm.runInContext('route().hero',ctx),'Archer Queen');
+ vm.runInContext('backBtn.onclick()',ctx);
+ assert.equal(ctx.location.hash,'#/c/equip?hero=Archer%20Queen');
+ vm.runInContext('backBtn.onclick()',ctx);
+ assert.equal(ctx.location.hash,'#/c/heroes/Archer%20Queen');
+ vm.runInContext('location.hash="#/"',ctx);
+ const heroData=JSON.parse(fs.readFileSync(path.join(root,'data/heroes.json')));
+ ctx.testCat=heroData;ctx.testUnit=heroData.units.find(u=>u.n==='Archer Queen');
+ vm.runInContext('unitView(testCat,testUnit)',ctx);
+ assert(html().includes('href="#/c/equip?hero=Archer%20Queen"'));
  const cap = (name,th) => Math.max(0,...Object.entries(equipment.units.find(u=>u.n===name).hallByLevel).filter(([,h])=>h<=th).map(([l])=>+l));
  for(const [name,th,expected] of [
    ['Barbarian Puppet',4,1],['Barbarian Puppet',7,1],['Barbarian Puppet',8,9],
