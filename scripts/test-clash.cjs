@@ -39,6 +39,7 @@ function context(search, savedTH = null) {
    for(const tab of ['info','stats','images','max']){
     vm.runInContext(`S.tab='${tab}'; unitView(testCat,testUnit)`,ctx);
     assert(!html().includes('NaN'),`${file} ${unit.n} ${tab}`);
+    if(tab==='images') assert(!/<figcaption[^>]*>[^<]*\.(?:png|jpe?g|webp)/i.test(html()),`${file} ${unit.n} human gallery captions`);
     if(tab==='info') {
       assert(html().includes('class="info-copy"'),`${file} ${unit.n} description`);
       assert(html().includes('<h4>Practical use</h4>'),`${file} ${unit.n} strategy`);
@@ -262,6 +263,13 @@ function context(search, savedTH = null) {
  ctx.testCat=bases.elixir;ctx.testUnit=bases.elixir.units[0];
  const pair=vm.runInContext('detailArtwork(testCat,testUnit,1)',ctx);
  assert(pair.includes('class="av"')&&pair.includes('class="lv"'),'Troops retain avatar and level artwork');
+ ctx.testUnit=defenses.units.find(u=>u.n==='Cannon');
+ const gallery=vm.runInContext('galleryEntries(testUnit)',ctx);
+ assert.equal(gallery[0].label,'Level 1');assert.equal(gallery[20].label,'Level 21');
+ assert.equal(vm.runInContext(`galleryEntries({n:'Test',av:'icon',images:[{file:'File:Test_info.png',url:'icon'},{file:'File:Test Effect.png',url:'effect'}],tables:[]})[0].label`,ctx),'Icon');
+ const candidates=vm.runInContext(`imageSources('https://static.wikia.nocookie.net/clashofclans/images/a/ab/Test.png/revision/latest?cb=123','lv')`,ctx);
+ assert(candidates.includes('/150?cb=123 1x')&&candidates.includes('/450?cb=123 3x'));
+ assert.equal(vm.runInContext(`imageSources('/local.png','lv')`,ctx),'');
  // A single late-game Hog Rider upgrade must use its normal source cost/time.
  ctx.testCat=JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  ctx.testUnit=ctx.testCat.units.find(u=>u.n==='Hog Rider');

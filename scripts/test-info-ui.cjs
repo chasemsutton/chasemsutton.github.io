@@ -77,6 +77,16 @@ const root=path.resolve(__dirname,'..','clash');
    await page.locator('[data-tab="stats"]').click();
    assert.equal(await page.locator('.info-copy').count(),0);assert(await page.locator('#app table').count()>0);
    await page.locator('[data-tab="info"]').click();await page.locator('.info-copy').waitFor();assert.equal(infoRequests,1);
+   await page.evaluate(()=>location.hash='#/c/defenses/Cannon');
+   await page.waitForFunction(()=>document.querySelector('#title').textContent==='Cannon');
+   await page.locator('[data-tab="images"]').click();
+   await page.locator('.imgs-list figcaption').first().waitFor();
+   const captions=await page.locator('.imgs-list figcaption').allTextContents();
+   assert.equal(captions.length,21);assert.equal(captions[0],'Level 1');assert.equal(captions[20],'Level 21');
+   assert(captions.every(text=>/^Level \d+$/.test(text)));
+   await page.locator('.imgs-list img').first().scrollIntoViewIfNeeded();
+   await page.waitForFunction(()=>{const i=document.querySelector('.imgs-list img');return i.complete&&i.naturalWidth>0&&i.currentSrc.includes('/scale-to-width-down/');});
+   await page.unrouteAll({behavior:"ignoreErrors"});
    await page.close();
   }
   console.log('Info descriptions, lazy loading, technical disclosure, real merge images, and phone/desktop layouts passed.');

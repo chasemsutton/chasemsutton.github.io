@@ -48,7 +48,20 @@ function levelPill(level, fullMax, fallback) {
   const full = level > 0 && level === fullMax;
   return `<span class="sub${full ? " full-max" : ""}"${full ? ' title="Maximum level in game" aria-label="Level ' + level + ', maximum level in game"' : ''}>${level ? "Lv " + level : esc(fallback)}</span>`;
 }
-const img = (src, alt, cls = "") => `<img class="${cls}" src="${esc(src)}" alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" referrerpolicy="no-referrer">`;
+function imageSources(src, cls) {
+  if (!/^https:\/\/static\.wikia\.nocookie\.net\/clashofclans\/images\/.+\.(?:png|jpe?g|webp)\/revision\/latest(?:[/?]|$)/i.test(src)) return "";
+  const width = cls === "resource-icon" ? 22 : cls === "av" ? 96 : cls === "lv" ? 150 : 180;
+  return [1, 2, 3, 4].map((density) => `${src.replace(/\/revision\/latest(?:\/[^?]*)?/, "/revision/latest/scale-to-width-down/" + width * density)} ${density}x`).join(", ");
+}
+const img = (src, alt, cls = "") => {
+  const sources = imageSources(src, cls);
+  return `<img class="${cls}" src="${esc(src)}"${sources ? ` srcset="${esc(sources)}"` : ""} alt="${esc(alt)}" loading="${cls === "av" || cls === "lv" ? "eager" : "lazy"}" decoding="async" referrerpolicy="no-referrer">`;
+};
+// Keep the source image available if a CDN thumbnail cannot be delivered.
+window.addEventListener("error", (event) => {
+  const target = event.target;
+  if (target?.tagName === "IMG" && target.hasAttribute("srcset")) target.removeAttribute("srcset");
+}, true);
 // Keep source labels in tooltips/accessibility text; only compact their presentation.
 const RESOURCE_ICONS = {
   "Gold": "1/10/Gold.png/revision/latest?cb=20180110234054",
@@ -293,6 +306,19 @@ function reviewCategory(cat) {
   if (cat.id === "equip") $("#heroFilter").onchange = (e) => { location.hash = "#/c/equip" + (e.target.value ? "?hero=" + encodeURIComponent(e.target.value) : ""); };
   $("#q").oninput = (e) => { q = e.target.value; const pos = e.target.selectionStart; reviewCategory(cat); $("#q").focus(); $("#q").setSelectionRange(pos, pos); };
 }
+function galleryEntries(u) {
+  if (u.levelImages) return Object.entries(u.levelImages).sort(([a], [b]) => +a - +b).map(([level, image]) => ({...image, level: +level, label: `Level ${level}`}));
+  const stem = u.n.split("/")[0].toLowerCase().replace(/[^a-z0-9]/g, "");
+  const validLevels = new Set((u.tables || []).filter((t) => /^level$/i.test(t.columns[0])).flatMap((t) => t.rows.map((r) => parseInt(r[0], 10))));
+  return u.images.map((image) => {
+    const file = image.file.replace(/^File:/, "").replace(/\.(?:png|webp|jpe?g)$/i, "");
+    const normalized = file.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const match = normalized.startsWith(stem) && normalized.slice(stem.length).match(/^(\d+)/);
+    const level = match && validLevels.has(+match[1]) ? +match[1] : null;
+    const label = level !== null ? `Level ${level}` : image.url === u.av ? "Icon" : /effect|used|in.?action/i.test(file) ? "Effect preview" : "Artwork";
+    return {...image, level, label};
+  });
+}
 function reviewLevelImage(u, level) {
   if (u.levelImages?.[level]) return img(u.levelImages[level].url, `${u.n} level ${level}`, "lv");
   const stem = u.n.split("/")[0].toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -328,7 +354,7 @@ function reviewUnit(cat, u) {
     return `<h3 class="sec">${esc(tableTitle(t, cat))}</h3><div class="tblwrap"><table><thead><tr>${order.map((i) => columnHeader(t.columns[i])).join("")}</tr></thead><tbody>${t.rows.map((r) => `<tr ${levels.includes(r[0]) ? `data-review-level="${esc(r[0])}"` : ""} class="${r[0] === selected ? "sel" : ""}">${order.map((i) => `<td${/cost/i.test(t.columns[i]) ? ' class="cost"' : ''}>${esc(r[i] ?? "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
   if (S.tab === "images") {
-    html += `<div class="imgs-list">${u.images.map((i) => `<figure>${img(i.url, i.file)}<figcaption>${esc(i.file.replace(/^File:/, ""))}</figcaption></figure>`).join("")}</div>`;
+    html += `<div class="imgs-list">${galleryEntries(u).map((i) => `<figure class="${i.level === +selected ? "sel" : ""}">${img(i.url, `${u.n}: ${i.label}`)}<figcaption>${esc(i.label)}</figcaption></figure>`).join("")}</div>`;
   } else if (S.tab === "max") {
     html += reviewTotals(cat, u, table, levels, key);
   } else if (S.tab === "info") {
