@@ -101,7 +101,10 @@ def unit(page):
             tables.append({'heading':section,'columns':grid[0],'rows':grid[1:]})
     files=re.findall(r'\[\[File:([^|\]]+)',raw,re.I)
     stem=page.split('/')[0].replace(' ','_')
-    wanted=['File:Avatar_'+stem+'.png']
+    preferred = ('File:Avatar Revive Spell2.png' if page == 'Revive Spell'
+                 else 'File:'+page+' info.png' if page.endswith(' Spell')
+                 else 'File:Avatar_'+stem+'.png')
+    wanted=[preferred]
     wanted += ['File:'+f for f in dict.fromkeys(files) if re.search(r'\d.*\.png$',f,re.I)][:35]
     images=[]
     for start in range(0,len(wanted),40):
@@ -111,7 +114,7 @@ def unit(page):
                 url=v['imageinfo'][0]['url']
                 status=subprocess.run(['curl.exe','-s','-L','-o','NUL','-w','%{http_code}',url],capture_output=True,text=True).stdout
                 if status=='200': images.append({'file':v['title'],'url':url})
-    avatar=next((x['url'] for x in images if re.match(r'File:Avatar[ _]', x['file'])), images[0]['url'] if images else '')
+    avatar=next((x['url'] for x in images if x['file'].replace('_',' ') == preferred.replace('_',' ')), images[0]['url'] if images else '')
     gaps=[]
     if not tables: gaps.append('No structured statistics tables extracted; requires manual source review.')
     gaps.append('Town Hall / Builder Hall level caps and upgrade totals require manual verification before unlock.')

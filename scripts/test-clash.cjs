@@ -42,6 +42,15 @@ function context(search) {
  }
  const dark = JSON.parse(fs.readFileSync(path.join(root,'data/dark.json')));
  assert(dark.units.find(u=>u.n==='Apprentice Warden').av.includes('Avatar_Apprentice_Warden.png'));
+ for(const id of ['espells','dspells']) {
+   const spells=JSON.parse(fs.readFileSync(path.join(root,'data',id+'.json')));
+   for(const u of spells.units) {
+     assert(u.av===u.images[0].url,u.n+' current icon first');
+     assert(u.iconVerification.httpStatus===200,u.n+' image checked');
+     assert(u.av.includes(u.n==='Revive Spell' ? 'Avatar_Revive_Spell2.png' : u.n.replaceAll(' ','_')+'_info.png'),u.n+' current spell-card art');
+   }
+   assert.equal(manifest.groups.flatMap(g=>g.cats).find(c=>c.id===id).img,spells.units[0].av);
+ }
  const equipment = JSON.parse(fs.readFileSync(path.join(root,'data/equip.json')));
  assert.equal(equipment.units.length,43);
  for (const u of equipment.units) {

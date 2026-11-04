@@ -6,7 +6,7 @@
   "units": [
     {
       "n": "Poison Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Avatar_Poison_Spell.png/revision/latest?cb=20170525083419",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511",
       "source": "https://clashofclans.fandom.com/wiki/Poison_Spell",
       "revision": null,
       "tables": [
@@ -156,8 +156,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Poison Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/85/Avatar_Poison_Spell.png/revision/latest?cb=20170525083419"
+          "file": "File:Poison Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511"
         }
       ],
       "unverified": [
@@ -178,11 +178,20 @@
         "10": 16,
         "11": 17,
         "12": 18
+      },
+      "iconVerification": {
+        "file": "File:Poison Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Poison_Spell"
       }
     },
     {
       "n": "Earthquake Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Avatar_Earthquake_Spell.png/revision/latest?cb=20170525083416",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Earthquake_Spell_info.png/revision/latest?cb=20200913194420",
       "source": "https://clashofclans.fandom.com/wiki/Earthquake_Spell",
       "revision": null,
       "tables": [
@@ -294,8 +303,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Earthquake Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Avatar_Earthquake_Spell.png/revision/latest?cb=20170525083416"
+          "file": "File:Earthquake Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Earthquake_Spell_info.png/revision/latest?cb=20200913194420"
         }
       ],
       "unverified": [
@@ -312,11 +321,20 @@
         "6": 14,
         "7": 16,
         "8": 18
+      },
+      "iconVerification": {
+        "file": "File:Earthquake Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Earthquake_Spell"
       }
     },
     {
       "n": "Haste Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Avatar_Haste_Spell.png/revision/latest?cb=20170525083417",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Haste_Spell_info.png/revision/latest?cb=20171008204612",
       "source": "https://clashofclans.fandom.com/wiki/Haste_Spell",
       "revision": null,
       "tables": [
@@ -417,8 +435,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Haste Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Avatar_Haste_Spell.png/revision/latest?cb=20170525083417"
+          "file": "File:Haste Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Haste_Spell_info.png/revision/latest?cb=20171008204612"
         }
       ],
       "unverified": [
@@ -434,11 +452,20 @@
         "5": 11,
         "6": 17,
         "7": 18
+      },
+      "iconVerification": {
+        "file": "File:Haste Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Haste_Spell"
       }
     },
     {
       "n": "Skeleton Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Avatar_Skeleton_Spell.png/revision/latest?cb=20170525083447",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Skeleton_Spell_info.png/revision/latest?cb=20181211010022",
       "source": "https://clashofclans.fandom.com/wiki/Skeleton_Spell",
       "revision": null,
       "tables": [
@@ -555,8 +582,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Skeleton Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/ce/Avatar_Skeleton_Spell.png/revision/latest?cb=20170525083447"
+          "file": "File:Skeleton Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0f/Skeleton_Spell_info.png/revision/latest?cb=20181211010022"
         }
       ],
       "unverified": [
@@ -573,6 +600,15 @@
         "6": 12,
         "7": 13,
         "8": 15
+      },
+      "iconVerification": {
+        "file": "File:Skeleton Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Skeleton_Spell"
       }
     },
     {
@@ -716,6 +752,15 @@
         "6": 15,
         "7": 17,
         "8": 18
+      },
+      "iconVerification": {
+        "file": "File:Bat Spell info.png",
+        "width": 166,
+        "height": 160,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Bat_Spell"
       }
     },
     {
@@ -808,6 +853,15 @@
         "3": 14,
         "4": 16,
         "5": 18
+      },
+      "iconVerification": {
+        "file": "File:Overgrowth Spell info.png",
+        "width": 4096,
+        "height": 4096,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Overgrowth_Spell"
       }
     },
     {
@@ -915,11 +969,20 @@
         "4": 16,
         "5": 17,
         "6": 18
+      },
+      "iconVerification": {
+        "file": "File:Ice Block Spell info.png",
+        "width": 1024,
+        "height": 1024,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell"
       }
     },
     {
       "n": "Angry Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/33/AngrySpell_Effect.png/revision/latest?cb=20260717175528",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest?cb=20260614152411",
       "source": "https://clashofclans.fandom.com/wiki/Angry_Spell",
       "revision": null,
       "tables": [
@@ -990,10 +1053,6 @@
       ],
       "images": [
         {
-          "file": "File:AngrySpell Effect.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/AngrySpell_Effect.png/revision/latest?cb=20260717175528"
-        },
-        {
           "file": "File:Angry Spell info.png",
           "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest?cb=20260614152411"
         }
@@ -1008,6 +1067,15 @@
         "2": 16,
         "3": 17,
         "4": 18
+      },
+      "iconVerification": {
+        "file": "File:Angry Spell info.png",
+        "width": 1024,
+        "height": 1024,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Angry_Spell"
       }
     }
   ],

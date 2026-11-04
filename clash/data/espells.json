@@ -6,7 +6,7 @@
   "units": [
     {
       "n": "Lightning Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Avatar_Lightning_Spell.png/revision/latest?cb=20170525083418",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434",
       "source": "https://clashofclans.fandom.com/wiki/Lightning_Spell",
       "revision": null,
       "tables": [
@@ -133,8 +133,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Lightning Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Avatar_Lightning_Spell.png/revision/latest?cb=20170525083418"
+          "file": "File:Lightning Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c0/Lightning_Spell_info.png/revision/latest?cb=20210106011434"
         }
       ],
       "unverified": [
@@ -156,11 +156,20 @@
         "11": 16,
         "12": 17,
         "13": 18
+      },
+      "iconVerification": {
+        "file": "File:Lightning Spell info.png",
+        "width": 165,
+        "height": 165,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Lightning_Spell"
       }
     },
     {
       "n": "Healing Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Healing_Spell.png/revision/latest?cb=20170525083417",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Healing_Spell_info.png/revision/latest?cb=20171008204028",
       "source": "https://clashofclans.fandom.com/wiki/Healing_Spell",
       "revision": null,
       "tables": [
@@ -308,8 +317,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Healing Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Healing_Spell.png/revision/latest?cb=20170525083417"
+          "file": "File:Healing Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Healing_Spell_info.png/revision/latest?cb=20171008204028"
         }
       ],
       "unverified": [
@@ -330,11 +339,20 @@
         "10": 16,
         "11": 17,
         "12": 18
+      },
+      "iconVerification": {
+        "file": "File:Healing Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Healing_Spell"
       }
     },
     {
       "n": "Rage Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Avatar_Rage_Spell.png/revision/latest?cb=20170525083419",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Rage_Spell_info.png/revision/latest?cb=20171008204108",
       "source": "https://clashofclans.fandom.com/wiki/Rage_Spell",
       "revision": null,
       "tables": [
@@ -431,8 +449,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Rage Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Avatar_Rage_Spell.png/revision/latest?cb=20170525083419"
+          "file": "File:Rage Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Rage_Spell_info.png/revision/latest?cb=20171008204108"
         }
       ],
       "unverified": [
@@ -448,11 +466,20 @@
         "5": 8,
         "6": 12,
         "7": 18
+      },
+      "iconVerification": {
+        "file": "File:Rage Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Rage_Spell"
       }
     },
     {
       "n": "Jump Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Avatar_Jump_Spell.png/revision/latest?cb=20170525083418",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Jump_Spell_info.png/revision/latest?cb=20200913023217",
       "source": "https://clashofclans.fandom.com/wiki/Jump_Spell",
       "revision": null,
       "tables": [
@@ -523,8 +550,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Jump Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Avatar_Jump_Spell.png/revision/latest?cb=20170525083418"
+          "file": "File:Jump Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Jump_Spell_info.png/revision/latest?cb=20200913023217"
         }
       ],
       "unverified": [
@@ -538,11 +565,20 @@
         "3": 10,
         "4": 13,
         "5": 15
+      },
+      "iconVerification": {
+        "file": "File:Jump Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Jump_Spell"
       }
     },
     {
       "n": "Freeze Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Avatar_Freeze_Spell.png/revision/latest?cb=20170525083416",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Freeze_Spell_info.png/revision/latest?cb=20180627210930",
       "source": "https://clashofclans.fandom.com/wiki/Freeze_Spell",
       "revision": null,
       "tables": [
@@ -632,8 +668,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Freeze Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Avatar_Freeze_Spell.png/revision/latest?cb=20170525083416"
+          "file": "File:Freeze Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Freeze_Spell_info.png/revision/latest?cb=20180627210930"
         }
       ],
       "unverified": [
@@ -650,11 +686,20 @@
         "6": 11,
         "7": 12,
         "8": 18
+      },
+      "iconVerification": {
+        "file": "File:Freeze Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Freeze_Spell"
       }
     },
     {
       "n": "Clone Spell",
-      "av": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Clone_Spell.png/revision/latest?cb=20170525083415",
+      "av": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Clone_Spell_info.png/revision/latest?cb=20200913194701",
       "source": "https://clashofclans.fandom.com/wiki/Clone_Spell",
       "revision": null,
       "tables": [
@@ -755,8 +800,8 @@
       ],
       "images": [
         {
-          "file": "File:Avatar Clone Spell.png",
-          "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Clone_Spell.png/revision/latest?cb=20170525083415"
+          "file": "File:Clone Spell info.png",
+          "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Clone_Spell_info.png/revision/latest?cb=20200913194701"
         }
       ],
       "unverified": [
@@ -774,6 +819,15 @@
         "7": 14,
         "8": 15,
         "9": 18
+      },
+      "iconVerification": {
+        "file": "File:Clone Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Clone_Spell"
       }
     },
     {
@@ -854,6 +908,15 @@
         "2": 11,
         "3": 12,
         "4": 13
+      },
+      "iconVerification": {
+        "file": "File:Invisibility Spell info.png",
+        "width": 165,
+        "height": 165,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Invisibility_Spell"
       }
     },
     {
@@ -964,6 +1027,15 @@
         "5": 16,
         "6": 17,
         "7": 18
+      },
+      "iconVerification": {
+        "file": "File:Recall Spell info.png",
+        "width": 166,
+        "height": 166,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Recall_Spell"
       }
     },
     {
@@ -1058,6 +1130,15 @@
         "3": 16,
         "4": 17,
         "5": 18
+      },
+      "iconVerification": {
+        "file": "File:Avatar Revive Spell2.png",
+        "width": 867,
+        "height": 868,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Revive_Spell"
       }
     },
     {
@@ -1142,6 +1223,15 @@
         "2": 16,
         "3": 17,
         "4": 18
+      },
+      "iconVerification": {
+        "file": "File:Totem Spell info.png",
+        "width": 1024,
+        "height": 1024,
+        "checked": "2026-11-03",
+        "httpStatus": 200,
+        "referrer": "none",
+        "source": "https://clashofclans.fandom.com/wiki/Totem_Spell"
       }
     }
   ],
