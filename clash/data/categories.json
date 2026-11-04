@@ -31,13 +31,13 @@
      "id": "dspells",
      "label": "Dark Spells",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Poison_Spell_info.png/revision/latest?cb=20171008204511",
-     "data": null
+     "data": "data/dspells.json"
     },
     {
      "id": "siege",
      "label": "Siege Machines",
      "img": "https://static.wikia.nocookie.net/clashofclans/images/f/f3/Avatar_Wall_Wrecker.png/revision/latest?cb=20200913195940",
-     "data": null
+     "data": "data/siege.json"
     },
     {
      "id": "heroes",

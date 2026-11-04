@@ -1,6 +1,6 @@
 # Hidden category review status
 
-Elixir Troops, Dark Troops, Super Troops, Elixir Spells, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
+Elixir Troops, Dark Troops, Super Troops, Elixir Spells, Dark Spells, Siege Machines, Heroes, Hero Equipment, and Pets are live. The remaining categories are hidden source-table drafts.
 
 The query-only preview enables a category for the current URL. No preview state is persisted. `?preview=all` enables all drafts.
 
@@ -78,6 +78,8 @@ Published on the home screen at Chase's request. Remaining verification notes be
 
 ## Dark Spells
 
+Published on the home screen at Chase's request. Remaining verification notes below are retained.
+
 - Poison Spell: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Earthquake Spell: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Haste Spell: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
@@ -88,6 +90,8 @@ Published on the home screen at Chase's request. Remaining verification notes be
 - Angry Spell: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 
 ## Siege Machines
+
+Published on the home screen at Chase's request. Remaining verification notes below are retained.
 
 - Wall Wrecker: Calculated upgrade totals and patch-note cross-check require manual review before unlock.
 - Battle Blimp: Calculated upgrade totals and patch-note cross-check require manual review before unlock.

@@ -156,6 +156,6 @@ function context(search) {
  vm.runInContext("S.th=18; S.tab='max'; S.cur['dark|Hog Rider']='14'; unitView(testCat,testUnit)",ctx);
  assert(html().includes('340,000'), 'Hog Rider level 15 normal cost');
  assert(html().includes('14d 12h'), 'Hog Rider level 15 normal time');
- assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['dark','elixir','equip','espells','heroes','pets','super']);
- console.log(`Preview access controls and all four tabs passed for ${count} entities; seven approved categories published.`);
+ assert.deepEqual(manifest.groups.flatMap(g=>g.cats).filter(c=>c.data).map(c=>c.id).sort(),['dark','dspells','elixir','equip','espells','heroes','pets','siege','super']);
+ console.log(`Preview access controls and all four tabs passed for ${count} entities; nine approved categories published.`);
 })().catch(e=>{console.error(e);process.exit(1);});
